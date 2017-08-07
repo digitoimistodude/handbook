@@ -23,12 +23,16 @@ Toimiston kaiuttimista tulee soittaa asiakasystävällistä musiikkia (yleine
 
 Tähän tarkoitukseen on luotu kaksi Spotify-soittolistaa:
 <ul>
- 	<li><a href="https://open.spotify.com/user/rolle-/playlist/0J11ocZ0b2OlVqc1pNOSdF2">DUDE OFFICE RADIO - Positiivista, asiakasystävällistä taustamusiikkia</a></li>
- 	<li><a>DUDE INSTRUMENTALS – Palaverimusiikkia</a></li>
+ 	<li><a href="https://open.spotify.com/user/rolle-/playlist/0J11ocZ0b2OlVqc1pNOSdF">DUDE OFFICE RADIO - Positiivista, asiakasystävällistä taustamusiikkia</a></li>
+ 	<li><a href="https://open.spotify.com/user/rolle-/playlist/7pa8nmPlID8LbbRzkloG29">DUDE INSTRUMENTALS – Palaverimusiikkia</a></li>
+    <li><a href="https://open.spotify.com/user/rolle-/playlist/5fA771O0dGZC6503dBlQXU">DUDE OFFICE SFW - Menevää & kaikille sopivaa</a></li>
 </ul>
+
 Näitä soittolistoja tai vastaavia yleispäteviä olisi hyvä pyörittää ”normipäivinä”, jolloin asiakkaita/ihmisiä ramppaa toimistolla - jos suinkin mahdollista.
 
 Musiikki ei saa missään nimessä häiritä asiakastapaamisia tai puheluita. Muissa tilanteissa musiikin kuuntelu on vapaata oman maun mukaan.
+
+
 
 Tähän poikkeuksena tilanne, jolloin tarjous on mennyt läpi, jolloin on soitettava Daft Punkin <i>Get Lucky</i>:
 
