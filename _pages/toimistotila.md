@@ -32,7 +32,7 @@ Näitä soittolistoja tai vastaavia yleispäteviä olisi hyvä pyörittä
 
 Musiikki ei saa missään nimessä häiritä asiakastapaamisia tai puheluita. Muissa tilanteissa musiikin kuuntelu on vapaata oman maun mukaan.
 
-
+Sekoilusoittolistaa <a href="https://open.spotify.com/user/rolle-/playlist/2Uqu1MqUhYHipkDGUX1HTh">DUDE OFFICE MINDFUCK - Mielipuolista - Yli 10h yhtä hulluutta</a> ei saa soittaa muulloin kuin tilapäisen mielenhäiriön iskiessä. Listalle on lisättävä hullut biisit ja korvamadot, joista haluaa eroon.
 
 Tähän poikkeuksena tilanne, jolloin tarjous on mennyt läpi, jolloin on soitettava Daft Punkin <i>Get Lucky</i>:
 
