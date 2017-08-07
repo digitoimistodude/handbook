@@ -1,0 +1,35 @@
+---
+ID: 33
+post_title: Toimistotila
+author: Roni
+post_excerpt: ""
+layout: page
+permalink: >
+  https://handbook.dude.fi/tyoskenteleminen-dudella/toimistotila
+published: true
+post_date: 2017-08-04 12:23:02
+---
+Toimistotila valikoidaan aina viihtyvyys etunenässä. Paikan pitäisi olla sellainen, jossa kukin dude viihtyy parhaimmillaan valtaosan päivästä ja vuodesta. Toimistoa saa kehittää mielensä mukaan, kunhan asioista keskustellaan porukalla ennen näkyviä muutoksia.
+
+<h2>Siisteys</h2>
+Jokainen huolehtii omien astioidensa tiskaamisesta sekä siitä, että niitä ei kerry joka nurkkaan.
+
+Ruokia ei jätetä jääkaappiin pilantumaan, vaan katsotaan että tarjolla on tuoretta tavaraa. Muuten jääkaapin käyttö on vapaata.
+Toimistoa ei tarvitse siivota, ellei erikseen innostu, sillä toimiston siivoaa säännöllisesti siivooja. Tavarat olisi kuitenkin hyvä pitää sellaisessa järjestyksessä, että ne eivät häiritse muita.
+
+<h2>Musiikki</h2>
+
+Toimiston kaiuttimista tulee soittaa asiakasystävällistä musiikkia (yleinen rock, 70-, 80-luku, radiohitit, jne.) taustamusiikkina. Musiikki on rock-painotteista, mutta sitä soitetaan laidasta laitaan.
+
+Tähän tarkoitukseen on luotu kaksi Spotify-soittolistaa:
+<ul>
+ 	<li><a href="https://open.spotify.com/user/rolle-/playlist/0J11ocZ0b2OlVqc1pNOSdF2">DUDE OFFICE RADIO - Positiivista, asiakasystävällistä taustamusiikkia</a></li>
+ 	<li><a>DUDE INSTRUMENTALS – Palaverimusiikkia</a></li>
+</ul>
+Näitä soittolistoja tai vastaavia yleispäteviä olisi hyvä pyörittää ”normipäivinä”, jolloin asiakkaita/ihmisiä ramppaa toimistolla - jos suinkin mahdollista.
+
+Musiikki ei saa missään nimessä häiritä asiakastapaamisia tai puheluita. Muissa tilanteissa musiikin kuuntelu on vapaata oman maun mukaan.
+
+Tähän poikkeuksena tilanne, jolloin tarjous on mennyt läpi, jolloin on soitettava Daft Punkin <i>Get Lucky</i>:
+
+https://www.youtube.com/watch?v=5NV6Rdv1a3I

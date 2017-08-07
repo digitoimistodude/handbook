@@ -1,0 +1,14 @@
+---
+ID: 98
+post_title: Päivitykset ja ylläpito
+author: Roni
+post_excerpt: ""
+layout: page
+permalink: >
+  https://handbook.dude.fi/wordpress-kehitys/paivitykset-ja-yllapito
+published: true
+post_date: 2017-08-04 15:10:51
+---
+Dudelle on tärkeää, ettei pienikään sivusto jää mätänemään. Päivitykset suoritetaan jokaisen viikon maanantai ja torstai (<a href="https://managewp.com/">ManageWP</a>). Ennen päivityksen suorittamista on katsottava Changelogista mitä päivitys pitää sisällään. Jos kyseessä on korjauspäivitys, voi päivityksen suorittaa ilman ennakkotarkistuksia.
+
+Isompia päivityksiä varten otetaan aina tietokannasta varmuuskopio ennen päivittämistä. Automaattiset varmuuskopiot lähtevät kolmelle verkkolevylle joka yö, mutta silti otetaan paikallinen kopio omalle koneelle. Tarvittaessa tehdään rollback-toimenpiteet.
