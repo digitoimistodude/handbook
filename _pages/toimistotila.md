@@ -21,7 +21,7 @@ Toimistoa ei tarvitse siivota, ellei erikseen innostu, sillä toimiston siivoaa
 
 Toimiston kaiuttimista tulee soittaa asiakasystävällistä musiikkia (yleinen rock, 70-, 80-luku, radiohitit, jne.) taustamusiikkina. Musiikki on rock-painotteista, mutta sitä soitetaan laidasta laitaan.
 
-Tähän tarkoitukseen on luotu kaksi Spotify-soittolistaa:
+Tähän tarkoitukseen on luotu muutama Spotify-soittolista:
 <ul>
  	<li><a href="https://open.spotify.com/user/rolle-/playlist/0J11ocZ0b2OlVqc1pNOSdF">DUDE OFFICE RADIO - Positiivista, asiakasystävällistä taustamusiikkia</a></li>
  	<li><a href="https://open.spotify.com/user/rolle-/playlist/7pa8nmPlID8LbbRzkloG29">DUDE INSTRUMENTALS – Palaverimusiikkia</a></li>
