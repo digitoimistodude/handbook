@@ -15,6 +15,8 @@ Asiakkaalle ollaan rehellisiä kaikissa asioissa, eikä luvata sellaista mita�
 
 Palaverit pyritään pitämään <b>maanantaisin</b> ja <b>perjantaisin</b>.
 
+Palavereja <b>ei sovita</b> ilman agendaa, eikä turhia palavereja pidetä.
+
 <h3>Sisäiset palaverit</h3>
 
 <i>Yrityksen kesken</i> viikkopalaveri pidetään <u>joka maanantai</u> hyvissä ajoin ennen isompien töiden aloittamista. Tästä voidaan tarvittaessa joustaa kiireen tai tarpeellisuuden puitteissa. Pitämättä ei ole sallittua jättää toista viikkoa peräkkäin.
