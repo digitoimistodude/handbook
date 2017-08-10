@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/tyoskenteleminen-dudella/ilmapiiri-ja-tyorauha
+  http://handbook.dude.fi/tyoskenteleminen-dudella/ilmapiiri-ja-tyorauha
 published: true
 post_date: 2017-08-04 14:48:44
 ---
