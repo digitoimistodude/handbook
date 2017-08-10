@@ -90,3 +90,9 @@ mahdollistavaa customia, käytetään Gravity Formsia.
 <h3>Muut lisäosat</h3>
 
 Loput lisäosista ovat projektikohtaisia.
+
+<h3>Aiheeseen liittyviä bloggauksia</h3>
+
+<ul>
+<li><a href="https://www.dude.fi/mita-lisaosia-dude-kayttaa">4.8.2017: Mitä lisäosia Dude käyttää?</a></li>
+</ul>
