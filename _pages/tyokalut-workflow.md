@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow
+  http://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow
 published: true
 post_date: 2017-08-04 14:48:10
 ---
