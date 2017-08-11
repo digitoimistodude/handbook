@@ -55,7 +55,9 @@ Crisp toimii verkkosivuston livechat-palveluna, johon vastaa ensimmäinen paika
 
 Groove toimii Duden tukikanavana, jonne tulee kaikki apuva@dude.fi -sähköpostiosoitteeseen lähetetyt viestit. Uudet viestit näkyvät automaattisesti hoidettavina tiketteinä, joita kuka tahansa Duden tiimistä voi ottaa hoitaakseen.
 
-Grooveen lisätään aina uusi asiakas tiketin tullessa, jos tietoja ei löydy. Mahdolliset tukiviestit edelleenlähetetään (Forward) omasta sähköpostista Grooveen, jotta asiakas oppii käyttämään tukiasioihin Grooven asiakaspalvelurajapintaa (eli apuva@dude.fi -sähköpostia yhden ukon meilin sijaan).
+Grooveen lisätään aina uusi asiakas tiketin tullessa, jos tietoja ei löydy. Mahdolliset tukiviestit edelleenlähetetään (Forward) omasta sähköpostista Grooveen, jotta asiakas oppii käyttämään tukiasioihin Grooven asiakaspalvelurajapintaa (eli apuva@dude.fi -sähköpostia yhden ukon meilin sijaan). 
+
+Asiakkaan tietoihin on lisättävä asiakkaan naamakuva selkeyden vuoksi. Naamakuvan voi vaikka googlettaa, koska se näkyy ainoastaan Duden tiimille sisäisesti. Avatarin on oltava tunnistettava, sillä kuva on aika pieni.
 
 Groove-tiketteihin pyritään vastaamaan maksimissaan muutaman tunnin varoajalla, mielellään mahdollisimman pian. Asiakaspalvelusta lisää kohdassa 3.5.
 
