@@ -15,6 +15,8 @@ Dude käyttää versionhallintaan gitiä, asiakasprojekteihin BitBucketia, j
 
 <h3>Commit-viestit muutoksista</h3>
 
-Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja tulisi välttää ja pyrkiä committaamaan sen sijaan jokainen toiminto erikseen. Pienetkin muutokset voi committaa vapaasti.
+Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja tulisi välttää ja pyrkiä committaamaan sen sijaan jokainen toiminto erikseen. Pienetkin muutokset pitää committaa mahdollisimman aikaisessa vaiheessa, jotta vältytään konflikteilta. Edes keskeneräisyydellä ei ole väliä, ellei muutos ole menossa suoraan tuotantoon.
+
+Committeja ei saa jättää jemmaan, vaan ne tulee pushata aina hyvissä ajoin, etenkin silloin kun kun tietää olevansa poissa ruudulta.
 
 Muutoksia voi niputtaa samaan committiin, esimerkiksi "Improving readability", jossa voi olla useampi typografiamuutos samassa. Nyrkkisääntönä sopiva toimintovälin etappi, jossa saa käyttää maalaisjärkeä.
