@@ -18,9 +18,7 @@ PHP:n dependenssimanagerina toimii Composer. Lisäosien dependenssit on lisät
 
 Lisäosien päivitykset tulee toteuttaa siten, että uuden projektin aloittaessa saa aina uusimman version requireen. Esimerkiksi jos julkaisee version 1.0.5, tulee versiot korvata uusilla package.json, composer.json sekä pää-php-tiedostoon. Tämän lisäksi tulee ajaa <b>komentoriviltä</b> rimpsu:
 
-```` bash
-git tag -a '1.0.5' && git push --tags
-````
+<pre class="language-bash"><code>git tag -a '1.0.5' && git push --tags</code></pre>
 
 Packagist ei osaa nimittäin hakea payloadia, jos tagin/releasen tekee GitHubin webkäyttöliittymästä. Updateria varten tämän jälkeen draftataan uusi release.
 
