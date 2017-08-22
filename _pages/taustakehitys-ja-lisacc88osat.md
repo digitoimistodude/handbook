@@ -14,6 +14,16 @@ Taustakehittäjä eli Back End Developer kehittää WordPress-sivuston taust
 
 PHP:n dependenssimanagerina toimii Composer. Lisäosien dependenssit on lisättävä composer.json-tiedostoon asianmukaisesti ja lisäosasta tehtävä joko vcs-composer-repository (GitHub) tai suoraan Packagistiin. Mielellään jälkimmäinen, koska silloin jatkokehittäjän tarvitsee lisätä ainoastaan yksi require composer.json-tiedostoon tai ajaa require-komento.
 
+<h3>Composer, packagist ja päivitykset</h3>
+
+Lisäosien päivitykset tulee toteuttaa siten, että uuden projektin aloittaessa saa aina uusimman version requireen. Esimerkiksi jos julkaisee version 1.0.5, tulee versiot korvata uusilla package.json, composer.json sekä pää-php-tiedostoon. Tämän lisäksi tulee ajaa <b>komentoriviltä</b> rimpsu:
+
+```` bash
+git tag -a '1.0.5' && git push --tags
+````
+
+Packagist ei osaa nimittäin hakea payloadia, jos tagin/releasen tekee GitHubin webkäyttöliittymästä. Updateria varten tämän jälkeen draftataan uusi release.
+
 <h3>Lisäosat</h3>
 
 Lisäosat sivustoille valitaan aina asiakkaan tarpeiden mukaan. Ennen aloitusta Dude käyttää projekteissa seuraavia vakiolisäosia. Nämä löytyy <a href="https://github.com/digitoimistodude/dudestack/blob/master/composer.json" class="github">digitoimistodude/dudestack</a> composer.json-tiedostosta ja kaikki muutokset on tehtävä kyseiseen tiedostoon.
