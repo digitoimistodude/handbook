@@ -39,6 +39,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Esteettömyystestaus päällisin puolin Chromen Alix-lisäosalla
 ☐ Aja <b>gulp uncss</b> kun tiedät että CSS:ään ei tule enää muutoksia
 ☐ SendGrid API key ja .env tarkistus
+☐ <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
 
 <h3>WooCommerce</h3>
 
