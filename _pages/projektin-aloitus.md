@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/wordpress-kehitys/projektin-aloitus
+  http://handbook.dude.fi/wordpress-kehitys/projektin-aloitus
 published: true
 post_date: 2017-08-04 14:58:17
 ---
