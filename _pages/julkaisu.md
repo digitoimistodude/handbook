@@ -61,6 +61,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Päivitä urlit lisärillä, wp-clillä tai Go Live Update Urls -lisäosalla, tai SQL-versio <pre class="language-mysql"><code>update wp_posts set post_content = replace(post_content, 'https:\/\/asiakas.dude. \/PROJEKTINIMI_TÄHÄN', 'http:\/\/www.PROJEKTINIMI_TÄHÄN.com');</code></pre>
 ☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville sivustonnimi. , tietokannannimi)
 ☐ Asiakastyytyväisyyskysely (Typeform)
+☐ Testaa Internet Exporer 11
 
 <h3>Extraa</h3>
 
