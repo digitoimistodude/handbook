@@ -42,3 +42,9 @@ Front End käyttää aina branchia front-end ja mergeää säännöllise
 Projektissa käytettävät SCSS- ja JS-palikat haetaan npm upstreamista ja lisätään vaatimuksina teeman package.jsoniin aina kun mahdollista. Jos kyseessä on esimerkiksi muutaman rivin <code>@mixin</code>, voidaan tehdä poikkeus ja tarvittavan dependenssin toistuessa keskustella siitä, lisättäisiinkö tämä myös airiin defaultiksi.
 
 Front endissä tarvittavat lisäosat tai muut PHP:ta käyttävät riippuvuudet on lisättävä <b>composer.json</b>-tiedostoon tarvittaessa.
+
+<h3>Tuetut selaimet</h3>
+
+Front End koodin on toimittava julkaisuhetkellä vallitsevissa selaimissa, kuten Mozilla Firefoxin, Google Chromen, Safarin ja Internet Explorerin uusimmissa versioissa. Tämän lisäksi <a href="https://github.com/digitoimistodude/air/blob/master/gulpfile.js#L106" class="github">air-teeman gulpfile.js:ssä</a> määritetty autoprefixer varmistaa, että prefixit on kunnossa kolmeen vanhempaan versioon.
+
+Internet Explorerissa tuetaan versioita 11 ja ylöspäin. Versiota 11 vanhemmille tuki rakennetaan lisätyönä.
