@@ -11,7 +11,7 @@ post_date: 2017-08-04 15:01:29
 ---
 Dude käyttää <a href="https://github.com/squizlabs/PHP_CodeSniffer" class="github">squizlabs/PHP_CodeSniffer</a>in WordPress-standardeja taustatekniikoiden sekä teemojen kehityksessä ja <a href="https://github.com/Automattic/_s" class="github">Automattic/_s</a> standardia frontend-kehityksessä. WordPress VIP -sääntöjä emme noudata ja osa WordPress-säännöistä on excludettu hyvin perustein.
 
-Air-teeman kehityksessä suositaan underscoresin tapaa tehdä asioita. Automaattiset testit ajetaan <a href="https://travis-ci.org/digitoimistodude/air">Travisilla</a>.
+<a href="https://github.com/digitoimistodude/air" class="github">digitoimistodude/air</a>-pohjateeman kehityksessä suositaan underscoresin tapaa tehdä asioita. Automaattiset testit ajetaan <a href="https://travis-ci.org/digitoimistodude/air">Travisilla</a>.
 
 <h3>phpcs.xml</h3>
 
