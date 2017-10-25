@@ -9,6 +9,23 @@ permalink: >
 published: true
 post_date: 2017-08-04 15:01:29
 ---
-Dude käyttää <a href="https://github.com/squizlabs/PHP_CodeSniffer" class="github">squizlabs/PHP_CodeSniffer</a>in WordPress-standardeja taustakehityksessä ja <a href="https://github.com/Automattic/_s" class="github">Automattic/_s</a> standardia frontend-kehityksessä. WordPress VIP -sääntöjä emme noudata ja osa WordPress-säännöistä on excludettu hyvin perustein. Excludettavia sääntöjä voi ehdottaa lisää, mutta ehdotuksen pitää olla perusteltavissa. Sääntöihin voi tehdä Pull Requesteja tai committeja suoraan <a href="https://github.com/digitoimistodude/air" class="github">digitoimistodude/air</a>-repositorioon.
+Dude käyttää <a href="https://github.com/squizlabs/PHP_CodeSniffer" class="github">squizlabs/PHP_CodeSniffer</a>in WordPress-standardeja taustatekniikoiden sekä teemojen kehityksessä ja <a href="https://github.com/Automattic/_s" class="github">Automattic/_s</a> standardia frontend-kehityksessä. WordPress VIP -sääntöjä emme noudata ja osa WordPress-säännöistä on excludettu hyvin perustein.
 
+Air-teeman kehityksessä suositaan underscoresin tapaa tehdä asioita. Automaattiset testit ajetaan <a href="https://travis-ci.org/digitoimistodude/air">Travisilla</a>.
+
+<h3>phpcs.xml</h3>
+
+Excludettavia sääntöjä voi ehdottaa lisää, mutta ehdotuksen pitää olla perusteltavissa. Sääntöihin voi tehdä Pull Requesteja tai committeja suoraan <a href="https://github.com/digitoimistodude/air" class="github">digitoimistodude/air</a>-repositorion <a href="https://github.com/digitoimistodude/air/blob/master/phpcs.xml" class="github">phpcs.xml</a> -tiedostoon.
+
+<h3>PHP Code Beautifier and Fixer (phpcbf)</h3>
+
+Phpcbf:llä on nopea refaktoroida koodia. Teemakansiossa komento ajetaan seuraavasti:
+
+<pre class="language-bash"><code>phpcbf --standard=phpcs.xml page.php</code></pre>
+
+<h3>Indentointi ja linttaus</h3>
 Koodin tulee olla selkeää ja dokumentoitua. Indentaatiossa käytämme 2 merkin väliä.
+
+<h3>Editorin linter</h3>
+
+Sublime Textille linter-asetukset ja exclude löytyvät GitHubista: <a href="https://github.com/ronilaukkarinen/sublime-settings/blob/master/Library/Application%20Support/Sublime%20Text%203/Packages/User/SublimeLinter.sublime-settings" class="github">SublimeLinter.sublime-settings</a>.
