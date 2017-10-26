@@ -92,8 +92,7 @@ Jos tulee lomakkeita, sivustolle asennetaan vakiona WP Libre Form.
 
 <h4><span class="accent">tai</span> Gravity Forms</h4>
 
-Jos lomakkeita halutaan muokkailla vapaammin, niille tarvitsee tehdä jotain Gravity Formsin
-mahdollistavaa customia, käytetään Gravity Formsia.
+Jos lomakkeita halutaan muokkailla vapaammin, niille tarvitsee tehdä jotain Gravity Formsin mahdollistavaa customia, käytetään Gravity Formsia.
 
 <h3>Muut lisäosat</h3>
 
