@@ -55,7 +55,19 @@ Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotan
 
 <pre class="language-bash"><code>185.87.110.7 domain.fi www.domain.fi</code></pre>
 
-<h4>5. Tietokantatunnuksen ja käyttöoikeuksien luominen tuotantopalvelimelle</h4>
+<h4>5. HTTPS-sertifikaatti</h4>
+
+Kun nimipalvelimet ovat päivittyneet, laita SSL-sertifikaatti paikalleen:
+
+<pre class="language-bash"><code>/opt/letsencrypt/certbot-auto certonly --webroot -w /var/www/domain.fi/public_html -d domain.fi -d www.domain.fi</code></pre>
+
+Jos palvelimella on ohjauksia muista domaineista, lisää seuraava ennen muita location-blokkeja ohjausten server-blokkien sisään:
+
+<pre class="language-nginx"><code>location /.well-known/ {
+    root /var/www/domain.fi/public_html;
+}</code></pre>
+
+<h4>6. Tietokantatunnuksen ja käyttöoikeuksien luominen tuotantopalvelimelle</h4>
 
 Kirjaudu tuotannon tietokantapalvelimelle (<i>beardfish.dude.fi</i>, <i>faith.dude.fi</i>) ja luo tietokanta seuraavilla komennoilla (kohtiin <i>projektinnimi</i>, <i>turvallinensalasana</i> ja edustapalvelimesta riippuen <i>192.168.0.5</i> (craft) tai <i>192.168.0.7</i> (ghost)):
 
@@ -64,17 +76,17 @@ GRANT ALL PRIVILEGES ON käyttäjänimi.* TO 'tietokannannimi'@'192.168.0.5';
 FLUSH PRIVILEGES;
 </code></pre>
 
-Lopuksi kirjaudu ulos palvelimelta.
+Nämä komennot löytyvät myös kun painat ylöspäin, jos olet laittanut ne aikaisemminkin. Lopuksi kirjaudu ulos palvelimelta.
 
-<h4>6. Luo tietokanta tuotantopalvelimelle</h4>
+<h4>7. Luo tietokanta tuotantopalvelimelle</h4>
 
 Kirjaudu SSH-tunneloinnin avulla (Sequel Pro) tietokantapalvelimelle. Luo tyhjä tietokanta valitsemallesi nimelle.
 
-<h4>7. Siirrä tietokanta</h4>
+<h4>8. Siirrä tietokanta</h4>
 
 Exporttaa tietokanta staging-ympäristöstä (<i>gunship.dude.fi</i>) ja importtaa se tuotantoympäristöön (Sequel Pro).
 
-<h4>8. Aja ensimmäinen (initial) deploy ja lisää ympäristön määrittelyt ja tunnukset .env-tiedostoon</h4>
+<h4>9. Aja ensimmäinen (initial) deploy ja lisää ympäristön määrittelyt ja tunnukset .env-tiedostoon</h4>
 
 Tarkista tässä vaiheessa että composer.json-tiedosto on ajan tasalla ja sisältää kaikki oleelliset lisäosat. Sitten aja deploykomento projektikansiossa:
 
@@ -91,19 +103,19 @@ Kopioi hakemistopolku talteen ja luo .env-tiedosto seuraavasti
 
 Liitä .env-tiedosto projektikansiosta muuttaen saltteja ja avaimia lukuunottamatta tiedot vastaamaan tuotantoa (<i>WP_ENV=production</i>).
 
-<h4>9. Siirrä ja optimoi mediakirjasto</h4>
+<h4>10. Siirrä ja optimoi mediakirjasto</h4>
 
 Kirjaudu staging-palvelimelle SFTP:llä (<i>craft.dude.fi</i>) ja hae kuvat projektihakemistosi <i>shared/media</i> -kansiosta. Tämän jälkeen vedä media-kansio ImageOptimin läpi.
 
 Siirrä optimoidut kuvat tuotantopalvelimelle <i>/var/www/domain.fi/deploy/shared/media</i> -kansioon.
 
-<h4>10. Julkaisu! Aja varsinainen deploy-komento</h4>
+<h4>11. Julkaisu! Aja varsinainen deploy-komento</h4>
 
 On virallisen julkaisutoimenpiteen aika. Aja uudestaan komento:
 
 <pre class="language-bash"><code>cap production deploy</code></pre>
 
-<h4>11. Testaa sivusto</h4>
+<h4>12. Testaa sivusto</h4>
 
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
 
