@@ -59,7 +59,7 @@ Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotan
 
 Kirjaudu tuotannon tietokantapalvelimelle (<i>beardfish.dude.fi</i>, <i>faith.dude.fi</i>) ja luo tietokanta seuraavilla komennoilla (kohtiin <i>projektinnimi</i>, <i>turvallinensalasana</i> ja edustapalvelimesta riippuen <i>192.168.0.5</i> (craft) tai <i>192.168.0.7</i> (ghost)):
 
-<pre class="language-mysql"><code>CREATE USER 'käyttäjänimi'@'192.168.0.5' IDENTIFIED BY 'turvallinensalasana';
+<pre class="language-sql"><code>CREATE USER 'käyttäjänimi'@'192.168.0.5' IDENTIFIED BY 'turvallinensalasana';
 GRANT ALL PRIVILEGES ON käyttäjänimi.* TO 'tietokannannimi'@'192.168.0.5';
 FLUSH PRIVILEGES;
 </code></pre>
@@ -150,7 +150,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Testaa nopeus <a href="https://tools.keycdn.com/speed">KeyCDN palvelulla</a>
 ☐ Formien testaus
 ☐ Sähköpostiliikenteen testaus (SendGrid)
-☐ Päivitä urlit lisärillä, wp-clillä tai Go Live Update Urls -lisäosalla, tai SQL-versio <pre class="language-mysql"><code>update wp_posts set post_content = replace(post_content, 'https:\/\/asiakas.dude. \/PROJEKTINIMI_TÄHÄN', 'http:\/\/www.PROJEKTINIMI_TÄHÄN.com');</code></pre>
+☐ Päivitä urlit lisärillä, wp-clillä tai Go Live Update Urls -lisäosalla, tai SQL-versio <pre class="language-sql"><code>update wp_posts set post_content = replace(post_content, 'https:\/\/asiakas.dude. \/PROJEKTINIMI_TÄHÄN', 'http:\/\/www.PROJEKTINIMI_TÄHÄN.com');</code></pre>
 ☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville sivustonnimi. , tietokannannimi)
 ☐ Asiakastyytyväisyyskysely (Typeform)
 ☐ Testaa Internet Exporer 11
