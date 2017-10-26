@@ -13,7 +13,99 @@ post_date: 2017-08-04 15:11:34
 
 Deployn automatisointi tapahtuu <a href="http://capistranorb.com/">Capistranon</a> avulla, joka on osa <a href="https://github.com/digitoimistodude/dudestack" class="github">digitoimisto/dudestack</a>-kokonaisuutta. Ensimmäinen deploy suoritetaan aina Capistranon työkalulla, mutta esim. pienet teemapäivitykset hoidetaan suoralla sftp- tai rsync-yhteydellä.
 
-Uusin deployconfig tuotantoon ja stagingiin löytyy Dropboxista, hakemistopolusta <b>Dude/Palvelin/Deployconfigs (latest)</b>.
+Uusin deployconfig tuotantoon ja stagingiin löytyvät Dropboxista, hakemistopolusta <b>Dude/Palvelin/Deployconfigs (latest)</b>.
+
+<h3>Vaiheet</h3>
+
+Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (Capistrano) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki menee varmasti kuten pitääkin. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
+
+Julkaisun työvaiheet ovat seuraavat:
+
+<h4>1. Virtualhostin luominen tuotantopalvelimelle</h4>
+
+Kirjaudu valitulle edustapalvelimelle (<i>ghost.dude.fi</i>, <i>craft.dude.fi</i>). Ota vhost-pohja (Dropbox tai edellinen sivusto) ja tallenna vhost seuraavasti:
+
+<pre class="language-bash"><code>sudo pico -w /etc/nginx/sites-available/domain.fi
+sudo ln -s /etc/nginx/sites-available/domain.fi /etc/nginx/sites-enabled/domain.fi</code></pre>
+
+Kommentoi piiloon rivit <b>ssl_certificate</b> ja <b>ssl_certificate_key</b> tässä vaiheessa, sillä sertifikaattia ei voida hakea ennen kuin domain on toiminnassa. Tallenna näppäinyhdistelmillä <kbd>ctrl + o</kbd> ja poistu <kbd>ctrl + x</kbd> näppäimillä.
+
+<h4>2. Kansioiden ja käyttöoikeuksien luominen</h4>
+
+Luo tarvittavat kansiot:
+
+<pre class="language-bash"><code>sudo mkdir -p /var/www/domain.fi && sudo mkdir -p /var/www/domain.fi/public_html && sudo mkdir -p /var/www/domain.fi/tmp</code></pre>
+
+Vaihda väliaikaisesti käyttöoikeudet itsellesi deployta varten:
+
+<pre class="language-bash"><code>sudo chown -R $(whoami) /var/www/domain.fi</code></pre>
+
+Käynnistä nginx uudelleen:
+<pre class="language-bash"><code>sudo service nginx restart</code></pre>
+
+<h4>2. Deploy-config tiedoston asettaminen</h4>
+
+<a href="https://github.com/digitoimistodude/dudestack" class="github">digitoimisto/dudestack</a>in aloitusscripti (lisää kohdassa <a href="https://handbook.dude.fi/wordpress-kehitys/projektin-aloitus">Projektin aloitus</a>) määrittää oletuskonffit valmiiksi, mutta julkaistaessa on hyvä tarkistaa että config on ajan tasalla. Ensin säädä siis <b>config/deploy/production.rb</b> -tiedosto kuntoon.
+
+<h4>3. Nimipalvelinten ohjaus</h4>
+
+<b>Ylläpitoasiakkaille:</b> Ota talteen domainin siirtoavain tai välittäjänvaihtotunnus (siirtyvä domain) tai rekisteröi uusi domain. Tämän jälkeen päivitä nimipalvelimet Cloudflarelle. Lisää @ ja www -tietueet osoittamaan valitulle palvelimelle (craft: <i>185.87.110.7</i>, ghost: <i>185.87.110.9</i>).
+
+Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotantopalvelimen jo etukäteen lisäämällä rivin /etc/hosts-tiedostoon seuraavasti:
+
+<pre class="language-bash"><code>185.87.110.7 domain.fi www.domain.fi</code></pre>
+
+<h4>4. Tietokantatunnuksen ja käyttöoikeuksien luominen tuotantopalvelimelle</h4>
+
+Kirjaudu tuotannon tietokantapalvelimelle (<i>beardfish.dude.fi</i>, <i>faith.dude.fi</i>) ja luo tietokanta seuraavilla komennoilla (kohtiin <i>projektinnimi</i>, <i>turvallinensalasana</i> ja edustapalvelimesta riippuen <i>192.168.0.5</i> (craft) tai <i>192.168.0.7</i> (ghost)):
+
+<pre class="language-mysql"><code>CREATE USER 'käyttäjänimi'@'192.168.0.5' IDENTIFIED BY 'turvallinensalasana';
+GRANT ALL PRIVILEGES ON käyttäjänimi.* TO 'tietokannannimi'@'192.168.0.5';
+FLUSH PRIVILEGES;
+</code></pre>
+
+Lopuksi kirjaudu ulos palvelimelta.
+
+<h4>5. Luo tietokanta tuotantopalvelimelle</h4>
+
+Kirjaudu SSH-tunneloinnin avulla (Sequel Pro) tietokantapalvelimelle. Luo tyhjä tietokanta valitsemallesi nimelle.
+
+<h4>7. Siirrä tietokanta</h4>
+
+Exporttaa tietokanta staging-ympäristöstä (<i>gunship.dude.fi</i>) ja importtaa se tuotantoympäristöön (Sequel Pro).
+
+<h4>8. Aja ensimmäinen (initial) deploy ja lisää ympäristön määrittelyt ja tunnukset .env-tiedostoon</h4>
+
+Tarkista tässä vaiheessa että composer.json-tiedosto on ajan tasalla ja sisältää kaikki oleelliset lisäosat. Sitten aja deploykomento projektikansiossa:
+
+<pre class="language-bash"><code>cap production deploy</code></pre>
+
+Ensimmäisellä kerralla saat virheen, tämä on normaalia.
+
+<pre class="language-bash"><code>00:02 deploy:check:linked_files
+      ERROR linked file /var/www/domain.fi/deploy/shared/.env does not exist on 185.87.110.7</code></pre>
+
+Kopioi hakemistopolku talteen ja luo .env-tiedosto seuraavasti
+
+<pre class="language-bash"><code>sudo pico -w /var/www/domain.fi/deploy/shared/.env</code></pre>
+
+Liitä .env-tiedosto projektikansiosta muuttaen saltteja ja avaimia lukuunottamatta tiedot vastaamaan tuotantoa (<i>WP_ENV=production</i>).
+
+<h4>9. Siirrä ja optimoi mediakirjasto</h4>
+
+Kirjaudu staging-palvelimelle SFTP:llä (<i>craft.dude.fi</i>) ja hae kuvat projektihakemistosi <i>shared/media</i> -kansiosta. Tämän jälkeen vedä media-kansio ImageOptimin läpi.
+
+Siirrä optimoidut kuvat tuotantopalvelimelle <i>/var/www/domain.fi/deploy/shared/media</i> -kansioon.
+
+<h4>10. Julkaisu! Aja varsinainen deploy-komento</h4>
+
+On virallisen julkaisutoimenpiteen aika. Aja uudestaan komento:
+
+<pre class="language-bash"><code>cap production deploy</code></pre>
+
+<h4>11. Testaa sivusto</h4>
+
+Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
 
 <h3>Tarkistuslista</h3>
 
