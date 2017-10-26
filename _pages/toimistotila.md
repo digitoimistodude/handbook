@@ -15,6 +15,7 @@ Toimistotila valikoidaan aina viihtyvyys etunenässä. Paikan pitäisi olla s
 Jokainen huolehtii omien astioidensa tiskaamisesta sekä siitä, että niitä ei kerry joka nurkkaan.
 
 Ruokia ei jätetä jääkaappiin pilantumaan, vaan katsotaan että tarjolla on tuoretta tavaraa. Muuten jääkaapin käyttö on vapaata.
+
 Toimistoa ei tarvitse siivota, ellei erikseen innostu, sillä toimiston siivoaa säännöllisesti siivooja. Tavarat olisi kuitenkin hyvä pitää sellaisessa järjestyksessä, että ne eivät häiritse muita.
 
 <h2>Musiikki</h2>
