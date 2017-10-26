@@ -102,4 +102,5 @@ Loput lisäosista ovat projektikohtaisia.
 
 <ul>
 <li><a href="https://www.dude.fi/mita-lisaosia-dude-kayttaa">4.8.2017: Mitä lisäosia Dude käyttää?</a></li>
+<li><a href="https://www.dude.fi/sivuston-tekemisen-nakymaton-osuus-tietorakenteen-suunnittelu">25.9.2017: Sivuston tekemisen näkymätön osuus – tietorakenteen suunnittelu</a></li>
 </ul>
