@@ -40,6 +40,10 @@ Vaihda väliaikaisesti käyttöoikeudet itsellesi deployta varten:
 
 <pre class="language-bash"><code>sudo chown -R $(whoami) /var/www/domain.fi</code></pre>
 
+Testaa syntaksi virheiltä:
+
+<pre class="language-bash"><code>sudo nginx -t</code></pre>
+
 Käynnistä nginx uudelleen:
 <pre class="language-bash"><code>sudo service nginx restart</code></pre>
 
@@ -115,7 +119,25 @@ On virallisen julkaisutoimenpiteen aika. Aja uudestaan komento:
 
 <pre class="language-bash"><code>cap production deploy</code></pre>
 
-<h4>12. Testaa sivusto</h4>
+<h4>13. Ohjaa testiympäristö tuotantoon</h4>
+
+Muokkaa testiympäristön vhostia:
+
+<pre class="language-bash"><code>sudo pico -w /etc/nginx/sites-enabled/asiakas.dude.fi</code></pre>
+
+Lisää rivi:
+
+<pre class="language-nginx"><code>rewrite ^/projektinnimi(.*)$ https://www.domain.fi permanent;</code></pre>
+
+Testaa syntaksi virheiltä:
+
+<pre class="language-bash"><code>sudo nginx -t</code></pre>
+
+Tallenna ja käynnistä nginx-prosessit uudelleen:
+
+<pre class="language-bash"><code>sudo service nginx restart</code></pre>
+
+<h4>14. Testaa sivusto</h4>
 
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
 
