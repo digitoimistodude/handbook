@@ -43,11 +43,11 @@ Vaihda väliaikaisesti käyttöoikeudet itsellesi deployta varten:
 Käynnistä nginx uudelleen:
 <pre class="language-bash"><code>sudo service nginx restart</code></pre>
 
-<h4>2. Deploy-config tiedoston asettaminen</h4>
+<h4>3. Deploy-config tiedoston asettaminen</h4>
 
 <a href="https://github.com/digitoimistodude/dudestack" class="github">digitoimisto/dudestack</a>in aloitusscripti (lisää kohdassa <a href="https://handbook.dude.fi/wordpress-kehitys/projektin-aloitus">Projektin aloitus</a>) määrittää oletuskonffit valmiiksi, mutta julkaistaessa on hyvä tarkistaa että config on ajan tasalla. Ensin säädä siis <b>config/deploy/production.rb</b> -tiedosto kuntoon.
 
-<h4>3. Nimipalvelinten ohjaus</h4>
+<h4>4. Nimipalvelinten ohjaus</h4>
 
 <b>Ylläpitoasiakkaille:</b> Ota talteen domainin siirtoavain tai välittäjänvaihtotunnus (siirtyvä domain) tai rekisteröi uusi domain. Tämän jälkeen päivitä nimipalvelimet Cloudflarelle. Lisää @ ja www -tietueet osoittamaan valitulle palvelimelle (craft: <i>185.87.110.7</i>, ghost: <i>185.87.110.9</i>).
 
@@ -55,7 +55,7 @@ Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotan
 
 <pre class="language-bash"><code>185.87.110.7 domain.fi www.domain.fi</code></pre>
 
-<h4>4. Tietokantatunnuksen ja käyttöoikeuksien luominen tuotantopalvelimelle</h4>
+<h4>5. Tietokantatunnuksen ja käyttöoikeuksien luominen tuotantopalvelimelle</h4>
 
 Kirjaudu tuotannon tietokantapalvelimelle (<i>beardfish.dude.fi</i>, <i>faith.dude.fi</i>) ja luo tietokanta seuraavilla komennoilla (kohtiin <i>projektinnimi</i>, <i>turvallinensalasana</i> ja edustapalvelimesta riippuen <i>192.168.0.5</i> (craft) tai <i>192.168.0.7</i> (ghost)):
 
@@ -66,7 +66,7 @@ FLUSH PRIVILEGES;
 
 Lopuksi kirjaudu ulos palvelimelta.
 
-<h4>5. Luo tietokanta tuotantopalvelimelle</h4>
+<h4>6. Luo tietokanta tuotantopalvelimelle</h4>
 
 Kirjaudu SSH-tunneloinnin avulla (Sequel Pro) tietokantapalvelimelle. Luo tyhjä tietokanta valitsemallesi nimelle.
 
