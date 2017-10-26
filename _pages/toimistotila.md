@@ -38,3 +38,9 @@ Sekoilusoittolistaa <a href="https://open.spotify.com/user/rolle-/playlist/2Uqu1
 Tähän poikkeuksena tilanne, jolloin tarjous on mennyt läpi, jolloin on soitettava Daft Punkin <i>Get Lucky</i>:
 
 https://www.youtube.com/watch?v=5NV6Rdv1a3I
+
+<h3>Aiheeseen liittyviä bloggauksia</h3>
+
+<ul>
+<li><a href="https://www.dude.fi/talta-nayttaa-duden-kulma-muuttokuulumiset-jyvaskylan-ytimesta">18.8.2017: Tältä näyttää Duden kulma – muuttokuulumiset Jyväskylän ytimestä</a></li>
+</ul>
