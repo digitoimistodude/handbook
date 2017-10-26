@@ -40,7 +40,7 @@ Vaihda väliaikaisesti käyttöoikeudet itsellesi deployta varten:
 
 <pre class="language-bash"><code>sudo chown -R $(whoami) /var/www/domain.fi</code></pre>
 
-Testaa syntaksi virheiltä:
+Testaa syntaksivirheiltä:
 
 <pre class="language-bash"><code>sudo nginx -t</code></pre>
 
@@ -129,7 +129,7 @@ Lisää rivi:
 
 <pre class="language-nginx"><code>rewrite ^/projektinnimi(.*)$ https://www.domain.fi permanent;</code></pre>
 
-Testaa syntaksi virheiltä:
+Testaa syntaksivirheiltä:
 
 <pre class="language-bash"><code>sudo nginx -t</code></pre>
 
@@ -137,7 +137,11 @@ Tallenna ja käynnistä nginx-prosessit uudelleen:
 
 <pre class="language-bash"><code>sudo service nginx restart</code></pre>
 
-<h4>14. Testaa sivusto</h4>
+<h4>14. Loppusilaukset, käyttöoikeuksien tarkistus ja sivuston testaus</h4>
+
+Vaihda käyttöoikeudet ja varmista samalla että tiedostojen lisääminen mediakirjastoon toimii:
+
+<pre class="language-bash"><code>sudo chown -R www-data:developers /var/www/domain.fi && sudo chown -R $(whoami) /var/www/domain.fi/public_html/content/themes && sudo chown -R $(whoami) /var/www/domain.fi/tmp && sudo chmod -R 775 /var/www/domain.fi/public_html/content && sudo chmod -R 775 /var/www/domain.fi/deploy/current/content && sudo chmod -R 775 /var/www/domain.fi/deploy/shared</code></pre>
 
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
 
