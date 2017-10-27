@@ -13,6 +13,10 @@ post_date: 2017-08-04 15:11:34
 
 Deployn automatisointi tapahtuu <a href="http://capistranorb.com/">Capistranon</a> avulla, joka on osa <a href="https://github.com/digitoimistodude/dudestack" class="github">digitoimisto/dudestack</a>-kokonaisuutta. Ensimmäinen deploy suoritetaan aina Capistranon työkalulla, mutta esim. pienet teemapäivitykset hoidetaan suoralla sftp- tai rsync-yhteydellä.
 
+Muutosten myötä tulee muistaa ngx-pagespeed-välimuistin tyhjennys:
+
+<pre class="language-bash"><code>sudo rm -rf /tmp/pgsp/v3/domain.fi</code></pre>
+
 Uusin deployconfig tuotantoon ja stagingiin löytyvät Dropboxista, hakemistopolusta <b>Dude/Palvelin/Deployconfigs (latest)</b>.
 
 <h3>Vaiheet</h3>
