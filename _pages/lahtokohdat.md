@@ -18,4 +18,4 @@ Erityisesti <em>teknisessä</em> työssä, mutta myös kaikessa muussakin Du
 3. <strong>Tarkoituksenmukaisuus</strong> – Tilatun tuotteen ja kaiken tekemisen on oltava tarkoituksenmukaista, sellaista mitä asiakas on tilannut, ei vähempää. Pyrimme kuitenkin ylittämään itsemme sekä asiakkaamme aina kun mahdollista.
 
 3. <strong>Laatu</strong> – Duden pääpaino on tuottaa hyvää laatua ja sitä kautta lisäarvoa asiakkaalle, eli ei käytetä valmisteemoja, Bootstrapia tai muita lähtökohtaisesti muitakaan yleispäteviä frameworkeja. Valmiita lisäosia tai työkaluja voidaan käyttää, kunhan ne ovat yleisesti Duden hyväksymiä ja asiakkaan tarpeisiin hyviksi todettuja.
-<blockquote>"Jos voit tehdä asian viidessä minuutissa, tee se samantien."</blockquote>
+<blockquote>"Jos voit tehdä asian viidessä minuutissa, tee se saman tien."</blockquote>
