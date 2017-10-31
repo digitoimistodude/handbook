@@ -23,7 +23,7 @@ Uusin deployconfig tuotantoon ja stagingiin löytyvät Dropboxista, hakemistopol
 
 Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (Capistrano) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki menee varmasti kuten pitääkin. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
 
-Julkaisun työvaiheet ovat seuraavat:
+<b>Huom!</b> Vaiheiden järjestys on projektikohtainen, seuraavassa esitetty järjestys ei välttämättä päde käynnissä olevaan projektiisi. Julkaisun työvaiheet ovat seuraavat:
 
 <h4>1. Virtualhostin luominen tuotantopalvelimelle</h4>
 
