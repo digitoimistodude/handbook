@@ -105,7 +105,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ WordPress-päivitykset
 ☐ .htaccess Redirect 301 /asiakas http://www.asiakas.fi tai nginx-redirectit, jos on
 ☐ Jos sopii projektiin/sovittu/saittiuudistus: kuvakaappauksia Google-näkyvyyden tilanteesta ennen julkaisua (Firefoxin full-page screenshot-toiminto)
-☐ Esteettömyystestaus päällisin puolin Chromen Alix-lisäosalla
+☐ Esteettömyystestaus WAVElla
 ☐ Aja <b>gulp uncss</b> kun tiedät että CSS:ään ei tule enää muutoksia
 ☐ SendGrid API key ja .env tarkistus
 ☐ <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
@@ -130,6 +130,5 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Testaa typografia blogissa, <a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>
 ☐ HTML:n validointi <a href="https://validator.w3.org/">W3 validaattorilla</a>
 ☐ Estä trace- ja pingbackien lähettäminen
-☐ Testaa esteettömyys <a href="http://achecker.ca/checker/index.php">aCheckerillä</a>
 ☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
 ☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
