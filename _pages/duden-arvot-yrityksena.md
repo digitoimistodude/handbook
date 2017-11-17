@@ -30,3 +30,9 @@ Jos pitäisi valita joko paljon asiakkaita/keskinkertainen laatu tai vähän asi
 Emme lähde mukaan projekteihin, joiden emme usko tuovan tähän maailmaan mitään hyvää. Olemme ehdottomasti itsekin parhaimmillamme silloin, kun asiakkaamme itse uskoo asiaansa ja kun se asia on jotain, joka tekee maailmasta paremman paikan. Jos ainoana tavoitteena näyttää olevan se, että otetaan nopeasti ihmisiltä rahat pois kelvottoman tuotteen tai palvelun avulla, niin emme usko että Dudella sellaiseen projektiin juurikaan annettavaa.
 
 Emme siis voi antaa tarjouksia tai tehdä toimeksiantoja yrityksille, joiden päätoimiala on <b>pikavippi-</b>, <b>telemarkkinointi-</b>, <b>kosmetiikka-</b>, <b>nettikasino-</b> tai <b>aseteollisuus</b>.
+
+<h3>Aiheeseen liittyviä bloggauksia</h3>
+
+<ul>
+<li><a href="https://www.dude.fi/digitoimisto-dude-ruumiinavaus-2016">14.4.2016: Digitoimisto Dude: ruumiinavaus 2016</a></li>
+</ul>
