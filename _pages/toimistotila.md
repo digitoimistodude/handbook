@@ -11,6 +11,14 @@ post_date: 2017-08-04 12:23:02
 ---
 Toimistotila valikoidaan aina viihtyvyys etunenässä. Paikan pitäisi olla sellainen, jossa kukin dude viihtyy parhaimmillaan valtaosan päivästä ja vuodesta. Toimistoa saa kehittää mielensä mukaan, kunhan asioista keskustellaan porukalla ennen näkyviä muutoksia.
 
+<h2>Ergonomia</h2>
+
+Käytössä on melkein tonnin työtuolit, joissa ei mene selkä rikki. Työpöydistä jokainen on sähköpöytä, jonka voi tarvittaessa nostaa ylös.
+
+<h2>Välineet</h2>
+
+Suosimme Macbook Pro -tietokonetta, jonka saa helposti "pöytäkoneeksi" sekä mukaan. Kuulokkeet ovat sulkevat, jotta voi keskittyä.
+
 <h2>Siisteys</h2>
 Jokainen huolehtii omien astioidensa tiskaamisesta sekä siitä, että niitä ei kerry joka nurkkaan.
 
