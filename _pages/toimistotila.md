@@ -19,6 +19,10 @@ Käytössä on melkein tonnin työtuolit, joissa ei mene selkä rikki. Työpöyd
 
 Suosimme Macbook Pro -tietokonetta, jonka saa helposti "pöytäkoneeksi" sekä mukaan. Kuulokkeet ovat sulkevat, jotta voi keskittyä.
 
+<h2>Virvokkeet</h2>
+
+Jura X8 kahvikone pitää huolta siitä, että kahvi on aina pavuista jauhettua. Kahvit tulee Paahtimo Papulta. Jääkaapista löytyy yleensä olutta, jos on muistettu ostaa.
+
 <h2>Siisteys</h2>
 Jokainen huolehtii omien astioidensa tiskaamisesta sekä siitä, että niitä ei kerry joka nurkkaan.
 
