@@ -15,7 +15,7 @@ Kun graafikko on saanut visuaalisen suunnittelun päätökseen, tulee hänen toi
 
 <h5 style="color:#666">Invision App</h5>
 
-Graafikon on varmistettava, että uusin hyväksytty versio löytyy aina Invision Appista (työkalusta lisää kohdassa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>.
+Graafikon on varmistettava, että uusin hyväksytty versio löytyy aina Invision Appista (työkalusta lisää kohdassa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>).
 
 <h5 style="color:#666">Photoshop</h5>
 
