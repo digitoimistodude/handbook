@@ -127,6 +127,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Asiakastyytyväisyyskysely (Typeform)
 ☐ Testaa Internet Exporer 11
 ☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
+
 <h3>Extraa</h3>
 ☐ "Toteutus: DUDE" footeriin, linkki ja lupa
 ☐ Testaa typografia blogissa, <a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>
