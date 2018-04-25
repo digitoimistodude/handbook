@@ -11,7 +11,7 @@ post_date: 2018-04-25 10:31:00
 ---
 Käsiteltävien henkilötietojen rekisterinpitäjänä toimii:
 
-Digitoimisto Dude Oy (Y-tunnus: 2548021-5)
+<strong>Digitoimisto Dude Oy (Y-tunnus: 2548021-5)</strong>
 Gummeruksenkatu 5
 40100 Jyväskylä
 
