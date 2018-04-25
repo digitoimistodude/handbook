@@ -1,11 +1,11 @@
 ---
 ID: 263
-post_title: Rekisterinpitäjä ja sen yhteystiedot
+post_title: Rekisterinpitäjä
 author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/rekisterinpitaja-ja-sen-yhteystiedot
+  http://handbook.dude.fi/tietosuojaseloste/rekisterinpitaja
 published: true
 post_date: 2018-04-25 10:31:00
 ---
