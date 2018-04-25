@@ -15,17 +15,17 @@ Navigoi vasemmasta laidasta tai alla olevan sisällysluettelon avulla. Nide löy
 <h3>Sisällysluettelo</h3>
 <ol>
  	<li><a href="http://handbook.dude.fi/tietosuojaseloste/tiivistelma">Tiivistelmä</a></li>
- 	<li>Rekisterinpitäjä ja sen yhteystiedot</li>
- 	<li>Mitä tietoja minusta voidaan kerätä?</li>
- 	<li>Mihin henkilötietojani käytetään?</li>
- 	<li>Miten tietojani säilytetään ja suojataan?</li>
- 	<li>Kuka käsittelee henkilötietojani?</li>
- 	<li>Kuinka kauan tietojani säilytetään?</li>
- 	<li>Millaisia oikeuksia minulla on?</li>
- 	<li>Kuinka saan järjestelmään itsestäni tallennetut tiedot?</li>
- 	<li>Miten voin vaikuttaa tietojeni käyttöön?</li>
- 	<li>Luovutetaanko henkilötietojani kolmansille osapuolille?</li>
- 	<li>Käytetäänkö kaupan sivuilla evästeitä ja mitä ne ovat?</li>
- 	<li>Voidaanko tätä tietosuojaselostetta muuttaa?</li>
- 	<li>Mihin voin ottaa yhteyttä?</li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/rekisterinpitaja-ja-sen-yhteystiedot">Rekisterinpitäjä ja sen yhteystiedot</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/mita-tietoja-minusta-voidaan-kerata">Mitä tietoja minusta voidaan kerätä?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/mihin-henkilotietojani-kaytetaan">Mihin henkilötietojani käytetään?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/miten-tietojani-sailytetaan-ja-suojataan">Miten tietojani säilytetään ja suojataan?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/kuka-kasittelee-henkilotietojani">Kuka käsittelee henkilötietojani?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/kuinka-kauan-tietojani-sailytetaan">Kuinka kauan tietojani säilytetään?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/millaisia-oikeuksia-minulla-on">Millaisia oikeuksia minulla on?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/kuinka-saan-jarjestelmiin-itsestani-tallennetut-tiedot">Kuinka saan järjestelmiin itsestäni tallennetut tiedot?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/miten-voin-vaikuttaa-tietojeni-kayttoon">Miten voin vaikuttaa tietojeni käyttöön?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/luovutetaanko-henkilotietojani-kolmansille-osapuolille">Luovutetaanko henkilötietojani kolmansille osapuolille?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/kaytetaanko-sivuillla-evasteita-ja-mita-ne-ovat">Käytetäänkö sivuilla evästeitä ja mitä ne ovat?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/voidaanko-tata-tietosuojaselostetta-muuttaa">Voidaanko tätä tietosuojaselostetta muuttaa?</a></li>
+ 	<li><a href="http://handbook.dude.fi/tietosuojaseloste/mihin-voin-ottaa-yhteytta">Mihin voin ottaa yhteyttä?</a></li>
 </ol>
