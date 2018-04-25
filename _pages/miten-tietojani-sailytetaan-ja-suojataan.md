@@ -16,9 +16,9 @@ Kaikki henkilötiedot ovat suojattu asiattomalta pääsyltä ja vahingossa tai l
 
 Henkilötietojen käsittelyssä on huomioitu 25.5.2018 alkaen noudatettavan EU:n tietosuoja-asetuksen vaatimukset. Kaikkea pääsyä henkilötietoon valvotaan hyvien käytäntöjen mukaisesti.
 <h3>Pilvipalvelut</h3>
-Digitoimisto Dude Oy säilyttää paperisia asiakastietoja Suomessa sekä ylläpitoasiakkaiden sivustoon liittyviä asioita (ainoastaan sivuston nimi ja lisäosapäivitykset) ManageWP-pilvipalvelussa (Serbia, USA). ManageWP vakuuttaa tietoturvan olevan tiukalla tasolla. Lue lisää osoitteesta https://managewp.com/privacy
+Digitoimisto Dude Oy säilyttää paperisia asiakastietoja Suomessa sekä ylläpitoasiakkaiden sivustoon liittyviä asioita (ainoastaan sivuston nimi ja lisäosapäivitykset) ManageWP-pilvipalvelussa (Serbia, USA). ManageWP vakuuttaa tietoturvan olevan tiukalla tasolla. Lue lisää osoitteesta <a href="https://managewp.com/privacy">managewp.com/privacy</a>.
 
-Projektin etenemiseen ja sisäiseen kommunikointiin (CRM) käytetään Trello-palvelua, joka on New York Cityssa sijaitseva pilvipalvelu. Palveluun tallentuu lähinnä asiakkaan yhteystiedot, projektien aikataulut ja deadlinet, sivustoon liittyvät tiedot sekä asiakkaan välillä käydyt keskustelut. Lue lisää osoitteesta https://trello.com/privacy
+Projektin etenemiseen ja sisäiseen kommunikointiin (CRM) käytetään Trello-palvelua, joka on New York Cityssa sijaitseva pilvipalvelu. Palveluun tallentuu lähinnä asiakkaan yhteystiedot, projektien aikataulut ja deadlinet, sivustoon liittyvät tiedot sekä asiakkaan välillä käydyt keskustelut. Lue lisää osoitteesta <a href="https://trello.com/privacy">trello.com/privacy</a>.
 <h3>Palvelimet ja sivustot</h3>
 Duden ylläpitoasiakkaiden sivustot ovat Ficolon laitesalissa, joka sijaitsee Suomessa, Ulvilassa. Palvelimet sijaitsevat Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa ja käyvät 100% ekologisella tuulivoimalla.
 
