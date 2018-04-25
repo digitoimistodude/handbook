@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-04-25 10:26:03
 ---
-Tämä dokumentti käsittelee sitä, miten tietosuoja-asioita noudatetaan Digitoimisto Dude Oy:ssa. Tietosuoja-asioihin liittyviin kysymyksiin vastaa tietosuojavaltuutettu Roni Laukkarinen. Sähköpostia voi lähettää osoitteeseen roni@dude.fi.
+Tämä dokumentti käsittelee sitä, miten tietosuoja-asioita noudatetaan Digitoimisto Dude Oy:ssa. Tietosuoja-asioihin liittyviin kysymyksiin vastaa tietosuojavaltuutettu Roni Laukkarinen. Sähköpostia voi lähettää osoitteeseen <a href="mailto:roni@dude.fi">roni@dude.fi</a>.
 
 Navigoi vasemmasta laidasta. Nide löytyy myös PDF- ja Office-muodossa.
 <h3>Sisällysluettelo</h3>
