@@ -87,7 +87,7 @@ Tallenna ja käynnistä nginx-prosessit uudelleen:
 Vaihda käyttöoikeudet ja varmista samalla että tiedostojen lisääminen mediakirjastoon toimii:
 <pre class="language-bash"><code>sudo chown -R www-data:developers /var/www/domain.fi &amp;&amp; sudo chown -R $(whoami) /var/www/domain.fi/public_html/content/themes &amp;&amp; sudo chown -R $(whoami) /var/www/domain.fi/tmp &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/public_html/content &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/deploy/current/content &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/deploy/shared</code></pre>
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
-<h3>Tarkistuslista</h3>
+<h3 id="tarkistuslista">Tarkistuslista</h3>
 Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkistuslista huolellisesti läpi. Lista löytyy myös Dropboxista, kansiosta <b>Dude/Tärkeät asiakirjat/muut/Ennen julkaisua huomioitavaa.todo</b>, jota on ylläpidettävä samaan tahtiin kuin alla olevaa. Dokumentin voi myös kopioida projektikansioon ja ruksata SublimeTextin PlainTasks -packagea hyödyntämällä.
 <h3>Ennen julkaisua</h3>
 ☐ WordPress yleiset asetukset
