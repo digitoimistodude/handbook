@@ -110,6 +110,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Aja <b>gulp uncss</b> kun tiedät että CSS:ään ei tule enää muutoksia
 ☐ SendGrid API key ja .env tarkistus
 ☐ <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
+☐ Testaa isoilla näytöillä ettei fontit skaalaudu liian isoksi
 <h3>WooCommerce</h3>
 ☐ Tarvittaessa: <a href="http://docs.wp-rocket.me/article/27-using-wp-rocket-on-your- ecommerce-site">Verkkokaupan Cache</a>
 ☐ Maksut päälle
