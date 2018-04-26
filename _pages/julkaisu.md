@@ -18,7 +18,7 @@ Uusin deployconfig tuotantoon ja stagingiin löytyvät Dropboxista, hakemistopol
 <h3>Vaiheet</h3>
 Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (Capistrano) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki menee varmasti kuten pitääkin. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
 
-26.4.2018 eteenpäin vaiheet 1, 2 on automatisoitu scripteihin:
+26.4.2018 eteenpäin vaiheet 1, 2 on automatisoitu scripteihin (huomaathan käyttää <b>bashia</b> <i>sh</i> sijaan, sillä ubuntun sh ei tue read-komentoa):
 
 <pre class="language-bash"><code>sudo bash /etc/bin/release-site.sh</code></pre>
 
