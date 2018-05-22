@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-04-25 10:26:03
 ---
-Tämä dokumentti käsittelee sitä, miten tietosuoja-asioita noudatetaan Digitoimisto Dude Oy:ssa 25.5.2018 kaikissa EU:n jäsenmaissa voimaan tulleen <a href="http://www.tietosuoja.fi/fi/index/euntietosuojauudistus.html">Tietosuoja-asetuksen (General Data Protection Regulation, GDPR)</a> mukaisesti. Tietosuoja-asioihin liittyviin kysymyksiin vastaa tietosuojavaltuutettu Roni Laukkarinen. Sähköpostia voi lähettää osoitteeseen <a href="mailto:roni@dude.fi">roni@dude.fi</a>.
+Tämä dokumentti käsittelee sitä, miten tietosuoja-asioita noudatetaan Digitoimisto Dude Oy:ssa 25.5.2018 kaikissa EU:n jäsenmaissa voimaan tulleen <a href="http://www.tietosuoja.fi/fi/index/euntietosuojauudistus.html">Tietosuoja-asetuksen (General Data Protection Regulation, GDPR)</a> mukaisesti. Tietosuoja-asioihin liittyviin kysymyksiin vastaa Roni Laukkarinen. Sähköpostia voi lähettää osoitteeseen <a href="mailto:roni@dude.fi">roni@dude.fi</a>.
 
 Navigoi vasemmasta laidasta tai alla olevan sisällysluettelon avulla. Nide löytyy myös PDF- ja Office-muodossa.
 <h3>Sisällysluettelo</h3>

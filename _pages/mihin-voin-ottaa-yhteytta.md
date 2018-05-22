@@ -11,4 +11,4 @@ post_date: 2018-04-25 11:17:39
 ---
 Voit ottaa yhteyttä asiakaspalveluumme tietosuojaselosteeseen ja markkinointiin liittyvissä kysymyksissä: <a href="mailto:apuva@dude.fi">apuva@dude.fi</a>.
 
-Tietosuoja-asioihin liittyviin kysymyksiin vastaa tietosuojavaltuutettu Roni Laukkarinen. Sähköpostia voi lähettää osoitteeseen: <a href="mailto:roni@dude.fi">roni@dude.fi</a>.
+Tietosuoja-asioihin liittyviin kysymyksiin vastaa Roni Laukkarinen. Sähköpostia voi lähettää osoitteeseen: <a href="mailto:roni@dude.fi">roni@dude.fi</a>.
