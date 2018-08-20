@@ -119,6 +119,9 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ SendGrid API key ja .env tarkistus
 ☐ <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
 ☐ Testaa isoilla näytöillä ettei fontit skaalaudu liian isoksi
+☐ Varmuuskopiot vanhasta saitista:
+<pre class="language-bash"><code>sudo pico -w /etc/nginx/sites-enabled/asiakas.dude.fi</code></pre>wget  --no-check-certificate --no-proxy --mirror -p --html-extension --convert-links -e robots=off -P . sivustonnimi.fi</pre>
+
 <h3>WooCommerce</h3>
 ☐ Tarvittaessa: <a href="http://docs.wp-rocket.me/article/27-using-wp-rocket-on-your- ecommerce-site">Verkkokaupan Cache</a>
 ☐ Maksut päälle
