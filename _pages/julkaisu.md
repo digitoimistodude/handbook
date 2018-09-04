@@ -100,7 +100,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 <h3>Ennen julkaisua</h3>
 ☐ WordPress yleiset asetukset
 ☐ Faviconit ja muut ikonit
-☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym.
+☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym., disabloi tarvittaessa
 ☐ Google Analytics
 ☐ Tarvittavat uudelleenohjaukset
 ☐ Bloggauksen muotoilujen tarkistaminen
