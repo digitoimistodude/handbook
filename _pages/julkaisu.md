@@ -125,6 +125,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 <h3>WooCommerce</h3>
 ☐ Tarvittaessa: <a href="http://docs.wp-rocket.me/article/27-using-wp-rocket-on-your- ecommerce-site">Verkkokaupan Cache</a>
 ☐ Maksut päälle
+
 <h3>Julkaisun jälkeen</h3>
 ☐ WP Rocket päälle
 ☐ ManageWP päälle
@@ -139,6 +140,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Asiakastyytyväisyyskysely (Typeform)
 ☐ Testaa Internet Exporer 11
 ☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
+☐ Trello-kortti hostingeihin
 
 <h3>Extraa</h3>
 ☐ "Toteutus: DUDE" footeriin, linkki ja lupa
