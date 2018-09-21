@@ -22,7 +22,7 @@ SCSS-tyylit on toteutettava modulaarisesti, eli jokainen oleellinen layout tai v
 <b>sass/</b>
 - base
 --- _accessibility.scss 
---– _config.scss
+--- _config.scss
 --- _helpers.scss
 --- _global.scss
 - layout

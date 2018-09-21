@@ -11,7 +11,7 @@ post_date: 2017-08-03 19:16:47
 <h1>Tervetuloa selaamaan Dude Handbookia!</h1>
 Selaat <a href="https://www.dude.fi">Digitoimisto Dude Oy:n</a> dokumenttia, jonka on tarkoitus toimia suunnannäyttäjänä uudelle ja vanhalle dudelle "mustaa valkoisella" -tyyppisenä ohjeistuksena toimintatavoista.
 
-Ohjeistus määrittelee ja käsittelee Duden teknisiä asioita full stack -tasolla, eli sen pyrkimys on käsitellä jokaista vaihetta ja työvälinettä prosessin tai work flown alusta loppuun saakka. Tämä Handbook sisältää kaiken mitä sinun tarvitsee tietää Dudella työskentelemiseen.
+Ohjeistus määrittelee ja käsittelee Duden teknisiä ja ei-teknisiä asioita ja sen pyrkimys on käsitellä jokaista vaihetta ja työvälinettä prosessin alusta loppuun saakka. <b>Tämä Handbook sisältää kaiken mitä sinun tarvitsee tietää Dudella työskentelemiseen.</b>
 
 Ohjeistuksia tulee noudattaa niin tarkkaan kuin tilanteissa on mahdollista. Dokumentointia kehitetään tarvittaessa.
 <h3>Dude Handbook on pohja kaikelle toiminnalle</h3>
