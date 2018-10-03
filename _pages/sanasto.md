@@ -24,3 +24,15 @@ Rajapinnoissa (meidän tapauksessa esimerkiksi <a href="https://developer.wordpr
 <h4><i>devaus, devaaminen</i>, verbi</h4>
 
 Web-kehitys, web-suunnittelu, koodaamista. <i>Devaaja</i> samalla logiikalla tarkoittaa koodaria, web-kehittäjää.
+
+<h1 id="#p">P</h1>
+
+<h3><i>paita</i>, substanttiivi</h4>
+
+<span id="paita"></span>Padding, eli sisäinen marginaali CSS:ssä. Katso myös <a href="#rauli"><i>rauli</i></a>.
+
+<h1 id="#p">R</h1>
+
+<h3><i>rauli</i>, substanttiivi</h4>
+
+<span id="rauli"></span>Padding, eli sisäinen marginaali CSS:ssä. Katso myös <a href="#paita"><i>paita</i></a>.
