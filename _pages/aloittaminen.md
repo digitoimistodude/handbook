@@ -4,7 +4,8 @@ post_title: Aloittaminen
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/aloittaminen
+permalink: >
+  http://handbook.dude.fi/tyoskenteleminen-dudella/aloittaminen
 published: true
 post_date: 2018-10-25 12:58:51
 ---
