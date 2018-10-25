@@ -22,6 +22,8 @@ Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 <li><a href="https://teamweek.com">TeamWeek</a> aikataulutukseen</li>
 <li><a href="https://dropbox.com/">Dropbox</a>-tunnus tiedostojen hallintaan</li>
 <li><a href="https://slack.com/">Slack</a>-tunnus yrityksen sisäistä viestintää varten</li>
+<li><a href="http://invisionapp.com">Invision App</a>-tunnus leiskoja varten</li>
+<li><a href="https://www.adobe.com/fi">Adobe-tunnus</a> Photoshopia ja Typekitiä varten</li>
 </ul>
 
 <h3>Ohjelmat</h3>
@@ -35,4 +37,17 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan (voit käyttää myös selaimella)</li>
 <li><a href="https://dropbox.com/">Dropbox</a></li>
 <li><a href="https://www.sublimetext.com">Sublime Text</a></li>
+</ul>
+
+<h2>Asiakaspalvelijalle / markkinoijalle</h2>
+
+<h3>Tunnukset</h3>
+
+<ul>
+<li><a href="https://crisp.chat">Crisp</a>, verkkosivujen chat</a></li>
+<li><a href="http://groovehq.com/">Groove</a>, asiakastukea varten</li>
+<li><a href="http://dude.fi/blogi">Dude.fi -blogi</a>
+<li><a href="https://instagram.com/digitoimistodude/">Instagram</a></li>
+<li><a href="https://www.facebook.com/digitoimistodude/">Facebook</a></li>
+<li><a href="https://www.linkedin.com/company/digitoimisto-dude-oy/">LinkedIn-yrityssivu</a></li>
 </ul>
