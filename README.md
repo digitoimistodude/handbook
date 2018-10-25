@@ -4,7 +4,7 @@ Handbook on Duden virallinen operointimanuaali, joka toimii pohjana kaikelle toi
 
 Tämä on ainoa Duden GitHub-repo suomeksi, koska sisältö on pelkkää tekstiä Markdown-muodossa sekä WordPressissä raakatekstinä ja HTML:nä.
 
-![](https://handbook.dude.fi/content/themes/handbook/screenshot.png)
+![](https://www.dude.fi/handbook.jpg)
 
 ### WordPress GitHub Sync & avoin lähdekoodi
 
