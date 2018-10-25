@@ -20,6 +20,7 @@ Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 <li><a href="https://trello.com">Trello</a>-tunnus projektinhallintaan</li>
 <li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan</li>
 <li><a href="https://teamweek.com">TeamWeek</a> aikataulutukseen</li>
+<li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan</li>
 <li><a href="https://dropbox.com/">Dropbox</a>-tunnus tiedostojen hallintaan</li>
 <li><a href="https://slack.com/">Slack</a>-tunnus yrityksen sisäistä viestintää varten</li>
 <li><a href="http://invisionapp.com">Invision App</a>-tunnus leiskoja varten</li>
