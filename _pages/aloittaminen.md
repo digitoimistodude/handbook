@@ -25,6 +25,7 @@ Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 <li><a href="https://slack.com/">Slack</a>-tunnus yrityksen sisäistä viestintää varten</li>
 <li><a href="http://invisionapp.com">Invision App</a>-tunnus leiskoja varten</li>
 <li><a href="https://www.adobe.com/fi">Adobe-tunnus</a> Photoshopia ja Typekitiä varten</li>
+<li><a href="https://1password.com/">1Password-tunnus</a> salasanojen hallintaan</li>
 </ul>
 
 <h3>Ohjelmat</h3>
@@ -38,6 +39,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan (voit käyttää myös selaimella)</li>
 <li><a href="https://dropbox.com/">Dropbox</a></li>
 <li><a href="https://www.sublimetext.com">Sublime Text</a></li>
+<li><a href="https://1password.com/">1Password</a></li>
 </ul>
 
 <h2>Asiakaspalvelijalle / markkinoijalle</h2>
@@ -51,4 +53,14 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://instagram.com/digitoimistodude/">Instagram</a></li>
 <li><a href="https://www.facebook.com/digitoimistodude/">Facebook</a></li>
 <li><a href="https://www.linkedin.com/company/digitoimisto-dude-oy/">LinkedIn-yrityssivu</a></li>
+</ul>
+
+<h2>Ylläpitäjälle</h2>
+
+<h3>Tunnukset</h3>
+
+<ul>
+<li><a href="https://orion.managewp.com/dashboard/">ManageWP</a>, keskitettyjä WordPress-päivityksiä varten</a></li>
+<li><a href="https://handbook.dude.fi/palvelimet">Palvelintunnukset</a>, huoltokatkoja varten</li>
+<li><a href="https://dashboard.adminlabs.com">AdminLabs-tunnukset</a> sivustojen seurantaa varten</li>
 </ul>
