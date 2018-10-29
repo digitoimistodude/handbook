@@ -16,8 +16,8 @@ Tälle sivulle on koottu alusta asti asiat, joita pitää tehdä työnteon alkae
 Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 
 <ul>
-<li>Sähköpostiallekirjoitus</li>
 <li><a href="https://gsuite.google.fi/intl/fi/">G Suite</a>-sähköpostiosoite</li>
+<li>Yhteneväinen sähköpostiallekirjoitus</li>
 <li><a href="https://trello.com">Trello</a>-tunnus projektinhallintaan</li>
 <li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan</li>
 <li><a href="https://teamweek.com">TeamWeek</a> aikataulutukseen</li>
@@ -62,6 +62,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://www.facebook.com/digitoimistodude/">Facebook</a></li>
 <li><a href="https://www.linkedin.com/company/digitoimisto-dude-oy/">LinkedIn-yrityssivu</a></li>
 <li><a href="https://mailchimp.com/">MailChimp</a> uutiskirjeitä varten</li>
+<li><a href="https://www.typeform.com/">Typeform</a> asiakaskyselyitä varten</li>
 </ul>
 
 <h2>Ylläpitäjälle</h2>
