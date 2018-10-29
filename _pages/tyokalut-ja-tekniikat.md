@@ -17,7 +17,7 @@ Duden devaustyökalut ovat yhdessä hyväksi todettuja, yhdessä päätett
 
 <h3>Ohjelmat, managerit ja frameworkit</h3>
 
-<b>Editorit:</b> <a href="https://atom.io/">Atom</a> tai <a href="https://www.sublimetext.com/">Sublime Text</a>, tuorein versio
+<b>Editori:</b> <a href="https://www.sublimetext.com/">Sublime Text</a>, tuorein versio
 <b>PHP/back-end-dependenssit:</b> <a href="https://getcomposer.org/">composer</a>, <a href="https://packagist.org/">packagist</a>
 <b>JS/SCSS/front-end-dependenssit:</b> <a href="npmjs.com">npm</a> (<a href="https://github.com/digitoimistodude/devpackages" class="github">digitoimistodude/devpackages</a>, <a href="https://github.com/digitoimistodude/air" class="github">digitoimistodude/air</a>)
 <b>Task manager:</b> <a href="https://gulpjs.com/">gulp</a> (<a href="https://github.com/digitoimistodude/devpackages" class="github">digitoimistodude/devpackages</a>)
