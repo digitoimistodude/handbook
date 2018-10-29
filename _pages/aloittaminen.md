@@ -11,21 +11,29 @@ post_date: 2018-10-25 12:58:51
 ---
 Tälle sivulle on koottu alusta asti asiat, joita pitää tehdä työnteon alkaessa ensimmäistä kertaa.
 
-<h2>Front End koodarille</h2>
+<h2>Joka dudelle</h2>
 
 Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 
 <ul>
+<li>Sähköpostiallekirjoitus</li>
 <li><a href="https://gsuite.google.fi/intl/fi/">G Suite</a>-sähköpostiosoite</li>
 <li><a href="https://trello.com">Trello</a>-tunnus projektinhallintaan</li>
 <li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan</li>
 <li><a href="https://teamweek.com">TeamWeek</a> aikataulutukseen</li>
-<li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan</li>
 <li><a href="https://dropbox.com/">Dropbox</a>-tunnus tiedostojen hallintaan</li>
 <li><a href="https://slack.com/">Slack</a>-tunnus yrityksen sisäistä viestintää varten</li>
 <li><a href="http://invisionapp.com">Invision App</a>-tunnus leiskoja varten</li>
 <li><a href="https://www.adobe.com/fi">Adobe-tunnus</a> Photoshopia ja Typekitiä varten</li>
 <li><a href="https://1password.com/">1Password-tunnus</a> salasanojen hallintaan</li>
+</ul>
+
+<h2>Koodarille</h2>
+
+<h3>Tunnukset</h3>
+
+<ul>
+<li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan</li>
 </ul>
 
 <h3>Ohjelmat</h3>
@@ -53,6 +61,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://instagram.com/digitoimistodude/">Instagram</a></li>
 <li><a href="https://www.facebook.com/digitoimistodude/">Facebook</a></li>
 <li><a href="https://www.linkedin.com/company/digitoimisto-dude-oy/">LinkedIn-yrityssivu</a></li>
+<li><a href="https://mailchimp.com/">MailChimp</a> uutiskirjeitä varten</li>
 </ul>
 
 <h2>Ylläpitäjälle</h2>
@@ -63,4 +72,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://orion.managewp.com/dashboard/">ManageWP</a>, keskitettyjä WordPress-päivityksiä varten</a></li>
 <li><a href="https://handbook.dude.fi/palvelimet">Palvelintunnukset</a>, huoltokatkoja varten</li>
 <li><a href="https://dashboard.adminlabs.com">AdminLabs-tunnukset</a> sivustojen seurantaa varten</li>
+<li><a href="https://registry.domain.fi/s/">Verkkotunnusvälittäjän tunnus</a></li>
+<li><a href="https://www.namecheap.com/">Namecheap</a> ja <a href="https://iwantmyname.com/">iwantmyname</a> ulkomaisille domaineille.</li>
+<li><a href="https://www.cloudflare.com/">Cloudflare</a> kiinteille nimipalvelimille ja <a href="https://rage4.com/">RAGE4</a> kertakäyttöisille</li>
 </ul>
