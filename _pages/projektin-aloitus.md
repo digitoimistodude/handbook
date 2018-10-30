@@ -73,3 +73,5 @@ IMAGIFY_API_KEY=tässä_on_oikea_API_key
 Näin projektin kollaboraatio saa alkaa!
 
 Jos jälkikäteen lähdetään työstämään back-endiä, luodaan branch `back-end`. Jos taas front- endiä, luodaan branch `front-end`. Masteriin mergetään kohtuullisin väliajoin tai merkkipaalujen aikaan.
+
+<a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source">Lisää git-käytänteistä.</a>
