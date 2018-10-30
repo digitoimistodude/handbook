@@ -37,11 +37,11 @@ Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-vi
 
 <h3>Aliaksia</h3>
 
-Tuntuuko työläältä kirjoittaa aina kaikki komennot käsin? komennot on päätetty tehdä kirjoittamalla eikä esim jotain appia käyttämällä, koska silloin pysyy parhaiten kärryillä muutoksista kun ne "hyväksyy" itse. Elämää kuitenkin helpottaa huomattavasti seuraavat aliakset. Muokkaa tietokoneesi ~/.bashrc -tiedostoa esim. komennolla `nano ~/.bashrc` tai avaamalla tiedoston editoriisi (huom. tiedosto voi olla piilotettuna):
+Tuntuuko työläältä kirjoittaa aina kaikki komennot käsin? komennot on päätetty tehdä kirjoittamalla eikä esim jotain appia käyttämällä, koska silloin pysyy parhaiten kärryillä muutoksista kun ne "hyväksyy" itse. Elämää kuitenkin helpottaa huomattavasti seuraavat aliakset. Muokkaa tietokoneesi ~/.bashrc -tiedostoa esim. komennolla <code>nano ~/.bashrc</code> tai avaamalla tiedoston editoriisi (huom. tiedosto voi olla piilotettuna):
 
 <pre class="language-bash"><code>alias s='git status'
 alias a='git add --all'
 alias c='git commit -m'
 alias p='git push -u origin HEAD'</code></pre>
 
-Tämän jälkeen voit katsoa tilanteen kirjoittamalla `s`, lisätä kaikki muutokset kirjoittamalla `a`, committaa muutokset kirjoittamalla `c` ja pushata muutokset kirjoittamalla `p`.
+Tämän jälkeen voit katsoa tilanteen kirjoittamalla <code>s</code>, lisätä kaikki muutokset kirjoittamalla <code>a</code>, committaa muutokset kirjoittamalla <code>c</code> ja pushata muutokset kirjoittamalla <code>p</code>.
