@@ -48,6 +48,8 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="https://dropbox.com/">Dropbox</a></li>
 <li><a href="https://www.sublimetext.com">Sublime Text</a></li>
 <li><a href="https://1password.com/">1Password</a></li>
+<li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan</li>
+<li><a href="https://www.resilio.com/individuals/">Resilio Sync</a>, devaukseen liittyvien tiedostojen jakamiseen</li>
 </ul>
 
 <h2>Asiakaspalvelijalle / markkinoijalle</h2>

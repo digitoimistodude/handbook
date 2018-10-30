@@ -13,18 +13,63 @@ Dude-ympäristön pystytysohjeet uudelle tietokoneelle löytyy GitHubista, <a hr
 
 <h3>Ensimmäisen aloittajan tehtävät</h3>
 
-Ensimmäinen projektin parissa aloittava dude aloittaa projektin ajamalla aloituskomennon:
+Vaiheet:
+
+1. Ensimmäinen projektin parissa aloittava dude aloittaa projektin ajamalla aloituskomennon:
 
 <pre class="language-bash"><code>createproject</code></pre>
 
-Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen automaatio luo projektin raamit (<a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimistodude/dudestack</a>), luo paikalliselle kehityskonelle (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) virtualhostin sekä WordPress-stackin asiakkaan projektia varten. Seuraavaksi ajetaan newtheme.sh (<a class="github" href="https://github.com/digitoimistodude/air">digitoimistodude/air</a>), joka luo projektiin aloitusteeman.
+Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen automaatio luo projektin raamit (<a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimistodude/dudestack</a>), luo paikalliselle kehityskonelle (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) virtualhostin sekä WordPress-stackin asiakkaan projektia varten.
 
-Ensimmäinen aloittaja luo seuraavaksi tietokannan kehityspalvelimelle (gunship), jakaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin mediatiedostoihin Trellon/Slackin kautta muille projektissa mukana oleville devaajille.
+2. Seuraavaksi ajetaan newtheme.sh (<a class="github" href="https://github.com/digitoimistodude/air">digitoimistodude/air</a>), joka tarpeelliset tiedot kysyttyään luo projektiin aloitusteeman.
 
-BitBucket-repositoryyn lisätään logo ja Slackin #dev-kanavalle projektin integraatio + logo osoitteessa <a href="https://dudet.slack.com/apps/manage">dudet.slack.com/apps/manage</a>.
+3. Ensimmäinen aloittaja luo seuraavaksi tietokannan kehityspalvelimelle (gunship)
+
+4. Tämän jälkeen projektin aloittaja jakaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin mediatiedostoihin Trellon tai Slackin kautta muille projektissa mukana oleville devaajille.
+
+5. BitBucket-repositoryyn lisätään logo ja Slackin #dev-kanavalle projektin integraatio + logo osoitteessa <a href="https://dudet.slack.com/apps/manage">dudet.slack.com/apps/manage</a>.
 
 <h3>Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 
-Muut mukaan tulevat devaajat hakevat Duden kloonaavat projektin koneensa kotihakemiston alla olevaan Projects -hakemistoon projektin BitBucketista, ajavat <pre class="language-bash"><code>composer update && npm install</code></pre> projektin juuressa, asettavat manuaalisesti /etc/hosts -tiedoston kuntoon sekä Vagrantin vhostin paikalleen. Mediatiedostolinkki sekä .env-kredentiaalit poimitaan Trellosta ja projektin kollaboraatio saa alkaa.
+Vaiheet:
 
-Jos jälkikäteen lähdetään työstämään back-endiä, luodaan branch back-end. Jos taas front- endiä, luodaan branch front-end. Masteriin mergetään kohtuullisin väliajoin tai merkkipaalujen aikaan.
+1. Muut mukaan tulevat devaajat menevät <a href="http://bitbucket.org/digitoimistodudeoy/">Duden Bitbucketiin</a>a>, josta valitsevat aloitetun projektin kloonaavat projektin **Clone**-nappulan avulla ~/Projects -hakemistoon.
+
+2. Seuraavaksi haetaan riippuvuudet ajamalla projektin juuressa: 
+
+<pre class="language-bash"><code>composer install && npm install</code></pre> 
+
+3. Sitten asetetaan manuaalisesti `/etc/hosts` -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla `sudo nano /etc/hosts` ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) `10.1.2.4` ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) `127.0.0.1`. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
+
+<pre class="language-bash"><code>127.0.0.1 projektinnimi.test</code></pre>
+
+4. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin) projektikansion alle `media/` -hakemistoon.
+
+5. Luo uusi tiedosto projektikansion alle nimeltä `.env` ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
+
+````
+DB_NAME=tässä_on_oikea_tietokannan_nimi
+DB_USER=tässä_on_oikea_käyttäjätunnus
+DB_PASSWORD=tässä_on_oikea_salasana
+DB_HOST=tässä_on_oikea_ip
+
+WP_ENV=development
+WP_HOME=http://projektinnimi.test
+WP_SITEURL=http://projektinnimi.test/wp
+AUTH_KEY='ts[h@+i#]w`Zj%$!*+N:b*K$re9;w*mQ:;Y7<6G@~wx?::9%>j@~}i3dmz|Jcl{|'
+SECURE_AUTH_KEY='gJ6.c|6+v~`s}0,^945V#uY]TXuW9gV&Po!SnCKJsB2f<V-WlLd]629mm~8_;qXL'
+LOGGED_IN_KEY='Eu`SWA<^2P_P:1?i|c=541(&QMYM3h[,B$L]az02%He@;c).e#08zEL&*;oGd/AF'
+NONCE_KEY='@#p@/&A@jEJeGo|K}0fm`R>8NcaQaA @??J:%97[|c>Gr>*eO[qFAe|$h|qhA?)z'
+AUTH_SALT=':ov!]~U]=Jqjy.o#*EddJd*Qd,YD=D3~S{ZC%gn7QD*%y+MbwQf5U iX&6<9:QYP'
+SECURE_AUTH_SALT='Ck(dq+!6vNHTF-U1xZt*IBAk.n)+4DH=Nl;4d5xyf4*LLy?8]sLsT@DO]iGOM$H}'
+LOGGED_IN_SALT=']CR>.^maG`L*oKL?3 qiTTXE2~)b2m>NPFBKhOKNE qSt1R K8+`nOu&Ea*,n6G2'
+NONCE_SALT='?8|fjJSNs8=LwJt6dkWrY*.~(# +EpUC]TI,~}HhVzS*9@K$ =+H!{wOYeG>t}rd'
+
+ACF_PRO_KEY=tässä_on_oikea_API_key
+SENDGRID_API_KEY=tässä_on_oikea_API_key
+IMAGIFY_API_KEY=tässä_on_oikea_API_key
+````
+
+Näin projektin kollaboraatio saa alkaa!
+
+Jos jälkikäteen lähdetään työstämään back-endiä, luodaan branch `back-end`. Jos taas front- endiä, luodaan branch `front-end`. Masteriin mergetään kohtuullisin väliajoin tai merkkipaalujen aikaan.
