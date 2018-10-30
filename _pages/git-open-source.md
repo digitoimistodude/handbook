@@ -33,7 +33,7 @@ Lisää kaikki tiedostot ja alikansioiden tiedostot gittiin. Eli sen jälkeen ku
 
 <pre class="language-bash"><code>git push -u origin HEAD</code></pre>
 
-Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-viestit menevät myös Slackiin, jotta koko työyhteisö näkee edistymisen. Dude **ei käytä** push-to-deploy tapaa, joten ei ole vaaraa siitä että muutokset menisivät minnekään tuotantoympäristöön näkyville. Muistathan kuitenkin tarkistaa mitä pushaat.
+Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-viestit menevät myös Slackiin, jotta koko työyhteisö näkee edistymisen. Dude <b>ei käytä</b> push-to-deploy tapaa, joten ei ole vaaraa siitä että muutokset menisivät minnekään tuotantoympäristöön näkyville. Muistathan kuitenkin tarkistaa mitä pushaat.
 
 <h3>Aliaksia</h3>
 
