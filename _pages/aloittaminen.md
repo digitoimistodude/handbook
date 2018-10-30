@@ -13,7 +13,7 @@ Tälle sivulle on koottu alusta asti asiat, joita pitää tehdä työnteon alkae
 
 <h2>Joka dudelle</h2>
 
-Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
+Kun olet saanut työkoneesi purettua paketista, tarvitset seuraavat tunnukset:
 
 <ul>
 <li><a href="https://gsuite.google.fi/intl/fi/">G Suite</a>-sähköpostiosoite</li>
@@ -28,6 +28,14 @@ Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 <li><a href="https://1password.com/">1Password-tunnus</a> salasanojen hallintaan</li>
 </ul>
 
+<h3>Ohjelmat</h3>
+
+<ul>
+<li><a href="https://slack.com/">Slack</a></li>
+<li><a href="https://dropbox.com/">Dropbox</a></li>
+<li><a href="https://1password.com/">1Password</a></li>
+</ul>
+
 <h2>Koodarille</h2>
 
 <h3>Tunnukset</h3>
@@ -38,16 +46,15 @@ Kun olet saanut työkoneesi purettua paketista, sinulle luodaan
 
 <h3>Ohjelmat</h3>
 
-Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>. Asenna kuitenkin seuraavat:
+Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>. Asenna kuitenkin seuraavat (MacOS päivitysten jälkeen):
 
 <ul>
-<li><a href="https://slack.com/">Slack</a></li>
+<li>Uusin <a href="https://itunes.apple.com/fi/app/xcode/id497799835?mt=12">XCode</a></li>
+<li><a href="https://brew.sh/index_fi">Homebrew</a>, macOS:n puuttuva pakettienhallintaohjelmisto</li>
 <li>Selaimet <a href="https://www.firefox.com">Firefox</a> ja <a href="https://www.google.com/chrome/">Google Chrome</a> devaukseen. Tarvittaessa tai halutessasi myös <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox Developer Edition</a> ja <a href="https://www.google.com/chrome/canary/">Chrome Canary</a>, jos haluat kokeilla uudempaa tekniikkaa.</li>
 <li>SFTP-ohjelma valintasi mukaan, esimerkiksi <a href="https://filezilla-project.org/">FileZilla</a> tai <a href="https://binarynights.com/">Forklift</a></li>
 <li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan (voit käyttää myös selaimella)</li>
-<li><a href="https://dropbox.com/">Dropbox</a></li>
 <li><a href="https://www.sublimetext.com">Sublime Text</a></li>
-<li><a href="https://1password.com/">1Password</a></li>
 <li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan</li>
 <li><a href="https://www.resilio.com/individuals/">Resilio Sync</a>, devaukseen liittyvien tiedostojen jakamiseen</li>
 </ul>
