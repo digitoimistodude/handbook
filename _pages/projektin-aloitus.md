@@ -55,13 +55,13 @@ DB_HOST=tässä_on_oikea_ip
 WP_ENV=development
 WP_HOME=http://projektinnimi.test
 WP_SITEURL=http://projektinnimi.test/wp
-AUTH_KEY='ts[h@+i#]w`Zj%$!*+N:b*K$re9;w*mQ:;Y7<6G@~wx?::9%>j@~}i3dmz|Jcl{|'
-SECURE_AUTH_KEY='gJ6.c|6+v~`s}0,^945V#uY]TXuW9gV&Po!SnCKJsB2f<V-WlLd]629mm~8_;qXL'
+AUTH_KEY='ts[h@+i#]w`Zj%$!*+N:b*K$re9;w*mQ:;Y76G@~wx?::9%j@~}i3dmz|Jcl{|'
+SECURE_AUTH_KEY='gJ6.c|6+v~`s}0,^945V#uY]TXuW9gV&Po!SnCKJsB2fV-WlLd]629mm~8_;qXL'
 LOGGED_IN_KEY='Eu`SWA<^2P_P:1?i|c=541(&QMYM3h[,B$L]az02%He@;c).e#08zEL&*;oGd/AF'
-NONCE_KEY='@#p@/&A@jEJeGo|K}0fm`R>8NcaQaA @??J:%97[|c>Gr>*eO[qFAe|$h|qhA?)z'
-AUTH_SALT=':ov!]~U]=Jqjy.o#*EddJd*Qd,YD=D3~S{ZC%gn7QD*%y+MbwQf5U iX&6<9:QYP'
+NONCE_KEY='@#p@/&A@jEJeGo|K}0fm`R8NcaQaA @??J:%97[|c>Gr>*eO[qFAe|$h|qhA?)z'
+AUTH_SALT=':ov!]~U]=Jqjy.o#*EddJd*Qd,YD=D3~S{ZC%gn7QD*%y+MbwQf5U iX&69:QYP'
 SECURE_AUTH_SALT='Ck(dq+!6vNHTF-U1xZt*IBAk.n)+4DH=Nl;4d5xyf4*LLy?8]sLsT@DO]iGOM$H}'
-LOGGED_IN_SALT=']CR>.^maG`L*oKL?3 qiTTXE2~)b2m>NPFBKhOKNE qSt1R K8+`nOu&Ea*,n6G2'
+LOGGED_IN_SALT=']CR.^maG`L*oKL?3 qiTTXE2~)b2m>NPFBKhOKNE qSt1R K8+`nOu&Ea*,n6G2'
 NONCE_SALT='?8|fjJSNs8=LwJt6dkWrY*.~(# +EpUC]TI,~}HhVzS*9@K$ =+H!{wOYeG>t}rd'
 
 ACF_PRO_KEY=tässä_on_oikea_API_key
