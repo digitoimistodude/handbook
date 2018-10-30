@@ -47,8 +47,7 @@ Vaiheet:
 
 5. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 
-````
-DB_NAME=tässä_on_oikea_tietokannan_nimi
+<pre class="language-bash"><code>DB_NAME=tässä_on_oikea_tietokannan_nimi
 DB_USER=tässä_on_oikea_käyttäjätunnus
 DB_PASSWORD=tässä_on_oikea_salasana
 DB_HOST=tässä_on_oikea_ip
@@ -67,8 +66,7 @@ NONCE_SALT='?8|fjJSNs8=LwJt6dkWrY*.~(# +EpUC]TI,~}HhVzS*9@K$ =+H!{wOYeG>t}rd'
 
 ACF_PRO_KEY=tässä_on_oikea_API_key
 SENDGRID_API_KEY=tässä_on_oikea_API_key
-IMAGIFY_API_KEY=tässä_on_oikea_API_key
-````
+IMAGIFY_API_KEY=tässä_on_oikea_API_key</code></pre>
 
 Näin projektin kollaboraatio saa alkaa!
 
