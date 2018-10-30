@@ -39,13 +39,13 @@ Vaiheet:
 
 <pre class="language-bash"><code>composer install && npm install</code></pre> 
 
-3. Sitten asetetaan manuaalisesti `/etc/hosts` -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla `sudo nano /etc/hosts` ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) `10.1.2.4` ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) `127.0.0.1`. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
+3. Sitten asetetaan manuaalisesti <code>/etc/hosts</code> -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla <code>sudo nano /etc/hosts</code> ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) <code>10.1.2.4</code> ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) <code>127.0.0.1</code>. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
 
 <pre class="language-bash"><code>127.0.0.1 projektinnimi.test</code></pre>
 
-4. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin) projektikansion alle `media/` -hakemistoon.
+4. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin) projektikansion alle <code>media/</code> -hakemistoon.
 
-5. Luo uusi tiedosto projektikansion alle nimeltä `.env` ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
+5. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 
 ````
 DB_NAME=tässä_on_oikea_tietokannan_nimi
@@ -72,6 +72,6 @@ IMAGIFY_API_KEY=tässä_on_oikea_API_key
 
 Näin projektin kollaboraatio saa alkaa!
 
-Jos jälkikäteen lähdetään työstämään back-endiä, luodaan branch `back-end`. Jos taas front- endiä, luodaan branch `front-end`. Masteriin mergetään kohtuullisin väliajoin tai merkkipaalujen aikaan.
+Jos jälkikäteen lähdetään työstämään back-endiä, luodaan branch <code>back-end</code>. Jos taas front- endiä, luodaan branch <code>front-end</code>. Masteriin mergetään kohtuullisin väliajoin tai merkkipaalujen aikaan.
 
 <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source">Lisää git-käytänteistä.</a>
