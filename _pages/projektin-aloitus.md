@@ -11,6 +11,8 @@ post_date: 2017-08-04 14:58:17
 ---
 Dude-ympäristön pystytysohjeet uudelle tietokoneelle löytyy GitHubista, <a href="https://github.com/digitoimistodude/dudestack-instructions" class="github">dudestack/instructions</a>.
 
+Vaikka projektin aloitustoimenpiteemme ovatkin enimmäkseen automatisoituja (yksi aloituskomento säästää 10 tuntia aikaa työstä joka normaalisti pitäisi tehdä käsipelillä), on jonkin verran manuaalista työtä, sillä kaikkea ei voi eikä kannata automatisoida huolellisuuden kustannuksella. Lisäksi projektin jatkaja hyppää projektiin mukaan myöhemmin, eikä voi käyttää aloituskomentoja ja näin ollen asioita on tehtävä käsin.
+
 <h3>Ensimmäisen aloittajan tehtävät</h3>
 
 Vaiheet:
@@ -42,6 +44,22 @@ Vaiheet:
 3. Sitten asetetaan manuaalisesti <code>/etc/hosts</code> -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla <code>sudo nano /etc/hosts</code> ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) <code>10.1.2.4</code> ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) <code>127.0.0.1</code>. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
 
 <pre class="language-bash"><code>127.0.0.1 projektinnimi.test</code></pre>
+
+Jos käytössä on vagrant (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>), lisää vhosts-kansioon tiedosto <code>projekti.test</code> (jos projektisi nimi on "projekti"), jonne sisältö:
+
+<pre class="language-nginx"><code>server {
+    listen 80;
+    include php7.conf;
+    include global/wordpress.conf;
+    root /var/www/projekti;
+    index index.html index.htm index.php;
+    server_name projekti.test;
+}
+</code></pre>
+
+Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>), muokkaa komentoriviltä <code>sudo nano /etc/nginx/sites-available/projekti.test</code> ja lisää yllä oleva sinne. Linkitä se sitten päällä olevaksi saitiksi aivan kuten tekisit tuotantopalvelimellakin, komennolla <code>sudo ln -s /etc/nginx/sites-available/projekti.test sudo ln -s /etc/nginx/sites-enabled/projekti.test</code>. Sen jälkeen käynnistä web-palvelin uudelleen komennolla <code>nginx.restart</code>.
+
+Huom. Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut vagrant-boksimme asennusohjeita (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) tai asentanut LEMP-web-palvelimemme oikeaoppisesti (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) JA lisännyt myös aliakset <a href="https://github.com/digitoimistodude/macos-lemp-setup#post-install">tämän sivun pohjalta</a>.
 
 4. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin) projektikansion alle <code>media/</code> -hakemistoon.
 
