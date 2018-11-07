@@ -80,7 +80,7 @@ Jos käytössä on vagrant (<a class="github" href="https://github.com/digitoimi
 }
 </code></pre>
 
-Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>), muokkaa komentoriviltä <code>sudo nano /etc/nginx/sites-available/projekti.test</code> ja lisää yllä oleva sinne. Linkitä se sitten päällä olevaksi saitiksi aivan kuten tekisit tuotantopalvelimellakin, komennolla <code>sudo ln -s /etc/nginx/sites-available/projekti.test sudo ln -s /etc/nginx/sites-enabled/projekti.test</code>. Sen jälkeen käynnistä web-palvelin uudelleen komennolla <code>nginx.restart</code>.
+Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>), muokkaa komentoriviltä <code>sudo nano /etc/nginx/sites-available/projekti.test</code> ja lisää yllä oleva sinne. Linkitä se sitten päällä olevaksi saitiksi aivan kuten tekisit tuotantopalvelimellakin, komennolla <code>sudo ln -s /etc/nginx/sites-available/projekti.test /etc/nginx/sites-enabled/projekti.test</code>. Sen jälkeen käynnistä web-palvelin uudelleen komennolla <code>nginx.restart</code>.
 
 Huom. Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut vagrant-boksimme asennusohjeita (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) tai asentanut LEMP-web-palvelimemme oikeaoppisesti (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) JA lisännyt myös aliakset <a href="https://github.com/digitoimistodude/macos-lemp-setup#post-install">tämän sivun pohjalta</a>.
 
