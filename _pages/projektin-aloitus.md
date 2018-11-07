@@ -31,7 +31,7 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 5. BitBucket-repositoryyn lisätään logo ja Slackin #dev-kanavalle projektin integraatio + logo osoitteessa <a href="https://dudet.slack.com/apps/manage">dudet.slack.com/apps/manage</a>.
 
-<h3>Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
+<h3 id="myohemmin-projektiin-mukana-tulevan-devaajan-tehtavat">Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 
 Vaiheet:
 
