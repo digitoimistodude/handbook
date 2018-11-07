@@ -60,11 +60,13 @@ ACF_PRO_KEY=tässä_on_oikea_API_key
 SENDGRID_API_KEY=tässä_on_oikea_API_key
 IMAGIFY_API_KEY=tässä_on_oikea_API_key</code></pre>
 
-3. Seuraavaksi haetaan riippuvuudet ajamalla projektin juuressa: 
+3. Jos <b>et käytä</b> gunshippiä vaan paikallista tietokantaa, avaa Sequel Pro, luo tyhjä tietokanta, sitten lataa työkaverilta saamasi tietokanta sisään valikosta File > Import.
+
+4. Seuraavaksi haetaan riippuvuudet ajamalla projektin juuressa: 
 
 <pre class="language-bash"><code>composer install && npm install</code></pre> 
 
-4. Sitten asetetaan manuaalisesti <code>/etc/hosts</code> -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla <code>sudo nano /etc/hosts</code> ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) <code>10.1.2.4</code> ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) <code>127.0.0.1</code>. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
+5. Sitten asetetaan manuaalisesti <code>/etc/hosts</code> -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla <code>sudo nano /etc/hosts</code> ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) <code>10.1.2.4</code> ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) <code>127.0.0.1</code>. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
 
 <pre class="language-bash"><code>127.0.0.1 projektinnimi.test</code></pre>
 
@@ -84,7 +86,7 @@ Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos
 
 Huom. Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut vagrant-boksimme asennusohjeita (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) tai asentanut LEMP-web-palvelimemme oikeaoppisesti (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) JA lisännyt myös aliakset <a href="https://github.com/digitoimistodude/macos-lemp-setup#post-install">tämän sivun pohjalta</a>.
 
-5. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin) projektikansion alle <code>media/</code> -hakemistoon.
+6. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin tai zip-tiedoston) projektikansion alle <code>media/</code> -hakemistoon.
 
 Näin projektin kollaboraatio saa alkaa!
 
