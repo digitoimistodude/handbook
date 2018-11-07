@@ -35,7 +35,7 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 Vaiheet:
 
-1. Muut mukaan tulevat devaajat menevät <a href="http://bitbucket.org/digitoimistodudeoy/">Duden Bitbucketiin</a>a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla ~/Projects -hakemistoon.
+1. Muut mukaan tulevat devaajat menevät <a href="http://bitbucket.org/digitoimistodudeoy/">Duden Bitbucketiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla ~/Projects -hakemistoon.
 
 2. Seuraavaksi haetaan riippuvuudet ajamalla projektin juuressa: 
 
