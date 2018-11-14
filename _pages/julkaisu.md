@@ -146,6 +146,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ "Toteutus: DUDE" footeriin, linkki ja lupa
 ☐ Testaa typografia blogissa, <a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>
 ☐ HTML:n validointi <a href="https://validator.w3.org/">W3 validaattorilla</a>
+☐ CSS:n validointi <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C W3C CSS Validation Servicessä</a>
 ☐ Estä trace- ja pingbackien lähettäminen
 ☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
 ☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
