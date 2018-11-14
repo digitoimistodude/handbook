@@ -127,6 +127,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Maksut päälle
 
 <h3>Julkaisun jälkeen</h3>
+☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -> asiakas.fi
 ☐ WP Rocket päälle
 ☐ ManageWP päälle
 ☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
