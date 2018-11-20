@@ -25,15 +25,65 @@ Muutoksia voi niputtaa samaan committiin, esimerkiksi "Improving readability", j
 
 <pre class="language-bash"><code>git status</code></pre>
 
-Näe nykyisen edistymisesi tila, mitä on committaamatta, mitä lisättynä, missä mennään.
+Näe nykyisen edistymisesi tila, mitä on committaamatta, mitä lisättynä, missä mennään. Tälle komennolle on luotu elämää helpottamaan alias <code>s</code> (tämän sivun alalaidassa).
 
 <pre class="language-bash"><code>git add --all</code></pre>
 
-Lisää kaikki tiedostot ja alikansioiden tiedostot gittiin. Eli sen jälkeen kun olet tehnyt mitä tahansa muutoksia, kannattaa ajaa tämä. Muutosten suuruus ja laajuus on kiinni sinusta, mutta pidä muutosten vientiväli järkevänä. Esimerkiksi: olet lisännyt värit elementeille tai napeille ja haluat viedä ne muutokset muille devaajille.
+Lisää kaikki tiedostot ja alikansioiden tiedostot gittiin. Eli sen jälkeen kun olet tehnyt mitä tahansa muutoksia, kannattaa ajaa tämä. Muutosten suuruus ja laajuus on kiinni sinusta, mutta pidä muutosten vientiväli järkevänä. Esimerkiksi: olet lisännyt värit elementeille tai napeille ja haluat viedä ne muutokset muille devaajille. Tälle komennolle on luotu elämää helpottamaan alias <code>a</code> (tämän sivun alalaidassa).
 
 <pre class="language-bash"><code>git push -u origin HEAD</code></pre>
 
-Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-viestit menevät myös Slackiin, jotta koko työyhteisö näkee edistymisen. Dude <b>ei käytä</b> push-to-deploy tapaa, joten ei ole vaaraa siitä että muutokset menisivät minnekään tuotantoympäristöön näkyville. Muistathan kuitenkin tarkistaa mitä pushaat.
+Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-viestit menevät myös Slackiin, jotta koko työyhteisö näkee edistymisen. Dude <b>ei käytä</b> push-to-deploy tapaa, joten ei ole vaaraa siitä että muutokset menisivät minnekään tuotantoympäristöön näkyville. Muistathan kuitenkin tarkistaa mitä pushaat. Tälle komennolle on luotu elämää helpottamaan alias <code>p</code> (tämän sivun alalaidassa).
+
+<h3 id="branchit">Branchit</h3>
+
+Jokaisella dudella on oma branchinsa kun työskennellään samassa projektissa. Taustakoodille on branch nimeltä <code>back-end</code>, fronttikoodille branch <code>front-end</code>. Jos useampi back-koodari tai front-koodari on samassa projektissa, luodaan uusi branchi lisäkehittäjälle muotoa <code>front-end-nimi</code> tai <code>back-end-nimi</code>, esimerkiksi <code>front-end-henri</code>. Jos taas yksi kehittäjä kehittää projektia, tekee yksittäisen muutoksen esimerkiksi julkaisun jälkeen, voi muutokset tehdä suoraan <code>master</code>-branchiin.
+
+Isompia ominaisuuksia tai leiskoja rakentaessa luodaan oma branch, muotoon <code>feature-featurennimi</code> tai <code>layout-viewinnimi</code>. Ominaisuuden branch voi olla esimerkiksi <code>feature-events-2018</code> tai <code>feature-shop-integrations</code> kun taas uuden layoutin branch voi olla <code>layout-new-staffmembers</code>.
+
+<h3 id="branchin-luominen">Branchin luominen projektin alussa</h3>
+
+Branchin luominen gitissä on yksinkertaista. Seuraavalla komennolla näet mitä brancheja on tällä hetkellä saatavilla ja missä olet:
+
+<pre class="language-bash"><code>git branch</code></pre>
+
+Seuraavalla komennolla luot oman branchisi:
+
+<pre class="language-bash"><code>git branch branchisinimi</code></pre>
+
+Seuraavalla komennolla siirryt omaan branchiisi:
+
+<pre class="language-bash"><code>git checkout branchisinimi</code></pre>
+
+Muista että voit tarkistaa missä olet komennolla <code>git status</code> (tai aliaksella <code>s</code>).
+
+<h3>Branchien mergeäminen eli yhdistäminen</h3>
+
+Brancheja pitäisi kehityksen aikana mergetä mahdollisimman tiuhaan masteriin, mutta mielellään aina silloin kun ei ole isompia kesken.
+
+Muista kommunikaatio, varmista että työkaveri on mergennyt oman branchinsa masteriin. Sitten, hae masterista uusin versio menemällä master branchiin:
+
+<pre class="language-bash"><code>git checkout master</code></pre>
+
+Tämän jälkeen hae masterista uusin versio:
+
+<pre class="language-bash"><code>git pull</code></pre>
+
+Sitten mergeä master omaan branchiisi:
+
+<pre class="language-bash"><code>git merge branchisinimi</code></pre>
+
+Tämän jälkeen voit siirtyä omaan branchiisi takaisin:
+
+<pre class="language-bash"><code>git checkout branchisinimi</code></pre>
+
+<h3>Merge conflict</h3>
+
+Tuliko merge conflicti? Yleensä merge conflict on helppo selvittää. Merge conflictin tullessa tärkeintä on selvittää mitä tiedostoja on muokattu ja mikä muokkaus on uusin. Muuttuneet tiedostot saat näkyviin tuttuun tapaan <code>git status</code> (tai aliaksella <code>s</code>).
+
+Jos merge conflictissa on <i>global.min.css</i>, voit vain kääntää tyylit uudestaan komennolla <code>gulp styles</code>. Jos muita tiedostoja, katso tiedostot, etsi tiedostosta "<<<<<<<< branchinnimi", joka osoittaa mihi muutos päättyy ja mihin se loppuu ja poista "<<<<<<<<" -kommentit.
+
+Korjausten jälkeen lisää muutokset (<code>git add --all</code> tai <code>a</code>), committaa ne (<code>git commit 'Fix merge conflicts'</code> tai <code>c 'Fix merge conflicts'</code>) ja pushaa ne (<code>git push</code> tai <code>p</code>). Tämän jälkeen kaikki on kunnossa ja merge on tehty onnistuneesti. Voit vielä tarkistaa mergeämällä uudestaan niin voit varmistua siitä että kaikki on mergetty eikä uusia muutoksia tule.
 
 <h3>Aliaksia</h3>
 
