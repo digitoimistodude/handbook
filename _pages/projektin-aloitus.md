@@ -90,8 +90,6 @@ Huom. Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut 
 
 7. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin tai zip-tiedoston) projektikansion alle <code>media/</code> -hakemistoon.
 
-Näin projektin kollaboraatio saa alkaa!
-
-Jos jälkikäteen lähdetään työstämään back-endiä, luodaan branch <code>back-end</code>. Jos taas front- endiä, luodaan branch <code>front-end</code>. Masteriin mergetään kohtuullisin väliajoin tai merkkipaalujen aikaan.
+8. Luo itsellesi branch, <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source#branchin-luominen">katso ohjeet tästä</a>. Näin projektin kollaboraatio saa alkaa!
 
 <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source">Lisää git-käytänteistä.</a>

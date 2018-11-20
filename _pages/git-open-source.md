@@ -12,16 +12,16 @@ post_date: 2017-08-04 15:01:06
 Dude käyttää versionhallintaan gitiä, asiakasprojekteihin BitBucketia, julkisiin projekteihin GitHubia. Kaikki oleellinen koodi tulisi säilyttää git-repositoriossa, mutta arkaluontoiset tiedot kuten tunnukset .env-tiedostossa.
 
 <b>Kaikki minkä voi, tulee julkaista open sourcena</b>, avoimena täysin julkisena <a class="github" href="https://github.com/digitoimistodude">Duden GitHub-tilin alla</a>. Näitä voivat olla omat tekniikat, WordPress-teemat tai -lisäosat, joita voisi kuvitella muidenkin käyttävän. Asiakkaisiin suoraan liittyviä asioita ei tule missään nimessä laittaa GitHubiin.
-<h3>Commit-viestit muutoksista</h3>
+<h2>Commit-viestit muutoksista</h2>
 Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja tulisi välttää ja pyrkiä committaamaan sen sijaan jokainen toiminto erikseen. Pienetkin muutokset pitää committaa mahdollisimman aikaisessa vaiheessa, jotta vältytään konflikteilta. Edes keskeneräisyydellä ei ole väliä, ellei muutos ole menossa suoraan tuotantoon.
 
-<h3>Gitin käyttö asiakasprojekteissa</h3>
+<h2>Gitin käyttö asiakasprojekteissa</h2>
 
 Committeja ei saa jättää jemmaan, vaan ne tulee pushata aina hyvissä ajoin, etenkin silloin kun kun tietää olevansa poissa ruudulta. Front-end ja back-end branchit tulee myös mergetä pääbranchiin työpäivän päätteeksi, etenkin projektin aktiivisessa kehitysvaiheessa ja suurempien muutosten jälkeen. Näin projektin jatkokehittäjä eli työkaveri saa uusimmat muutokset ajoissa, eikä tule konflikteja.
 
 Muutoksia voi niputtaa samaan committiin, esimerkiksi "Improving readability", jossa voi olla useampi typografiamuutos samassa. Nyrkkisääntönä sopiva toimintovälin etappi, jossa saa käyttää maalaisjärkeä.
 
-<h3>Git-pikaohje komentorivillä</h3>
+<h2>Git-pikaohje komentorivillä</h2>
 
 <pre class="language-bash"><code>git status</code></pre>
 
@@ -35,13 +35,13 @@ Lisää kaikki tiedostot ja alikansioiden tiedostot gittiin. Eli sen jälkeen ku
 
 Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-viestit menevät myös Slackiin, jotta koko työyhteisö näkee edistymisen. Dude <b>ei käytä</b> push-to-deploy tapaa, joten ei ole vaaraa siitä että muutokset menisivät minnekään tuotantoympäristöön näkyville. Muistathan kuitenkin tarkistaa mitä pushaat. Tälle komennolle on luotu elämää helpottamaan alias <code>p</code> (tämän sivun alalaidassa).
 
-<h3 id="branchit">Branchit</h3>
+<h2 id="branchit">Branchit</h2>
 
 Jokaisella dudella on oma branchinsa kun työskennellään samassa projektissa. Taustakoodille on branch nimeltä <code>back-end</code>, fronttikoodille branch <code>front-end</code>. Jos useampi back-koodari tai front-koodari on samassa projektissa, luodaan uusi branchi lisäkehittäjälle muotoa <code>front-end-nimi</code> tai <code>back-end-nimi</code>, esimerkiksi <code>front-end-henri</code>. Jos taas yksi kehittäjä kehittää projektia, tekee yksittäisen muutoksen esimerkiksi julkaisun jälkeen, voi muutokset tehdä suoraan <code>master</code>-branchiin.
 
 Isompia ominaisuuksia tai leiskoja rakentaessa luodaan oma branch, muotoon <code>feature-featurennimi</code> tai <code>layout-viewinnimi</code>. Ominaisuuden branch voi olla esimerkiksi <code>feature-events-2018</code> tai <code>feature-shop-integrations</code> kun taas uuden layoutin branch voi olla <code>layout-new-staffmembers</code>.
 
-<h3 id="branchin-luominen">Branchin luominen projektin alussa</h3>
+<h2 id="branchin-luominen">Branchin luominen projektin alussa</h2>
 
 Branchin luominen gitissä on yksinkertaista. Seuraavalla komennolla näet mitä brancheja on tällä hetkellä saatavilla ja missä olet:
 
@@ -57,7 +57,7 @@ Seuraavalla komennolla siirryt omaan branchiisi:
 
 Muista että voit tarkistaa missä olet komennolla <code>git status</code> (tai aliaksella <code>s</code>).
 
-<h3>Branchien mergeäminen eli yhdistäminen</h3>
+<h2>Branchien mergeäminen eli yhdistäminen</h2>
 
 Brancheja pitäisi kehityksen aikana mergetä mahdollisimman tiuhaan masteriin, mutta mielellään aina silloin kun ei ole isompia kesken.
 
@@ -77,7 +77,7 @@ Tämän jälkeen voit siirtyä omaan branchiisi takaisin:
 
 <pre class="language-bash"><code>git checkout branchisinimi</code></pre>
 
-<h3>Merge conflict</h3>
+<h2>Merge conflict</h2>
 
 Tuliko merge conflicti? Yleensä merge conflict on helppo selvittää. Merge conflictin tullessa tärkeintä on selvittää mitä tiedostoja on muokattu ja mikä muokkaus on uusin. Muuttuneet tiedostot saat näkyviin tuttuun tapaan <code>git status</code> (tai aliaksella <code>s</code>).
 
@@ -85,7 +85,7 @@ Jos merge conflictissa on <i>global.min.css</i>, voit vain kääntää tyylit uu
 
 Korjausten jälkeen lisää muutokset (<code>git add --all</code> tai <code>a</code>), committaa ne (<code>git commit 'Fix merge conflicts'</code> tai <code>c 'Fix merge conflicts'</code>) ja pushaa ne (<code>git push</code> tai <code>p</code>). Tämän jälkeen kaikki on kunnossa ja merge on tehty onnistuneesti. Voit vielä tarkistaa mergeämällä uudestaan niin voit varmistua siitä että kaikki on mergetty eikä uusia muutoksia tule.
 
-<h3>Aliaksia</h3>
+<h2>Aliaksia</h2>
 
 Tuntuuko työläältä kirjoittaa aina kaikki komennot käsin? komennot on päätetty tehdä kirjoittamalla eikä esim jotain appia käyttämällä, koska silloin pysyy parhaiten kärryillä muutoksista kun ne "hyväksyy" itse. Elämää kuitenkin helpottaa huomattavasti seuraavat aliakset. Muokkaa tietokoneesi ~/.bashrc -tiedostoa esim. komennolla <code>nano ~/.bashrc</code> tai avaamalla tiedoston editoriisi (huom. tiedosto voi olla piilotettuna):
 
