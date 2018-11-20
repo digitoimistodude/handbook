@@ -90,6 +90,10 @@ Huom. Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut 
 
 7. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin tai zip-tiedoston) projektikansion alle <code>media/</code> -hakemistoon.
 
-8. Luo itsellesi branch, <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source#branchin-luominen">katso ohjeet tästä</a>. Näin projektin kollaboraatio saa alkaa!
+8. Luo itsellesi branch, <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source#branchin-luominen">katso ohjeet tästä</a>.
+
+9. Luo itsellesi WordPress-tunnus, aja wp-cli projektikansiossa (täydennä tähän komentoon tietosi): <code>./vendor/wp-cli/wp-cli/bin/wp user create etunimi nimesi@dude.fi --role=administrator --user_pass=TÄHÄN_ONEPASSWORDILLA_GENEROITU_VAIKEA_SALASANA --first_name=Etunimi --last_name=Sukunimi --display_name=Etunimi</code> 
+
+Näin projektin kollaboraatio saa alkaa!
 
 <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source">Lisää git-käytänteistä.</a>
