@@ -100,6 +100,8 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 <h3>Ennen julkaisua</h3>
 ☐ WordPress yleiset asetukset
 ☐ Faviconit ja muut ikonit
+☐ Somejakojen fallback -kuva kohdilleen
+☐ SEO sisällöt kohdilleen
 ☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym., disabloi tarvittaessa
 ☐ Google Analytics
 ☐ Tarvittavat uudelleenohjaukset
