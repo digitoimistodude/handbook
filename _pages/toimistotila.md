@@ -30,7 +30,7 @@ Ruokia ei jätetä jääkaappiin pilantumaan, vaan katsotaan että tarjolla
 
 Toimistoa ei tarvitse siivota, ellei erikseen innostu, sillä toimiston siivoaa säännöllisesti siivooja. Tavarat olisi kuitenkin hyvä pitää sellaisessa järjestyksessä, että ne eivät häiritse muita.
 
-<h2>Musiikki</h2>
+<h2 id="musiikki">Musiikki</h2>
 
 Toimiston kaiuttimista tulee soittaa asiakasystävällistä musiikkia (yleinen rock, 70-, 80-luku, radiohitit, jne.) taustamusiikkina. Musiikki on rock-painotteista, mutta sitä soitetaan laidasta laitaan.
 
