@@ -143,6 +143,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Asiakastyytyväisyyskysely (Typeform)
 ☐ Testaa Internet Exporer 11
 ☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
+☐ Lisätään asiakkaan yhteyshenkilöt uutiskirjeen vastaanottajiksi
 ☐ Trello-kortti hostingeihin
 
 <h3>Extraa</h3>
