@@ -46,6 +46,9 @@ Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotan
 <pre class="language-bash"><code>185.87.110.7 domain.fi www.domain.fi</code></pre>
 <h4>5. HTTPS-sertifikaatti</h4>
 Kun nimipalvelimet ovat päivittyneet, laita SSL-sertifikaatti paikalleen:
+<pre class="language-bash"><code>sudo bash /etc/bin/ssl.sh</code></pre>
+
+<i>Vanha tapa:</i>
 <pre class="language-bash"><code>/opt/letsencrypt/certbot-auto certonly --webroot -w /var/www/domain.fi/public_html -d domain.fi -d www.domain.fi</code></pre>
 Jos palvelimella on ohjauksia muista domaineista, lisää seuraava ennen muita location-blokkeja ohjausten server-blokkien sisään:
 <pre class="language-nginx"><code>location /.well-known/ {
