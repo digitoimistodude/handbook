@@ -19,13 +19,9 @@ Uusin deployconfig tuotantoon ja stagingiin löytyvät Dropboxista, hakemistopol
 Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (Capistrano) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki menee varmasti kuten pitääkin. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
 
 26.4.2018 eteenpäin vaiheet 1, 2 on automatisoitu scripteihin (huomaathan käyttää <b>bashia</b> <i>sh</i> sijaan, sillä ubuntun sh ei tue read-komentoa):
-
 <pre class="language-bash"><code>sudo bash /etc/bin/release-site.sh</code></pre>
-
 Vaihe 5 scriptiin:
-
 <pre class="language-bash"><code>sudo bash /etc/bin/ssl.sh</code></pre>
-
 <b>Huom!</b> Vaiheiden järjestys on projektikohtainen, seuraavassa esitetty järjestys ei välttämättä päde käynnissä olevaan projektiisi. Julkaisun työvaiheet ovat seuraavat:
 <h4>1. Virtualhostin luominen tuotantopalvelimelle</h4>
 Kirjaudu valitulle edustapalvelimelle (<i>ghost.dude.fi</i>, <i>craft.dude.fi</i>). Ota vhost-pohja (Dropbox tai edellinen sivusto) ja tallenna vhost seuraavasti:
@@ -122,14 +118,12 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
 ☐ Testaa isoilla näytöillä ettei fontit skaalaudu liian isoksi
 ☐ Varmuuskopiot vanhasta saitista:
-<pre class="language-bash"><code>sudo pico -w /etc/nginx/sites-enabled/asiakas.dude.fi</code></pre>wget  --no-check-certificate --no-proxy --mirror -p --html-extension --convert-links -e robots=off -P . sivustonnimi.fi</pre>
-
+<pre class="language-bash"><code>wget  --no-check-certificate --no-proxy --mirror -p --html-extension --convert-links -e robots=off -P . domain.fi</code></pre>
 <h3>WooCommerce</h3>
 ☐ Tarvittaessa: <a href="http://docs.wp-rocket.me/article/27-using-wp-rocket-on-your- ecommerce-site">Verkkokaupan Cache</a>
 ☐ Maksut päälle
-
 <h3>Julkaisun jälkeen</h3>
-☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -> asiakas.fi
+☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -&gt; asiakas.fi
 ☐ WP Rocket päälle
 ☐ ManageWP päälle
 ☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
@@ -145,7 +139,6 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
 ☐ Lisätään asiakkaan yhteyshenkilöt uutiskirjeen vastaanottajiksi
 ☐ Trello-kortti hostingeihin
-
 <h3>Extraa</h3>
 ☐ "Toteutus: DUDE" footeriin, linkki ja lupa
 ☐ Testaa typografia blogissa, <a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>
