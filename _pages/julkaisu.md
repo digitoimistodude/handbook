@@ -127,9 +127,9 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Maksut päälle
 
 <h3>Julkaisun jälkeen</h3>
+☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -> asiakas.fi
 ☐ WP Rocket/WP Fastest Cache päälle, jos tarpeen
 ☐ Redis päälle
-☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -&gt; asiakas.fi
 ☐ ManageWP päälle
 ☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
 ☐ <a href="https://analytics.google.com/analytics/web/">Google Analytics</a> -tsekkaus
@@ -151,5 +151,5 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ CSS:n validointi <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C W3C CSS Validation Servicessä</a>
 ☐ Estä trace- ja pingbackien lähettäminen
 ☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
-☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
+☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
 ☐ 4K-testaus
