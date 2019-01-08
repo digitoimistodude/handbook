@@ -19,13 +19,9 @@ Uusin deployconfig tuotantoon ja stagingiin löytyvät Dropboxista, hakemistopol
 Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (Capistrano) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki menee varmasti kuten pitääkin. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
 
 26.4.2018 eteenpäin vaiheet 1, 2 on automatisoitu scripteihin (huomaathan käyttää <b>bashia</b> <i>sh</i> sijaan, sillä ubuntun sh ei tue read-komentoa):
-
 <pre class="language-bash"><code>sudo bash /etc/bin/release-site.sh</code></pre>
-
 Vaihe 5 scriptiin:
-
 <pre class="language-bash"><code>sudo bash /etc/bin/ssl.sh</code></pre>
-
 <b>Huom!</b> Vaiheiden järjestys on projektikohtainen, seuraavassa esitetty järjestys ei välttämättä päde käynnissä olevaan projektiisi. Julkaisun työvaiheet ovat seuraavat:
 <h4>1. Virtualhostin luominen tuotantopalvelimelle</h4>
 Kirjaudu valitulle edustapalvelimelle (<i>ghost.dude.fi</i>, <i>craft.dude.fi</i>). Ota vhost-pohja (Dropbox tai edellinen sivusto) ja tallenna vhost seuraavasti:
@@ -50,6 +46,9 @@ Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotan
 <pre class="language-bash"><code>185.87.110.7 domain.fi www.domain.fi</code></pre>
 <h4>5. HTTPS-sertifikaatti</h4>
 Kun nimipalvelimet ovat päivittyneet, laita SSL-sertifikaatti paikalleen:
+<pre class="language-bash"><code>sudo bash /etc/bin/ssl.sh</code></pre>
+
+<i>Vanha tapa:</i>
 <pre class="language-bash"><code>/opt/letsencrypt/certbot-auto certonly --webroot -w /var/www/domain.fi/public_html -d domain.fi -d www.domain.fi</code></pre>
 Jos palvelimella on ohjauksia muista domaineista, lisää seuraava ennen muita location-blokkeja ohjausten server-blokkien sisään:
 <pre class="language-nginx"><code>location /.well-known/ {
@@ -128,9 +127,9 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Maksut päälle
 
 <h3>Julkaisun jälkeen</h3>
-☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -> asiakas.fi
 ☐ WP Rocket/WP Fastest Cache päälle, jos tarpeen
 ☐ Redis päälle
+☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -&gt; asiakas.fi
 ☐ ManageWP päälle
 ☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
 ☐ <a href="https://analytics.google.com/analytics/web/">Google Analytics</a> -tsekkaus
@@ -145,7 +144,6 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
 ☐ Lisätään asiakkaan yhteyshenkilöt uutiskirjeen vastaanottajiksi
 ☐ Trello-kortti hostingeihin
-
 <h3>Extraa</h3>
 ☐ "Toteutus: DUDE" footeriin, linkki ja lupa
 ☐ Testaa typografia blogissa, <a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>
@@ -153,5 +151,5 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ CSS:n validointi <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C W3C CSS Validation Servicessä</a>
 ☐ Estä trace- ja pingbackien lähettäminen
 ☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
-☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
+☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
 ☐ 4K-testaus
