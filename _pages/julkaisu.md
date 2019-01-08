@@ -129,16 +129,17 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 
 <h3>Julkaisun jälkeen</h3>
 ☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -> asiakas.fi
-☐ WP Rocket päälle
+☐ WP Rocket/WP Fastest Cache päälle, jos tarpeen
+☐ Redis päälle
 ☐ ManageWP päälle
 ☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
 ☐ <a href="https://analytics.google.com/analytics/web/">Google Analytics</a> -tsekkaus
 ☐ HTTPS-sertifikaatti
 ☐ Nopeuden testaus <a href="http://developers.google.com/speed/pagespeed/insights/">PageSpeed Insightin</a> avulla
-☐ Testaa nopeus <a href="https://tools.keycdn.com/speed">KeyCDN palvelulla</a>
+☐ Nopeuden testaus <a href="https://tools.keycdn.com/speed">KeyCDN palvelulla</a>
 ☐ Lomakkeiden testaus
 ☐ Sähköpostiliikenteen testaus (SendGrid)
-☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville sivustonnimi. , tietokannannimi)
+☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville domainnimi.fi, tietokannannimi)
 ☐ Asiakastyytyväisyyskysely (Typeform)
 ☐ Testaa Internet Exporer 11
 ☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
@@ -153,3 +154,4 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Estä trace- ja pingbackien lähettäminen
 ☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
 ☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
+☐ 4K-testaus
