@@ -29,7 +29,7 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 4. Tämän jälkeen projektin aloittaja jakaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin mediatiedostoihin Trellon tai Slackin kautta muille projektissa mukana oleville devaajille.
 
-5. BitBucket-repositoryyn lisätään logo ja Slackin #dev-kanavalle projektin integraatio + logo osoitteessa <a href="https://dudet.slack.com/apps/manage">dudet.slack.com/apps/manage</a>.
+5. Slackin #dev-kanavalle projektin integraatio tapahtuu komennolla: <code>/github subscribe digitoimistodude/repo issues pulls deployments statuses public commits commits:all releases comments branches reviews</code>
 
 <h3 id="myohemmin-projektiin-mukana-tulevan-devaajan-tehtavat">Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 
