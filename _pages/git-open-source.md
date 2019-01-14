@@ -9,9 +9,10 @@ permalink: >
 published: true
 post_date: 2017-08-04 15:01:06
 ---
-Dude käyttää versionhallintaan gitiä, asiakasprojekteihin BitBucketia, julkisiin projekteihin GitHubia. Kaikki oleellinen koodi tulisi säilyttää git-repositoriossa, mutta arkaluontoiset tiedot kuten tunnukset .env-tiedostossa.
+Dude käyttää versionhallintaan gitiä, vuodesta 2013 vuoteen 2018 asti Bitbucketia, vuodesta 2019 eteenpäin GitHubia. Kaikki oleellinen koodi tulisi säilyttää git-repositoriossa, mutta arkaluontoiset tiedot kuten tunnukset .env-tiedostossa.
 
-<b>Kaikki minkä voi, tulee julkaista open sourcena</b>, avoimena täysin julkisena <a class="github" href="https://github.com/digitoimistodude">Duden GitHub-tilin alla</a>. Näitä voivat olla omat tekniikat, WordPress-teemat tai -lisäosat, joita voisi kuvitella muidenkin käyttävän. Asiakkaisiin suoraan liittyviä asioita ei tule missään nimessä laittaa GitHubiin.
+<b>Kaikki minkä voi, tulee julkaista open sourcena</b>, avoimena täysin julkisena <a class="github" href="https://github.com/digitoimistodude">Duden GitHub-tilin alla</a>. Näitä voivat olla omat tekniikat, WordPress-teemat tai -lisäosat, joita voisi kuvitella muidenkin käyttävän. Asiakasprojektit ja muut ei-julkiset kehityskohteet julkaistaan GitHubissa Private repositoriossa, jotka näkyvät ainoastaan Duden tiimille.
+
 <h2>Commit-viestit muutoksista</h2>
 Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja tulisi välttää ja pyrkiä committaamaan sen sijaan jokainen toiminto erikseen. Pienetkin muutokset pitää committaa mahdollisimman aikaisessa vaiheessa, jotta vältytään konflikteilta. Edes keskeneräisyydellä ei ole väliä, ellei muutos ole menossa suoraan tuotantoon.
 
