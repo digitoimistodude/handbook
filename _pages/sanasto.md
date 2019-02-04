@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-10-03 13:41:45
 ---
-Tämä osio sisältää devauksessa tai muuten vaan yleisesti käytettyjä sanoja tai sanontoja, joita olemme vuosien varrella käyttäneet. Näin puhut devaajaa! Tai <b>dudea</b>b>, nimittäin sanasto sisältää myös Dudelle tyypilliset lotkautukset.
+Tämä osio sisältää devauksessa tai muuten vaan yleisesti käytettyjä sanoja tai sanontoja, joita olemme vuosien varrella käyttäneet. Näin puhut devaajaa! Tai <b>dudea</b>, nimittäin sanasto sisältää myös Dudelle tyypilliset lotkautukset.
 
 Sanat ovat aakkosjärjestyksessä. Sanastoa täydennetään ajan kanssa. Saanko esitellä, Dude-suomi-Dude-sanakirja!
 
