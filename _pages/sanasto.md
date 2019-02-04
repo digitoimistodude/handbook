@@ -37,7 +37,7 @@ Invision App, UI/UX/suunnitteluun/prototyyppaukseen tarkoitettu työkalu, jolla 
 
 Tämän lisäksi kalja, kalima, olut, ölppä, ööländeri, pöllö-öljy ovat myös yleisiä Dudella käytettyjä nimityksiä.
 
-<h4><i><a href="#keikäle" id="keikäle" class="text-anchor">keikäle</a></i>, <span style="font-size: 14px;opacity: .5">substanttiivi</span></h4>
+<h4><i><a href="#käikäle" id="käikäle" class="text-anchor">käikäle, keikäle</a></i>, <span style="font-size: 14px;opacity: .5">substanttiivi</span></h4>
 
 SVG-maski, clip path, leiskassa oleellinen muotoja antava "suikale", kuvio tai viiva. Vektorigrafiikkaa.
 
