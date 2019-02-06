@@ -29,7 +29,7 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 4. Tämän jälkeen projektin aloittaja jakaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin mediatiedostoihin Trellon tai Slackin kautta muille projektissa mukana oleville devaajille.
 
-5. Slackin #dev-kanavalle projektin integraatio tapahtuu komennolla: <code>/github subscribe digitoimistodude/repo issues pulls deployments statuses public commits commits:all releases comments branches reviews</code>
+5. Avaa projekti Sublime Textiin komennolla <code>subl ~/Projects/projektinnimitähän</code> tai Sublime Textin valikosta Open Folder. Tämän jälkeen tallenna projekti nimellä painamalla <b>CMD + Shift + P</b> ja kirjoittamalla <b>Add New Project</b> ja enter. Nimeä projekti samalla nimellä kuin kansio, eli uudelleen enter. Tämän jälkeen löydät projektisi jatkossa kun painat <b>Cmd + Shift + O</b>.
 
 <h3 id="myohemmin-projektiin-mukana-tulevan-devaajan-tehtavat">Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 
