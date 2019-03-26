@@ -54,5 +54,6 @@ https://www.youtube.com/watch?v=5NV6Rdv1a3I
 <h3>Aiheeseen liittyviä bloggauksia</h3>
 
 <ul>
+<li><a href="https://www.dude.fi/dude-nosti-tasoa-kerroksella-esittelyssa-uusi-kauppakadun-toimisto">23.11.2018: Dude nosti tasoa kerroksella – esittelyssä uusi Kauppakadun toimisto</a></li>
 <li><a href="https://www.dude.fi/talta-nayttaa-duden-kulma-muuttokuulumiset-jyvaskylan-ytimesta">18.8.2017: Tältä näyttää Duden kulma – muuttokuulumiset Jyväskylän ytimestä</a></li>
 </ul>
