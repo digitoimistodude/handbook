@@ -75,7 +75,7 @@ Kopioi hakemistopolku talteen ja luo .env-tiedosto seuraavasti
 <pre class="language-bash"><code>sudo pico -w /var/www/domain.fi/deploy/shared/.env</code></pre>
 Liitä .env-tiedosto projektikansiosta muuttaen saltteja ja avaimia lukuunottamatta tiedot vastaamaan tuotantoa (<i>WP_ENV=production</i>).
 <h4>10. Siirrä ja optimoi mediakirjasto</h4>
-Kirjaudu staging-palvelimelle SFTP:llä (<i>craft.dude.fi</i>) ja hae kuvat projektihakemistosi <i>shared/media</i> -kansiosta. Tämän jälkeen vedä media-kansio ImageOptimin läpi.
+Kirjaudu staging-palvelimelle SFTP:llä (<i>craft.dude.fi</i>) ja hae kuvat projektihakemistosi <i>shared/media</i> -kansiosta. Tämän jälkeen vedä media-kansio <a href="https://imageoptim.com/mac">ImageOptimin</a> läpi.
 
 Siirrä optimoidut kuvat tuotantopalvelimelle <i>/var/www/domain.fi/deploy/shared/media</i> -kansioon.
 <h4>11. Julkaisu! Aja varsinainen deploy-komento</h4>
@@ -112,12 +112,12 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Lomakkeiden testaus
 ☐ Teemaan screenshot.png päivittäminen teeman näköiseksi
 ☐ style.css - teeman tiedot kuosiin ja päivitystiedot eli toinen kommenttiblokki pois
-☐ Optimoi mediakirjaston kuvat ImageOptimilla tai aja Imagifyn bulk optimizer läpi
-☐ Aja teeman kuvakansio ImageOptimin läpi
+☐ Optimoi mediakirjaston kuvat <a href="https://imageoptim.com/mac">ImageOptimilla</a> tai aja Imagifyn bulk optimizer läpi
+☐ Aja teeman kuvakansio <a href="https://imageoptim.com/mac">ImageOptimin</a> läpi
 ☐ Lisää maksullisien lisäosien lisenssit paikalleen
 ☐ WordPress-päivitykset ajan tasalle
 ☐ Jos sopii projektiin, asia sovittu tai kyseessä on sivustouudistus: kuvakaappauksia Google-näkyvyyden tilanteesta ennen julkaisua, jotta voi myöhemmin tarkastella miten meni
-☐ Saavutettavuustestaus aXe-lisäosalla: https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbddv (nämä tosin pitäisi tehdä jo projektin aikana, mutta viimeistään tässä vaiheessa)
+☐ Saavutettavuustestaus <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbddv">aXe-lisäosalla</a> (nämä tosin pitäisi tehdä jo projektin aikana, mutta viimeistään tässä vaiheessa)
 ☐ Saavutettavuus-check: Jos monikielinen sivusto, tarkista, että wp_localize_script stringit lukulaitteille (screenReaderText) ovat oikealla kielellä
 ☐ Duden logo footeriin, varmista kuitenkin asiakkaalta ensin lupa tähän. Ks. <a href="https://handbook.dude.fi/wordpress-kehitys/made-by-dude-badge">Handbookin ohjeet logon lisäämiseksi</a>
 ☐ Testaa Internet Exporer 11 ja Edge Windows-koneella, erityisesti SVG-maskit
