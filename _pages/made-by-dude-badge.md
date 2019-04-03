@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/made-by-dude-badge
+  http://handbook.dude.fi/wordpress-kehitys/made-by-dude-badge
 published: true
 post_date: 2019-04-03 14:30:30
 ---
