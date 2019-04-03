@@ -103,8 +103,8 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 
 ☐ WordPressin yleiset asetukset kuntoon
 ☐ Favicon (Mukautin > Sivuston identiteetti)
-☐ Somejakojen fallback -kuva kohdilleen
-☐ Perus SEO-sisällöt kohdilleen, katso vähintään ettei etusivun SEO-tiedoissa lue "Etusivu", perus SEO-asiat kuntoon
+☐ Somejakojen fallback -kuva kohdilleen (<b>Yoast SEO:</b> <i>SEO > Social > Facebook > Image URL</i>. <b>SEO Framework:</b> <i>SEO > Social Meta Settings > Social Image Fallback URL</i>)
+☐ SEO: katso vähintään ettei etusivun SEO-tiedoissa lue "Etusivu"
 ☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym., disabloi turhat tarvittaessa
 ☐ Google Analytics paikalleen
 ☐ Uudelleenohjaukset tarpeen vaatiessa palvelinpäästä
