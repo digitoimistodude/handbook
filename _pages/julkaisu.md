@@ -94,62 +94,57 @@ Tallenna ja käynnistä nginx-prosessit uudelleen:
 Vaihda käyttöoikeudet ja varmista samalla että tiedostojen lisääminen mediakirjastoon toimii:
 <pre class="language-bash"><code>sudo chown -R www-data:developers /var/www/domain.fi &amp;&amp; sudo chown -R $(whoami) /var/www/domain.fi/public_html/content/themes &amp;&amp; sudo chown -R $(whoami) /var/www/domain.fi/tmp &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/public_html/content &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/deploy/current/content &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/deploy/shared</code></pre>
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
-<h3 id="tarkistuslista">Tarkistuslista</h3>
-Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkistuslista huolellisesti läpi. Lista löytyy myös Dropboxista, kansiosta <b>Dude/Tärkeät asiakirjat/muut/Ennen julkaisua huomioitavaa.todo</b>, jota on ylläpidettävä samaan tahtiin kuin alla olevaa. Dokumentin voi myös kopioida projektikansioon ja ruksata SublimeTextin PlainTasks -packagea hyödyntämällä.
-<h3>Ennen julkaisua</h3>
-☐ WordPress yleiset asetukset
-☐ Faviconit ja muut ikonit
-☐ Somejakojen fallback -kuva kohdilleen
-☐ SEO sisällöt kohdilleen
-☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym., disabloi tarvittaessa
-☐ Google Analytics
-☐ Tarvittavat uudelleenohjaukset
-☐ Bloggauksen muotoilujen tarkistaminen
-☐ Lomakkeiden testaus
-☐ Katso ettei missään lue "Etusivu", perus SEO-asiat kuntoon
-☐ screenshot.png päivittäminen
-☐ style.css - teeman tiedot kuosiin
-☐ Optimoi kuvat ImageOptimilla/Imagify (/media ja teeman kuvakansio)
-☐ Lisää maksullisien lisäosien lisenssit paikalleen
-☐ WordPress-päivitykset
-☐ .htaccess Redirect 301 /asiakas http://www.asiakas.fi tai nginx-redirectit, jos on
-☐ Jos sopii projektiin/sovittu/saittiuudistus: kuvakaappauksia Google-näkyvyyden tilanteesta ennen julkaisua (Firefoxin full-page screenshot-toiminto)
-☐ Esteettömyystestaus WAVElla
-☐ Esteettömyys: Tarkista, että wp_localize_script stringit lukulaitteille (screenReaderText) ovat oikealla kielellä
-☐ Aja <b>gulp uncss</b> kun tiedät että CSS:ään ei tule enää muutoksia
-☐ SendGrid API key ja .env tarkistus
-☐ <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
-☐ Testaa isoilla näytöillä ettei fontit skaalaudu liian isoksi
-☐ <a href="https://github.com/digitoimistodude/frequently-used-commands#quick-backup-entire-site" class="github">Varmuuskopiot vanhasta saitista</a>
 
-<h3>WooCommerce</h3>
-☐ Tarvittaessa: <a href="http://docs.wp-rocket.me/article/27-using-wp-rocket-on-your- ecommerce-site">Verkkokaupan Cache</a>
-☐ Maksut päälle
+<h3 id="tarkistuslista">Tarkistuslista</h3>
+
+Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkistuslista huolellisesti läpi. Lista löytyy myös Dropboxista, kansiosta <b>Dude/Tärkeät asiakirjat/Muut/Ennen julkaisua huomioitavaa.todo</b>, jota on ylläpidettävä samaan tahtiin kuin alla olevaa. Dokumentin voi myös kopioida projektikansioon ja ruksata SublimeTextin PlainTasks -packagea hyödyntämällä.
+
+<h3>Ennen julkaisua</h3>
+
+☐ WordPressin yleiset asetukset kuntoon
+☐ Favicon (Mukautin > Sivuston identiteetti)
+☐ Somejakojen fallback -kuva kohdilleen
+☐ Perus SEO-sisällöt kohdilleen, katso vähintään ettei etusivun SEO-tiedoissa lue "Etusivu", perus SEO-asiat kuntoon
+☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym., disabloi turhat tarvittaessa
+☐ Google Analytics paikalleen
+☐ Uudelleenohjaukset tarpeen vaatiessa palvelinpäästä
+☐ Bloggauksen muotoilujen tarkistaminen, testaa blockquote, H1-H6, jne. (<a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>)
+☐ Lomakkeiden testaus
+☐ Teemaan screenshot.png päivittäminen teeman näköiseksi
+☐ style.css - teeman tiedot kuosiin ja päivitystiedot eli toinen kommenttiblokki pois
+☐ Optimoi mediakirjaston kuvat ImageOptimilla tai aja Imagifyn bulk optimizer läpi
+☐ Aja teeman kuvakansio ImageOptimin läpi
+☐ Lisää maksullisien lisäosien lisenssit paikalleen
+☐ WordPress-päivitykset ajan tasalle
+☐ Jos sopii projektiin, asia sovittu tai kyseessä on sivustouudistus: kuvakaappauksia Google-näkyvyyden tilanteesta ennen julkaisua, jotta voi myöhemmin tarkastella miten meni
+☐ Saavutettavuustestaus aXe-lisäosalla: https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbddv (nämä tosin pitäisi tehdä jo projektin aikana, mutta viimeistään tässä vaiheessa)
+☐ Saavutettavuus-check: Jos monikielinen sivusto, tarkista, että wp_localize_script stringit lukulaitteille (screenReaderText) ovat oikealla kielellä
+☐ Duden logo footeriin, varmista kuitenkin asiakkaalta ensin lupa tähän. Ks. <a href="https://handbook.dude.fi/wordpress-kehitys/made-by-dude-badge">Handbookin ohjeet logon lisäämiseksi</a>
+☐ Testaa Internet Exporer 11 ja Edge Windows-koneella, erityisesti SVG-maskit
+☐ 4K-testaus, tarkista erityisesti että fontit eivät skaalaudu liian isoiksi ja otsikot hypi neljälle riville
 
 <h3>Julkaisun jälkeen</h3>
-☐ Ohjaa testiympäristöstä liveen: asiakas.dude.fi/asiakas -> asiakas.fi
-☐ WP Rocket/WP Fastest Cache päälle, jos tarpeen
-☐ Redis päälle
-☐ ManageWP päälle
+
+☐ Staging-sivuston ohjaaminen päädomainiin palvelintasolla
+☐ Välimuistit päälle (Redis, valittu välimuistilisäosa kuten Cache Enabler tai WP Rocket, jos tarpeen)
+☐ ManageWP päälle ja Orion-testaus (vain ylläpitoasiakkaat)
+☐ Trello-kortti hostingeihin (vain ylläpitoasiakkaat)
+☐ HTTPS-sertifikaatti Let's Encryptille kuntoon ja auto renewin tarkistys dry runilla (vain ylläpitoasiakkaat)
+☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville domainnimi.fi, tietokannannimi) (vain ylläpitoasiakkaat)
+☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite (vain ylläpitoasiakkaat)
 ☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
-☐ <a href="https://analytics.google.com/analytics/web/">Google Analytics</a> -tsekkaus
-☐ HTTPS-sertifikaatti
-☐ Nopeuden testaus <a href="http://developers.google.com/speed/pagespeed/insights/">PageSpeed Insightin</a> avulla
-☐ Nopeuden testaus <a href="https://tools.keycdn.com/speed">KeyCDN palvelulla</a>
-☐ Lomakkeiden testaus
-☐ Sähköpostiliikenteen testaus (SendGrid)
-☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville domainnimi.fi, tietokannannimi)
+☐ Lomakkeiden testaus vielä kertaalleen ja asiakkaalta varmistus että viestit tulee perille
 ☐ Asiakastyytyväisyyskysely (Typeform)
-☐ Testaa Internet Exporer 11
-☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite
-☐ Lisätään asiakkaan yhteyshenkilöt uutiskirjeen vastaanottajiksi
-☐ Trello-kortti hostingeihin
-<h3>Extraa</h3>
-☐ "Toteutus: DUDE" footeriin, linkki ja lupa
-☐ Testaa typografia blogissa, <a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>
+☐ Lisätään asiakkaan yhteyshenkilöt Duden uutiskirjeen vastaanottajiksi
+
+<h3>Tarvittaessa/extraa</h3>
+
+☐ Nopeuden testaus <a href="http://developers.google.com/speed/pagespeed/insights/">PageSpeed Insightin</a>
+☐ Nopeuden testaus <a href="https://tools.keycdn.com/speed">KeyCDN palvelulla</a>
+☐ Konfiguroi sitemap gulpiin ja aja <b>gulp uncss</b> kun tiedät että CSS:ään ei tule enää muutoksia
+☐ Testaa saavutettavuus erityisen huolellisesti oheisen checklistan avulla: <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
+☐ <a href="https://github.com/digitoimistodude/frequently-used-commands#quick-backup-entire-site" class="github">Varmuuskopiot vanhasta saitista</a>
 ☐ HTML:n validointi <a href="https://validator.w3.org/">W3 validaattorilla</a>
 ☐ CSS:n validointi <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C W3C CSS Validation Servicessä</a>
-☐ Estä trace- ja pingbackien lähettäminen
 ☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
-☐ Käy pääpiirteittäin läpi <a href="http://webdevchecklist.com/">Webdev checklist</a>
-☐ 4K-testaus
+☐ <a href="http://webdevchecklist.com/">Webdev checklist</a>
