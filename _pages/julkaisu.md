@@ -117,7 +117,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkis
 ☐ Lisää maksullisien lisäosien lisenssit paikalleen
 ☐ WordPress-päivitykset ajan tasalle
 ☐ Jos sopii projektiin, asia sovittu tai kyseessä on sivustouudistus: kuvakaappauksia Google-näkyvyyden tilanteesta ennen julkaisua, jotta voi myöhemmin tarkastella miten meni
-☐ Saavutettavuustestaus <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbddv">aXe-lisäosalla</a> (nämä tosin pitäisi tehdä jo projektin aikana, mutta viimeistään tässä vaiheessa)
+☐ Saavutettavuustestaus <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbddv">aXe-lisäosalla</a> (nämä tosin pitäisi tehdä jo projektin aikana, mutta viimeistään tässä vaiheessa) <b>TAI</b> saavutettavuustestaus <code>pa11y-ci</code> -komennolla (suositellumpi, koska mukana projekteissa <i>Huhtikuun 2019</i> jälkeen)
 ☐ HTML-validointi <a href="https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk">HTML validator devtools-työkalulla</a>
 ☐ Saavutettavuus-check: Jos monikielinen sivusto, tarkista, että wp_localize_script stringit lukulaitteille (screenReaderText) ovat oikealla kielellä
 ☐ Duden logo footeriin, varmista kuitenkin asiakkaalta ensin lupa tähän. Ks. <a href="https://handbook.dude.fi/wordpress-kehitys/made-by-dude-badge">Handbookin ohjeet logon lisäämiseksi</a>
