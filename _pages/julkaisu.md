@@ -97,55 +97,6 @@ Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikk
 
 <h3 id="tarkistuslista">Tarkistuslista</h3>
 
-Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> seuraava tarkistuslista huolellisesti läpi. Lista löytyy myös Dropboxista, kansiosta <b>Dude/Tärkeät asiakirjat/Muut/Ennen julkaisua huomioitavaa.todo</b>, jota on ylläpidettävä samaan tahtiin kuin alla olevaa. Dokumentin voi myös kopioida projektikansioon ja ruksata SublimeTextin PlainTasks -packagea hyödyntämällä.
+Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista huolellisesti läpi. Listaa päivitetään Google Sheetiin, josta se ladataan Todoist Template-yhteensopivassa .csv-muodossa ja tuodaan projektiin mukaan.
 
-<h3>Ennen julkaisua</h3>
-
-☐ WordPressin yleiset asetukset kuntoon
-☐ Favicon (Mukautin > Sivuston identiteetti)
-☐ Somejakojen fallback -kuva kohdilleen (<b>Yoast SEO:</b> <i>SEO > Social > Facebook > Image URL</i>. <b>SEO Framework:</b> <i>SEO > Social Meta Settings > Social Image Fallback URL</i>)
-☐ SEO: katso vähintään ettei etusivun SEO-tiedoissa lue "Etusivu"
-☐ Testaa templatet läpi: haku, arkisto, avainsanat, ym., disabloi turhat tarvittaessa
-☐ Google Analytics paikalleen
-☐ Uudelleenohjaukset tarpeen vaatiessa palvelinpäästä
-☐ Bloggauksen muotoilujen tarkistaminen, testaa blockquote, H1-H6, jne. (<a href="https://dudetest.xyz/air/wp/wp-admin/post.php? post=1134&amp;action=edit">kopioi mallipohja tästä</a>)
-☐ Lomakkeiden testaus
-☐ Teemaan screenshot.png päivittäminen teeman näköiseksi
-☐ style.css - teeman tiedot kuosiin ja päivitystiedot eli toinen kommenttiblokki pois
-☐ Optimoi mediakirjaston kuvat <a href="https://imageoptim.com/mac">ImageOptimilla</a> tai aja Imagifyn bulk optimizer läpi
-☐ Aja teeman kuvakansio <a href="https://imageoptim.com/mac">ImageOptimin</a> läpi
-☐ Lisää maksullisien lisäosien lisenssit paikalleen
-☐ WordPress-päivitykset ajan tasalle
-☐ Jos sopii projektiin, asia sovittu tai kyseessä on sivustouudistus: kuvakaappauksia Google-näkyvyyden tilanteesta ennen julkaisua, jotta voi myöhemmin tarkastella miten meni
-☐ Saavutettavuustestaus <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbddv">aXe-lisäosalla</a> (nämä tosin pitäisi tehdä jo projektin aikana, mutta viimeistään tässä vaiheessa) <b>TAI</b> saavutettavuustestaus <code>pa11y-ci</code> -komennolla (suositellumpi, koska mukana projekteissa <i>Huhtikuun 2019</i> jälkeen)
-☐ HTML-validointi <a href="https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk">HTML validator devtools-työkalulla</a>
-☐ Saavutettavuus-check: Jos monikielinen sivusto, tarkista, että wp_localize_script stringit lukulaitteille (screenReaderText) ovat oikealla kielellä
-☐ Duden logo footeriin, varmista kuitenkin asiakkaalta ensin lupa tähän. Ks. <a href="https://handbook.dude.fi/wordpress-kehitys/made-by-dude-badge">Handbookin ohjeet logon lisäämiseksi</a>
-☐ Testaa Internet Exporer 11 ja Edge Windows-koneella, erityisesti SVG-maskit
-☐ 4K-testaus, tarkista erityisesti että fontit eivät skaalaudu liian isoiksi ja otsikot hypi neljälle riville
-
-<h3>Julkaisun jälkeen</h3>
-
-☐ Staging-sivuston ohjaaminen päädomainiin palvelintasolla
-☐ Välimuistit päälle (Redis, valittu välimuistilisäosa kuten Cache Enabler tai WP Rocket, jos tarpeen)
-☐ ManageWP päälle ja Orion-testaus (vain ylläpitoasiakkaat)
-☐ Trello-kortti hostingeihin (vain ylläpitoasiakkaat)
-☐ HTTPS-sertifikaatti Let's Encryptille kuntoon ja auto renewin tarkistys dry runilla (vain ylläpitoasiakkaat)
-☐ Backupit päälle (muokkaa /etc/bin/backup.conf ja lisää uudelle riville domainnimi.fi, tietokannannimi) (vain ylläpitoasiakkaat)
-☐ Maililla tieto asiakkaalle joka kuukauden huoltokatkosta sekä status.dude.fi osoite (vain ylläpitoasiakkaat)
-☐ <a href="https://dashboard.adminlabs.com/">AdminLabs</a> -seuranta päälle
-☐ Lomakkeiden testaus vielä kertaalleen ja asiakkaalta varmistus että viestit tulee perille
-☐ Asiakastyytyväisyyskysely (Typeform)
-☐ Lisätään asiakkaan yhteyshenkilöt Duden uutiskirjeen vastaanottajiksi
-
-<h3>Tarvittaessa/extraa</h3>
-
-☐ Nopeuden testaus <a href="http://developers.google.com/speed/pagespeed/insights/">PageSpeed Insightin</a>
-☐ Nopeuden testaus <a href="https://tools.keycdn.com/speed">KeyCDN palvelulla</a>
-☐ Konfiguroi sitemap gulpiin ja aja <b>gulp uncss</b> kun tiedät että CSS:ään ei tule enää muutoksia
-☐ Testaa saavutettavuus erityisen huolellisesti oheisen checklistan avulla: <a href="http://a11yproject.com/checklist.html">Web Accessibility Checklist</a>
-☐ <a href="https://github.com/digitoimistodude/frequently-used-commands#quick-backup-entire-site" class="github">Varmuuskopiot vanhasta saitista</a>
-☐ HTML:n validointi <a href="https://validator.w3.org/">W3 validaattorilla</a>
-☐ CSS:n validointi <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C W3C CSS Validation Servicessä</a>
-☐ Mikroformaatit, schemat, ks. <a href="http://www.google.com/webmasters/tools/richsnippets">Google Rich Snippets</a>
-☐ <a href="http://webdevchecklist.com/">Webdev checklist</a>
+<a href="https://docs.google.com/spreadsheets/d/1Dpa-aDcf6NNZMi7DT7Q-ppOgEJ_fgPxB_-pxELKurTs/edit?usp=sharing">Lataa lista Google Sheetistä</a> - Dudelta löytyy muokkausoikeus, muilta katseluoikeus.
