@@ -47,7 +47,6 @@ Odota kun domain tulee voimaan. Jos aikataulu on kriittinen, voit testata tuotan
 <h4>5. HTTPS-sertifikaatti</h4>
 Kun nimipalvelimet ovat päivittyneet, laita SSL-sertifikaatti paikalleen:
 <pre class="language-bash"><code>sudo bash /etc/bin/ssl.sh</code></pre>
-
 <i>Vanha tapa:</i>
 <pre class="language-bash"><code>/opt/letsencrypt/certbot-auto certonly --webroot -w /var/www/domain.fi/public_html -d domain.fi -d www.domain.fi</code></pre>
 Jos palvelimella on ohjauksia muista domaineista, lisää seuraava ennen muita location-blokkeja ohjausten server-blokkien sisään:
@@ -94,9 +93,9 @@ Tallenna ja käynnistä nginx-prosessit uudelleen:
 Vaihda käyttöoikeudet ja varmista samalla että tiedostojen lisääminen mediakirjastoon toimii:
 <pre class="language-bash"><code>sudo chown -R www-data:developers /var/www/domain.fi &amp;&amp; sudo chown -R $(whoami) /var/www/domain.fi/public_html/content/themes &amp;&amp; sudo chown -R $(whoami) /var/www/domain.fi/tmp &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/public_html/content &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/deploy/current/content &amp;&amp; sudo chmod -R 775 /var/www/domain.fi/deploy/shared</code></pre>
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
-
 <h3 id="tarkistuslista">Tarkistuslista</h3>
-
 Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista huolellisesti läpi. Listaa päivitetään Google Sheetiin, josta se ladataan Todoist Template-yhteensopivassa .csv-muodossa ja tuodaan projektiin mukaan.
+
+[video width="1768" height="1080" mp4="http://handbook.dude.fi/media/todoist.mp4"][/video]
 
 <a href="https://docs.google.com/spreadsheets/d/1Dpa-aDcf6NNZMi7DT7Q-ppOgEJ_fgPxB_-pxELKurTs/edit?usp=sharing">Lataa lista Google Sheetistä</a> - Dudelta löytyy muokkausoikeus, muilta katseluoikeus.
