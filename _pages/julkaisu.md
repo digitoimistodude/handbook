@@ -9,6 +9,8 @@ permalink: >
 published: true
 post_date: 2017-08-04 15:11:34
 ---
+Dudella ei tehdä julkaisuja lähtökohtaisesti iltapäivisin ja perjantaisin. Jos jokin menee pieleen, on hyvä että toimistolla on vielä työntekijöitä ja kukaan ei joudu korjailemaan asioita liiaksi työaikojen ulkopuolella.
+
 <h3>Deploy-toimenpiteet</h3>
 Deployn automatisointi tapahtuu <a href="http://capistranorb.com/">Capistranon</a> avulla, joka on osa <a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimisto/dudestack</a>-kokonaisuutta. Ensimmäinen deploy suoritetaan aina Capistranon työkalulla, mutta esim. pienet teemapäivitykset hoidetaan suoralla sftp- tai rsync-yhteydellä.
 
