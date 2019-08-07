@@ -13,7 +13,7 @@ Kun sivuston saatu siihen pisteeseen, että sitä voi selata, se laitetaan testi
 
 <h3>Ennakkoasetukset (tehdään vain kerran, jos ei ole aiemmin tehty)</h3>
 
-Varmista että sinulla on oikea versio Capistranosta kirjoittamalla
+Varmista että sinulla on oikea versio Capistranosta kirjoittamalla projektin juuressa:
 
 <pre class="language-bash"><code>bundle install</code></pre>
 
