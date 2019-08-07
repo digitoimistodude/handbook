@@ -72,7 +72,7 @@ DB_HOST=185.87.110.10
 WP_ENV=staging
 WP_HOME=https://projektinnimi.vaiheessa.fi
 WP_SITEURL=https://projektinnimi.vaiheessa.fi/wp
-</code>
+</code></pre>
 
 Saltit ja muut mahdolliset ympäristömuuttujat samat kuin lokaalissa.</li>
 <li>Poistu palvelimelta komennolla exit. Aja uudestaan komento <code>cap staging deploy</code>.</li>
