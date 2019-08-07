@@ -4,7 +4,8 @@ post_title: Saavutettavuus
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/saavutettavuus
+permalink: >
+  http://handbook.dude.fi/wordpress-kehitys/saavutettavuus
 published: true
 post_date: 2019-08-07 15:48:57
 ---
