@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/wordpress-kehitys/paivitykset-ja-yllapito
+  http://handbook.dude.fi/wordpress-kehitys/paivitykset-ja-yllapito
 published: true
 post_date: 2017-08-04 15:10:51
 ---
