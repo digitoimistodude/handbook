@@ -13,7 +13,9 @@ Kun sivuston saatu siihen pisteeseen, että sitä voi selata, se laitetaan testi
 
 <h3>Ennakkoasetukset (tehdään vain kerran, jos ei ole aiemmin tehty)</h3>
 
-Varmista että sinulla on oikea versio Capistranosta kirjoittamalla <code>bundle install</code></li>
+Varmista että sinulla on oikea versio Capistranosta kirjoittamalla
+
+<pre class="language-bash"><code>bundle install</code></pre>
 
 Jos saat <i>Permission denied (publickey)</i> -ilmoituksen, varmista että sinulla on oikeudet käyttää palvelimella GitHubia kirjautumalla sisään ssh:lla: tunnus@gunship.dude.fi ja luomalla avainpari komennolla:
 
