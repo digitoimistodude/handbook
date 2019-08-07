@@ -47,30 +47,30 @@ Konsultti, web-konsultti, SEO-konsultti, palvelumuotoilija. Alan ihmiset, jotka 
 
 <h1 id="#p">P</h1>
 
-<h3><i><a href="#paita" id="paita" class="text-anchor">paita</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
+<h4><i><a href="#paita" id="paita" class="text-anchor">paita</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
 
 Padding, eli sisäinen marginaali CSS:ssä. Katso myös <a href="#rauli"><i>rauli</i></a>.
 
 <h1 id="#r">R</h1>
 
-<h3><i><a href="#rauli" id="rauli" class="text-anchor">rauli</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
+<h4><i><a href="#rauli" id="rauli" class="text-anchor">rauli</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
 
 Padding, eli sisäinen marginaali CSS:ssä. Katso myös <a href="#paita"><i>paita</i></a>.
 
-<h3><i><a href="#roppoksi" id="roppoksi" class="text-anchor">roppoksi</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
+<h4><i><a href="#roppoksi" id="roppoksi" class="text-anchor">roppoksi</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
 
 Dropbox, "droppi", tiedostonjakotyökalu.
 
-<h3><i><a href="#rönttönen" id="rönttönen" class="text-anchor">rönttönen</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
+<h4><i><a href="#rönttönen" id="rönttönen" class="text-anchor">rönttönen</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
 
 Entteri, enter-näppäin.
 
 <h1 id="#s">S</h1>
 
-<h3><i><a href="#stage" id="stage" class="text-anchor">stage, staging, stagetsu</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
+<h4><i><a href="#stage" id="stage" class="text-anchor">stage, staging, stagetsu</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
 
 Ympäristö, joka päätyy asiakkaalle siinä vaiheessa kun tekninen työstö on vielä kesken. Yleensä sisällönsyöttövaihe ennen julkaisua tai iteraatiokierrosten välissä. Sanotaan myös selkokielellä näyttöversioksi tai testiympäristöksi.
 
-<h3><i><a href="#santtu" id="santtu" class="text-anchor">santtu, sandeli</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
+<h4><i><a href="#santtu" id="santtu" class="text-anchor">santtu, sandeli</a></i>, <span style="font-size: 14px;opacity: .5">substantiivi</span></h4>
 
 Duden vakiojuoma Sohwissa vuodesta kivi, eli Sandels IV, suoraan pullosta. Sanotaan myös everstiksi.
