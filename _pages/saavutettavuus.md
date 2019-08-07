@@ -8,7 +8,9 @@ permalink: http://handbook.dude.fi/saavutettavuus
 published: true
 post_date: 2019-08-07 15:48:57
 ---
-Saavutettavuus (esteettömyys Internetissä) on Dudelle erittäin tärkeää. Sivujen täytyy toimia näppäimistöllä ja sokeain lukulaitteilla. Saavutettavuustestaukseen käytetään seuraavia työkaluja:
+Saavutettavuus (esteettömyys Internetissä) on Dudelle erittäin tärkeää. Sivujen täytyy toimia näppäimistöllä ja sokeain lukulaitteilla. Asiakasprojekteissa pyritään vähintään WCAG 2.0 A-tason saavutettavuuteen. Jos projekti sen sallii, keskitytään myös tarkemmin laajemman saavutettavuuden ja inklusiivisuuden parantamiseen, esimerkiksi kontrastiasioihin WCAG 2.0 AA:n ja AAA:n puitteissa.
+
+Saavutettavuustestaukseen käytetään seuraavia työkaluja:
 
 <ul>
 <li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">axe for Google Chrome</a></li>
