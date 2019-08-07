@@ -65,8 +65,7 @@ Huom: Jatkoa ajatellen paina ylöspäin niin saat aiemmat komennot ja voit kopat
 <li>Saat viestin: <b>ERROR linked file /var/www/projektinnimi/shared/.env does not exist</b>, kuuluu asiaan. Kirjaudu palvelimelle tunnuksillasi ssh tunnus@gunship.dude.fi, kopioi polku virheilmoituksesta ja aja komento seuraavasti: <code>nano /var/www/projektinnimi/shared/.env</code> (kopioi polku virheilmoituksesta)</li>
 <li>Avaa projektin paikallinen .env ja muokkaa tiedostosta seuraavat kohdat kuntoon:
 
-<pre class="language-bash"><code>
-DB_NAME=projektinnimi
+<pre class="language-bash"><code>DB_NAME=projektinnimi
 DB_USER=projektinnimi
 DB_PASSWORD=gunship-kannan salasana tähän
 DB_HOST=185.87.110.10
