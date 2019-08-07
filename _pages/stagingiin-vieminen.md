@@ -57,10 +57,10 @@ Huom: Jatkoa ajatellen paina ylöspäin niin saat aiemmat komennot ja voit kopat
 <li>Mene komentorivillä projektiin, cd ~/Projects/projektinnimi ja varmista että kaikki muutokset ovat masterissa, siirry master branchiin git checkout master ja mergeä tarvittaessa.</li>
 <li>Kirjoita <code>cap install</code></li>
 <li>Avaa config/deploy/staging.rb, sublilla tai nanolla. Korvaa tiedoston sisältö uusimmalla staging.rb deploy-configilla.</li>
-<li>Korvaa <code>{{{USERNAME}}}</code> omalla käyttäjätunnuksella ja <code>{{{PASSWORD}}}</code> omalla salasanalla, tarkista 1Passwordista kohdasta gunship.dude.fi. Korvaa <code>{{{PROJECTNAME}}}</code> projektin nimellä, (alt + cmd + F). Tarkista että wp-cli komentojen urlit ovat oikein, pitäisi olla http://projektinnimi.test ja https://projektinnimi.vaiheessa.fi. Tallenna tiedosto.</li>
-<li>Tarkista että config/deploy.rb näyttää oikealta.</li>
+<li>Korvaa <b>{{{USERNAME}}}</b> omalla käyttäjätunnuksella ja <b>{{{PASSWORD}}}</b> omalla salasanalla, tarkista 1Passwordista kohdasta gunship.dude.fi. Korvaa <b>{{{PROJECTNAME}}}</b> projektin nimellä, (alt + cmd + F). Tarkista että wp-cli komentojen urlit ovat oikein, pitäisi olla <i>http://projektinnimi.test</i> ja <i>https://projektinnimi.vaiheessa.fi</i>. Tallenna tiedosto.</li>
+<li>Tarkista että <i>config/deploy.rb</i> näyttää oikealta.</li>
 <li>Mene komentoriville projektikansioon ja aja <code>cap staging deploy</code></li>
-<li>Saat viestin: <code>ERROR linked file /var/www/projektinnimi/shared/.env does not exist</code>, kuuluu asiaan. Kirjaudu palvelimelle tunnuksillasi ssh tunnus@gunship.dude.fi, kopioi polku virheilmoituksesta ja aja komento seuraavasti: <code>nano /var/www/projektinnimi/shared/.env</code> (kopioi polku virheilmoituksesta)</li>
+<li>Saat viestin: <b>ERROR linked file /var/www/projektinnimi/shared/.env does not exist</b>, kuuluu asiaan. Kirjaudu palvelimelle tunnuksillasi ssh tunnus@gunship.dude.fi, kopioi polku virheilmoituksesta ja aja komento seuraavasti: <code>nano /var/www/projektinnimi/shared/.env</code> (kopioi polku virheilmoituksesta)</li>
 <li>Avaa projektin paikallinen .env ja muokkaa tiedostosta seuraavat kohdat kuntoon:
 
 <pre class="language-bash"><code>
@@ -76,8 +76,8 @@ WP_SITEURL=https://projektinnimi.vaiheessa.fi/wp
 
 Saltit ja muut mahdolliset ympäristömuuttujat samat kuin lokaalissa.</li>
 <li>Poistu palvelimelta komennolla exit. Aja uudestaan komento <code>cap staging deploy</code>.</li>
-<li>Mene FileZillaan. Siirrä mediatiedostot kansioon /var/www/projektinnimi/shared/media</li>
-<li>Määrittele kertakäyttösalasana muokkaamalla tiedostoa /var/www/projektinnimi/shared/.staging_password. Lisää salasana Trelloon ja 1Paswordiin.</li>
+<li>Mene FileZillaan. Siirrä mediatiedostot kansioon <i>/var/www/projektinnimi/shared/media</i></li>
+<li>Määrittele kertakäyttösalasana muokkaamalla tiedostoa <i>/var/www/projektinnimi/shared/.staging_password</i>. Lisää salasana Trelloon ja 1Paswordiin.</li>
 </ol>
 
 Lopuksi testaa sivustoa projektin virallisessa osoitteessa projektinnimi.vaiheessa.fi.
