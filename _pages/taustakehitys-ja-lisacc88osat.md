@@ -70,11 +70,7 @@ Jos on tulossa kielikäännöksiä, sivustolle asennetaan vakiona Polylang. 
 
 Jos verkkokauppa.
 
-<h4>Carbon Fields</h4>
-
-Yksinkertaisempiin sekä suoraviivaisiin projekteihin suositellaan käytettäväksi Carbon Fieldsiä. Paljon käyttöä vaativissa sivuissa suositellaan kuitenkin ACF:ää, sillä Carbon Fieldsissä ei tällä hetkellä toimi esikatselu. Seurataan CF:n kehitystä tiiviisti.
-
-<h4><span class="accent">tai</span> Advanced Custom Fields Pro</h4>
+<h4>Advanced Custom Fields Pro</h4>
 
 Jos sivustolle kaivataan modulaarista rakennetta, käytetään ACF Pro:ta custom  eldsien ja sivupohjien rakentamiseen. ACF Pro päivittyy tiuhaan ja on tällä hetkellä kaikista suosituin custom  eldseihin käytetty ratkaisu.
 
