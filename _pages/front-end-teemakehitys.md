@@ -51,3 +51,7 @@ Front endissä tarvittavat lisäosat tai muut PHP:ta käyttävät riippuvuu
 Front End koodin on toimittava julkaisuhetkellä vallitsevissa selaimissa, kuten Mozilla Firefoxin, Google Chromen, Safarin ja Internet Explorerin uusimmissa versioissa. Tämän lisäksi <a href="https://github.com/digitoimistodude/air/blob/master/gulpfile.js#L106" class="github">air-teeman gulpfile.js:ssä</a> määritetty autoprefixer varmistaa, että prefixit on kunnossa kolmeen vanhempaan versioon.
 
 Internet Explorerissa tuetaan versioita 11 ja ylöspäin. Versiota 11 vanhemmille tuki rakennetaan lisätyönä.
+
+<h3>Muuta</h3>
+
+Katso myös: <a href="https://handbook.dude.fi/nimeamiskaytannot">Nimeämiskäytännöt</a>.
