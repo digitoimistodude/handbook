@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/nimeamiskaytannot
+  http://handbook.dude.fi/wordpress-kehitys/nimeamiskaytannot
 published: true
 post_date: 2019-08-12 15:33:33
 ---
