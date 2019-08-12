@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/wordpress-kehitys/front-end-teemakehitys
+  http://handbook.dude.fi/wordpress-kehitys/front-end-teemakehitys
 published: true
 post_date: 2017-08-04 15:02:36
 ---
@@ -29,7 +29,10 @@ SCSS-tyylit on toteutettava modulaarisesti, eli jokainen oleellinen layout tai v
 --- _forms.scss
 --- _general.scss
 --- _sidebar.scss
-... ja niin edelleen.
+- modules
+--- _hero.scss
+--- _upsells.scss
+--- _etc.scss
 
 Rakenteeseen voi ehdottaa muutoksia suoraan Airin GitHub- repositorioon sass/ -hakemistoon. Lähtökohta on, että esim. template-partsissa sijaitsevilla php-tiedostoilla olisi aina views/ -kansiossa saman niminen SCSS-pari.
 
