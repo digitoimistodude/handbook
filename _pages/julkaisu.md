@@ -16,7 +16,14 @@ Huomaathan, että tätä opasta käytetään ainoastaan silloin kun asiakkaan si
 <h3>Miten deploy toimii</h3>
 Deployn automatisointi tapahtuu <a href="http://capistranorb.com/">Capistranon</a> avulla, joka on osa <a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimisto/dudestack</a>-kokonaisuutta. Ensimmäinen deploy suoritetaan aina Capistranon työkalulla, mutta esim. pienet teemapäivitykset hoidetaan suoralla sftp- tai rsync-yhteydellä.
 
-<h3>Vaiheet</h3>
+<h3>Julkaisut vanhaan projektiin</h3>
+
+Jatkokehitykset, freesaukset yms. hoidetaan suoralla sftp- tai rsync-yhteydellä jo aiemmin deployattuun projektiin. Isommat releaset tehdään uudella cap production deploylla.
+
+Muutosten myötä tulee muistaa ngx-pagespeed-välimuistin tyhjennys:
+<pre class="language-bash"><code>sudo rm -rf /tmp/pgsp/v3/domain.fi</code></pre>
+
+<h3>Uuden julkaisun vaiheet</h3>
 Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (<a href="http://capistranorb.com/">Capistrano</a>) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki on varmistettu ja menee oikein. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
 
 26.4.2018 eteenpäin vaiheet 1, 2 on automatisoitu scripteihin (huomaathan käyttää <b>bashia</b> <i>sh</i> sijaan, sillä ubuntun sh ei tue read-komentoa).
