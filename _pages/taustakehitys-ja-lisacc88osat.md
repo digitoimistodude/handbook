@@ -1,10 +1,10 @@
 ---
 ID: 95
-post_title: Taustakehitys ja lisäosat
+post_title: Taustakehitys ja lisäosat
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: 'https://handbook.dude.fi/wordpress-kehitys/taustakehitys-ja-lisa%cc%88osat'
+permalink: 'http://handbook.dude.fi/wordpress-kehitys/taustakehitys-ja-lisa%cc%88osat'
 published: true
 post_date: 2017-08-04 15:08:01
 ---
@@ -70,11 +70,7 @@ Jos on tulossa kielikäännöksiä, sivustolle asennetaan vakiona Polylang. 
 
 Jos verkkokauppa.
 
-<h4>Carbon Fields</h4>
-
-Yksinkertaisempiin sekä suoraviivaisiin projekteihin suositellaan käytettäväksi Carbon Fieldsiä. Paljon käyttöä vaativissa sivuissa suositellaan kuitenkin ACF:ää, sillä Carbon Fieldsissä ei tällä hetkellä toimi esikatselu. Seurataan CF:n kehitystä tiiviisti.
-
-<h4><span class="accent">tai</span> Advanced Custom Fields Pro</h4>
+<h4>Advanced Custom Fields Pro</h4>
 
 Jos sivustolle kaivataan modulaarista rakennetta, käytetään ACF Pro:ta custom  eldsien ja sivupohjien rakentamiseen. ACF Pro päivittyy tiuhaan ja on tällä hetkellä kaikista suosituin custom  eldseihin käytetty ratkaisu.
 
