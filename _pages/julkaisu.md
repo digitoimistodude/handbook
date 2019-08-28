@@ -66,7 +66,7 @@ AUTH_KEY=...</code></pre>
 
 3. Seuraavaksi kirjaudu tietokantapalvelimelle seuraavasti. Kirjaudu ensin valitulle edustapalvelimelle (<i>ghost.dude.fi</i>, <i>craft.dude.fi</i>), aliaksella <code>craft</code> tai <code>ghost</code>, jos olet luonut sellaisen, jos taas et, perinteisesti <code>ssh käyttäjänimesi@185.87.110.9</code> (ghost), <code>ssh käyttäjänimesi@185.87.110.7</code> (craft).
 
-Kirjauduttuasi edustapalvelimelle, kirjaudu sitä kautta tietokantapalvelimelle. Jos käytät craftia, kirjaudu beardfish-tietokantapalvelimelle komennolla <code>ssh käyttäjätunnus@192.168.0.4</code>, jos taas ghostia, kirjaudu faith-tietokantapalvelimelle komennolla <code>ssh käyttäjätunnus@192.168.0.6</code>.
+4. Kirjauduttuasi edustapalvelimelle, kirjaudu sitä kautta tietokantapalvelimelle. Jos käytät craftia, kirjaudu beardfish-tietokantapalvelimelle komennolla <code>ssh käyttäjätunnus@192.168.0.4</code>, jos taas ghostia, kirjaudu faith-tietokantapalvelimelle komennolla <code>ssh käyttäjätunnus@192.168.0.6</code>.
 
 Kun olet palvelimella, kirjaudu tietokannan komentorivitulkille komennolla:
 
@@ -138,7 +138,7 @@ Ennen sivut julkaistaan maailmalle päivittämällä domainin nimipalvelintietue
 
 <pre class="language-bash"><code>sudo nano /etc/hosts</code></pre>
 
-Lisää tiedoston pohjalle IP (ghost tai craft) ja sen perään asiakkaalla käytössä olevat domainit. Ghostin tapauksessa rivi näyttäisi tältä:
+Lisää tiedoston pohjalle IP (ghost tai craft) ja sen perään asiakkaalla käytössä olevat domainit. Craftin tapauksessa rivi näyttäisi tältä:
 
 <pre class="language-bash"><code>185.87.110.7 asiakas.fi www.asiakas.fi</code></pre>
 
