@@ -175,7 +175,7 @@ Kun ajolista on käyty läpi, on aika julkaista sivusto maailmalle. Tämä vaihe
 
 <h4>13. HTTPS-sertifikaatin asentaminen</h4>
 
-Kun sivusto näkyy maailmalle ja nimipalvelimet ovat päivittyneet (tämän voit tarkistaa kirjautumalla craftille tai ghostille ja pingaamalla domainia komennolla <code>ping asiakas.dude.fi</code>, jos IP ei ole craftin tai ghostin, ei muutos ole vielä voimassa)
+Kun sivusto näkyy maailmalle ja nimipalvelimet ovat päivittyneet (tämän voit tarkistaa kirjautumalla craftille tai ghostille ja pingaamalla domainia komennolla <code>ping asiakas.fi</code>, jos IP ei ole craftin tai ghostin, ei muutos ole vielä voimassa)
 
 Tämäkin työ on automatisoitu ja homman saa hoidettua yhdellä komennolla:
 
