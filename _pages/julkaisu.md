@@ -48,7 +48,7 @@ Saat viestin: <b>ERROR linked file /var/www/asiakas.fi/deploy/shared/.env does n
 
 <h4>3. Tuotantoympäristön asettaminen tietokantaa varten</h4>
 
-1. Avaa paikallisen projektin <b>.env</b>-tiedosto ja muokkaa siitä <b>WP_ENV</b>=production <b>DB_HOST</b>=ghostin tai craftin <u>paikallinen</u> IP-osoite tähän (craftin tietokantapalvelin on beardfish ja paikallinen IP on 192.168.0.4, ghostin tietokantapalvlein on faith ja paikallinen IP on 192.168.0.6).
+1. Avaa paikallisen projektin <b>.env</b>-tiedosto ja muokkaa siitä <b>WP_ENV</b>=production <b>DB_HOST</b>=ghostin tai craftin <u>paikallinen</u> IP-osoite tähän (craftin tietokantapalvelin on beardfish ja paikallinen IP on 192.168.0.4, ghostin tietokantapalvelin on faith ja paikallinen IP on 192.168.0.6).
 2. Lisää <b>DB_USER</b> ja <b>DB_NAME</b>-kohtiin esimerkiksi projektin nimi. Jätä salasana toistaiseksi tyhjäksi. Vaihda <b>WP_HOME</b> ja <b>WP_SITEURL</b> -kohtiin projektin oikea tuotanto-osoite, <b>huom!</b> http:// tässä vaiheessa, ei https://. SSL-sertifikaatti nimittäin asennetaan myöhemmässä vaiheessa, sitten kun sivut näkyy ulkomaailmalle.
 
 Tässä vaiheessa .env-tiedoston pitäisi näyttää jotakuinkin tältä:
