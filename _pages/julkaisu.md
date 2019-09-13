@@ -160,7 +160,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista 
 
 [video width="1768" height="1080" mp4="http://handbook.dude.fi/media/todoist.mp4"][/video]
 
-<a href="https://docs.google.com/spreadsheets/d/1Dpa-aDcf6NNZMi7DT7Q-ppOgEJ_fgPxB_-pxELKurTs/edit?usp=sharing">Lataa lista Google Sheetistä</a> - Dudelta löytyy muokkausoikeus, muilta katseluoikeus.
+<a href="https://docs.google.com/spreadsheets/d/1Dpa-aDcf6NNZMi7DT7Q-ppOgEJ_fgPxB_-pxELKurTs/edit?usp=sharing">Lataa lista Google Sheetistä</a>. <a href="https://docs.google.com/spreadsheets/d/13r_jp7EQOb_E-TNUWJGgnpT1lzbksTgt4V5K7Z4ROTI/edit?usp=sharing">Julkinen versio</a> selkomuodossa ja kommentointioikeuksilla.
 
 <h4>12. Domainin ja nimipalvelinten ohjaus</h4>
 
