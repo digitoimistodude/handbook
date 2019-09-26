@@ -56,7 +56,7 @@ Pitää WordPressin artikkelien muokkausnäkymän vanhana tuttuna WYSIWYG -edito
 
 <h4>ManageWP Worker</h4>
 
-Dudella käytteään <a href="managewp.com" class="github">ManageWP</a> -palvelua päivitysten tekemiseen sekä sivustojen laajempaan yhtenäiseen hallinnointiin. Worker yhdistää sivuston ManageWP:n hallintapaneeliin.
+Dudella käytteään <a href="https://managewp.com" class="github">ManageWP</a> -palvelua päivitysten tekemiseen sekä sivustojen laajempaan yhtenäiseen hallinnointiin. Worker yhdistää sivuston ManageWP:n hallintapaneeliin.
 
 <h4>Redis Object Cache</h4>
 
