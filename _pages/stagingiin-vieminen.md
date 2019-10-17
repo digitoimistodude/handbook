@@ -78,7 +78,7 @@ WP_SITEURL=https://projektinnimi.vaiheessa.fi/wp
 Saltit ja muut mahdolliset ympäristömuuttujat samat kuin lokaalissa.</li>
 <li>Poistu palvelimelta komennolla exit. Aja uudestaan komento <code>cap staging deploy</code>.</li>
 <li>Mene FileZillaan. Siirrä mediatiedostot kansioon <i>/var/www/projektinnimi/shared/media</i></li>
-<li>Määrittele kertakäyttösalasana muokkaamalla tiedostoa <i>/var/www/projektinnimi/shared/.staging_password</i>. Lisää salasana Trelloon ja 1Paswordiin.</li>
+<li>Määrittele kertakäyttösalasana muokkaamalla tiedostoa <i>/var/www/projektinnimi/shared/.staging_password</i>. Lisää salasana Trelloon ja 1Passwordiin.</li>
 </ol>
 
 Lopuksi testaa sivustoa projektin virallisessa osoitteessa projektinnimi.vaiheessa.fi.
