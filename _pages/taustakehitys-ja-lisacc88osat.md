@@ -50,13 +50,21 @@ Poistaa lisätessä ylimääräiset merkit ja ääkköset tiedostonimist
 
 Duden pohjateeman Airin apulisäosa, joka laajentaa teemaa toivottuun tapaan. Tällä hetkellä sisältää toimintoja kuten päivitysilmoitusten piilotuksen, custom-mediakansion (wp-uploadsin sijaan media/), SendGrid-kredentiaalit .env-tiedostosta jne. Air-helperiin voi tutustua tarkemmin täällä: https://github.com/digitoimistodude/air-helper
 
-<h4>WP Rocket</h4>
+<h4>Classic Editor</h4>
 
-Välimuistitukseen käytetään oletuksena WP Rocketia.
+Pitää WordPressin artikkelien muokkausnäkymän vanhana tuttuna WYSIWYG -editorina. Tarpeen vaatiessa ja projektin sopiessa Gutenbergillä muokattaville sisällöille, tämä lisäosa poistetaan käytöstä.
 
-<h4>Cerber Security</h4>
+<h4>ManageWP Worker</h4>
 
-Tietoturvaa vahvistamaan, logineiden rajoittamiseen.
+Dudella käytteään <a href="https://managewp.com" class="github">ManageWP</a> -palvelua päivitysten tekemiseen sekä sivustojen laajempaan yhtenäiseen hallinnointiin. Worker yhdistää sivuston ManageWP:n hallintapaneeliin.
+
+<h4>Redis Object Cache</h4>
+
+Välimuistilisäosa joka nopeuttaa sivuston toimintaa tallentamalla tiettyjä asioita Redikseen. Duden toteuttamat teemat ja lisäosat voivat myös olettaa Rediksen olemassaolon ja käyttää WordPressin välimuistitekniikoita. Poistetaan käytöstä mikäli sivusto menee kolmannen osapuolen webhotelliin jossa ei ole Redistä.
+
+<h4>Force Strong Passwords</h4>
+
+Yksinkertainen lisäosa joka pakottaa käyttäjät asettamaan tarpeeksi vahvan salasanan.
 
 <h3>Projekteihin valittavat lisäosat</h3>
 
@@ -89,6 +97,17 @@ Jos tulee lomakkeita, sivustolle asennetaan vakiona WP Libre Form.
 <h4><span class="accent">tai</span> Gravity Forms</h4>
 
 Jos lomakkeita halutaan muokkailla vapaammin, niille tarvitsee tehdä jotain Gravity Formsin mahdollistavaa customia, käytetään Gravity Formsia.
+
+<h4>Välimuistitus</h4>
+
+Välimuistitukseen käytetään tarvittaessa jotain seuraavista lisäosista. Listasta valitaan tapauskohtaisesti sivustolle parhaiten sopiva vaihtoehto.
+
+<ul>
+  <li>WP Rocket</li>
+  <li>WP Fastest Cache</li>
+  <li>WP Super Cache</li>
+  <li>Hummingbird</li>
+</ul>
 
 <h3>Muut lisäosat</h3>
 
