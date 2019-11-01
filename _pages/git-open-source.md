@@ -38,7 +38,7 @@ Pushaa eli "työnnä" muutokset muiden nähtäville ja työstettäville. Push-vi
 
 <h2 id="branchit">Branchit</h2>
 
-Jokaisella dudella on oma branchinsa kun työskennellään samassa projektissa. Taustakoodille on branch nimeltä <code>back-end</code>, fronttikoodille branch <code>front-end</code>. Jos useampi back-koodari tai front-koodari on samassa projektissa, luodaan uusi branchi lisäkehittäjälle muotoa <code>front-end-nimi</code> tai <code>back-end-nimi</code>, esimerkiksi <code>front-end-henri</code>. Jos taas yksi kehittäjä kehittää projektia, tekee yksittäisen muutoksen esimerkiksi julkaisun jälkeen, voi muutokset tehdä suoraan <code>master</code>-branchiin.
+Jokaisella dudella on oma branchinsa eli "kehitysoksansa" kun työskennellään samassa projektissa. Omassa työstövaiheessa luodaan branch muotoa <code>wip-omanimi</code>, esimerkiksi Ronin työstö tapahtuu koko ajan branchissa <code>wip-roni</code> (<i>wip</i> as in Work in Progress). Jos vain ja ainoastaan yksi kehittäjä kehittää projektia koko projektin ajan tai tekee yksittäisen muutoksen esimerkiksi julkaisun jälkeen, voi tarvittaessa muutokset tehdä suoraan <code>master</code>-branchiin.
 
 Isompia ominaisuuksia tai leiskoja rakentaessa luodaan oma branch, muotoon <code>feature-featurennimi</code> tai <code>layout-viewinnimi</code>. Ominaisuuden branch voi olla esimerkiksi <code>feature-events-2018</code> tai <code>feature-shop-integrations</code> kun taas uuden layoutin branch voi olla <code>layout-new-staffmembers</code>.
 
