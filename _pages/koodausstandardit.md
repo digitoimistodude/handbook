@@ -28,4 +28,4 @@ Koodin tulee olla selkeää ja dokumentoitua. Indentaatiossa käytämme 2 me
 
 <h3>Editorin linter</h3>
 
-Sublime Textille linter-asetukset ja exclude löytyvät GitHubista: <a href="https://github.com/ronilaukkarinen/sublime-settings/blob/master/Library/Application%20Support/Sublime%20Text%203/Packages/User/SublimeLinter.sublime-settings" class="github">SublimeLinter.sublime-settings</a>.
+Sublime Textille linter-asetukset ja exclude löytyvät GitHubista: <a href="https://github.com/digitoimistodude/sublime-settings/blob/master/Library/Application%20Support/Sublime%20Text%203/Packages/User/SublimeLinter.sublime-settings" class="github">SublimeLinter.sublime-settings</a>.
