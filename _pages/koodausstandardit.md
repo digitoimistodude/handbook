@@ -26,6 +26,16 @@ Phpcbf:llä on nopea refaktoroida koodia. Teemakansiossa komento ajetaan seuraav
 <h3>Indentointi ja linttaus</h3>
 Koodin tulee olla selkeää ja dokumentoitua. Indentaatiossa käytämme 2 merkin väliä.
 
+PHP-puolella tulee aina noudattaa phpcs.xml:ää. Jos tarvitsee ignorata sääntöjä, lisätään ne projektikohtaisesti kunkin projektin teemakansion alla olevaan phpcs.xml:ään tai seuraavasti koodiin:
+
+<pre class="language-php"><code><?php // phpcs:disable ?></code></pre>
+
+Jos taas ignorettavaa on SCSS-puolella, lisää seuraava ignorettavaa riviä ennen:
+
+<pre class="language-scss"><code>// scss-lint:disable</code></pre>
+
+Disabloinnille/ignoroinnille pitää aina olla hyvä syy, lähtökohtaisesti varoitukset korjataan aina.
+
 <h3>Editorin linter</h3>
 
 Sublime Textille linter-asetukset ja exclude löytyvät GitHubista: <a href="https://github.com/digitoimistodude/sublime-settings/blob/master/Library/Application%20Support/Sublime%20Text%203/Packages/User/SublimeLinter.sublime-settings" class="github">SublimeLinter.sublime-settings</a>.
