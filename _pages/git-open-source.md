@@ -18,7 +18,7 @@ Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja tulisi
 
 <h2>Gitin käyttö asiakasprojekteissa</h2>
 
-Committeja ei saa jättää jemmaan, vaan ne tulee pushata aina hyvissä ajoin, etenkin silloin kun kun tietää olevansa poissa ruudulta. Front-end ja back-end branchit tulee myös mergetä pääbranchiin työpäivän päätteeksi, etenkin projektin aktiivisessa kehitysvaiheessa ja suurempien muutosten jälkeen. Näin projektin jatkokehittäjä eli työkaveri saa uusimmat muutokset ajoissa, eikä tule konflikteja.
+Committeja ei saa jättää jemmaan, vaan ne tulee pushata aina hyvissä ajoin, etenkin silloin kun kun tietää olevansa poissa ruudulta. Omat branchit tulee myös mergetä pääbranchiin työpäivän päätteeksi, etenkin projektin aktiivisessa kehitysvaiheessa ja suurempien muutosten jälkeen. Näin projektin jatkokehittäjä eli työkaveri saa uusimmat muutokset ajoissa, eikä tule konflikteja.
 
 Muutoksia voi niputtaa samaan committiin, esimerkiksi "Improving readability", jossa voi olla useampi typografiamuutos samassa. Nyrkkisääntönä sopiva toimintovälin etappi, jossa saa käyttää maalaisjärkeä.
 

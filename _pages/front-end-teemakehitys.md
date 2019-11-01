@@ -38,8 +38,6 @@ Rakenteeseen voi ehdottaa muutoksia suoraan Airin GitHub- repositorioon sass/ -h
 
 Front End devaaja aloittaessaan rakentaa WordPressin teematiedostoihin HTML-rakenteen back end -kehittäjälle valmiiksi. Järkeviä PHP-ratkaisuja voi rakentaa valmiiksi, kuten tietyt echot, svg includet, oleelliset functions.php:n muutokset tai vastaavat, mutta WP Queryt ja laajemmat PHP-toiminnallisuudet jätetään back end -kehittäjän työstettäväksi.
 
-Front End käyttää aina branchia front-end ja mergeää säännöllisesti masteriin. Muista brancheista keskustellaan erikseen.
-
 <h3>Riippuvuudet</h3>
 
 Projektissa käytettävät SCSS- ja JS-palikat haetaan npm upstreamista ja lisätään vaatimuksina teeman package.jsoniin aina kun mahdollista. Jos kyseessä on esimerkiksi muutaman rivin <code>@mixin</code>, voidaan tehdä poikkeus ja tarvittavan dependenssin toistuessa keskustella siitä, lisättäisiinkö tämä myös airiin defaultiksi.
