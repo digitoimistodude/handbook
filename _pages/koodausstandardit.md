@@ -30,9 +30,9 @@ PHP-puolella tulee aina noudattaa phpcs.xml:ää. Jos tarvitsee ignorata säänt
 
 <pre class="language-php"><code>&lt;?php // phpcs:disable ?&gt;</code></pre>
 
-Jos taas ignorettavaa on SCSS-puolella, lisää seuraava ignorettavaa riviä ennen:
+Jos taas ignorettavaa on SCSS-puolella, lisää seuraava ignorettavaa riviä ennen (huomaa disable-sanan jälkeen ignoroitava määre):
 
-<pre class="language-scss"><code>// scss-lint:disable</code></pre>
+<pre class="language-scss"><code>// scss-lint:disable SelectorFormat</code></pre>
 
 Disabloinnille/ignoroinnille pitää aina olla hyvä syy, lähtökohtaisesti varoitukset korjataan aina.
 
