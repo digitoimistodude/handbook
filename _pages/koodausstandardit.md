@@ -28,7 +28,7 @@ Koodin tulee olla selkeää ja dokumentoitua. Indentaatiossa käytämme 2 me
 
 PHP-puolella tulee aina noudattaa phpcs.xml:ää. Jos tarvitsee ignorata sääntöjä, lisätään ne projektikohtaisesti kunkin projektin teemakansion alla olevaan phpcs.xml:ään tai seuraavasti koodiin:
 
-<pre class="language-php"><code><?php // phpcs:disable ?></code></pre>
+<pre class="language-php"><code>&lt;?php // phpcs:disable ?&gt;</code></pre>
 
 Jos taas ignorettavaa on SCSS-puolella, lisää seuraava ignorettavaa riviä ennen:
 
