@@ -13,8 +13,6 @@ Kun suunnittelija on saanut visuaalisen suunnittelun päätökseen, tulee hänen
 
 <h3>Ulkoasut</h3>
 
-<h5 style="color:#666">Adobe XD</h5>
-
 Visuaalisen suunnittelijan on varmistettava, että uusin hyväksytty versio löytyy aina XD:stä (työkalusta lisää kohdassa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>). XD prototyyppi on jaettava Specs -tilassa, jotta koodari voi tarkastella yksityiskohtaisesti ulkoasussa olevia elementtejä.
 
 <h3>Valokuvat</h3>
