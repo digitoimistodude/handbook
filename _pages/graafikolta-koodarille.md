@@ -1,6 +1,6 @@
 ---
 ID: 204
-post_title: Suunniuttelijalta koodarille
+post_title: Suunnittelijalta koodarille
 author: Roni
 post_excerpt: ""
 layout: page
