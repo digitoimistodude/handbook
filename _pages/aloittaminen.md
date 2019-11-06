@@ -67,6 +67,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <li><a href="http://dude.fi/blogi">Dude.fi -blogi</a>
 <li><a href="https://instagram.com/digitoimistodude/">Instagram</a></li>
 <li><a href="https://www.facebook.com/digitoimistodude/">Facebook</a></li>
+<li><a href="https://www.twitter.com/dudetoimisto/">Twitter</a></li>
 <li><a href="https://www.linkedin.com/company/digitoimisto-dude-oy/">LinkedIn-yrityssivu</a></li>
 <li><a href="https://mailchimp.com/">MailChimp</a> uutiskirjeitä varten</li>
 </ul>
