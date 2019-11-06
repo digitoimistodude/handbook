@@ -30,7 +30,7 @@ Kun olet saanut työkoneesi purettua paketista, tarvitset seuraavat tunnukset:
 
 <ul>
 <li><a href="https://slack.com/">Slack</a></li>
-<li><a href="https://dropbox.com/">Dropbox</a></li>
+<li><a href="https://www.google.com/drive/download/">Google Drive</a></li>
 <li><a href="https://1password.com/">1Password</a></li>
 </ul>
 
