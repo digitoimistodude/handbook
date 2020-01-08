@@ -35,7 +35,7 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 Vaiheet:
 
-1. Muut mukaan tulevat devaajat menevät <a href="http://bitbucket.org/digitoimistodudeoy/">Duden Bitbucketiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla <code>~/Projects</code> -hakemistoon (Terminalissa: <code>cd ~/Projects</code> ja sen jälkeen git clone <i>url</i>).
+1. Muut mukaan tulevat devaajat menevät <a href="http://github.com/digitoimistodude/">Duden Githubiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla <code>~/Projects</code> -hakemistoon (Terminalissa: <code>cd ~/Projects</code> ja sen jälkeen git clone <i>url</i>).
 
 2. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> (esim. <code>subl ~/Projects/.env</code> tai <code>nano ~/Projects/.env</code>) ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 
