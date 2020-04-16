@@ -4,7 +4,7 @@ post_title: Palvelimet
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: https://handbook.dude.fi/palvelimet
+permalink: http://handbook.dude.fi/palvelimet
 published: true
 post_date: 2017-08-04 15:16:10
 ---
@@ -12,7 +12,7 @@ Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n ho
 
 <h3>Käyttöjärjestelmä ja web-palvelin</h3>
 
-Käyttöjärjestelmänä käytetään Ubuntu 14.04 Trusty LTS:ää, ellein toisin päätetä. Palvelintekniikkana toimii LEMP, lähtökohtaisesti uusimmat versiot nginxistä, MariaDB:stä sekä PHP7:sta. HHVM:n käyttöä pyritään vähentämään PHP:n kehittyessä.
+Käyttöjärjestelmänä käytetään Ubuntu 16.04 Xenial Xerus LTS:ää, ellein toisin päätetä. Palvelintekniikkana toimii LEMP (Apache, Nginx, Php-fpm), lähtökohtaisesti uusimmat versiot Nginxistä, MariaDB:stä sekä PHP7:sta.
 
 <img class="alignnone size-full wp-image-2109" src="https://www.dude.fi/tiedostot/dude-servut-2017.png" alt="" width="730" height="500" />
 
