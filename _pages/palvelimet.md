@@ -8,7 +8,7 @@ permalink: http://handbook.dude.fi/palvelimet
 published: true
 post_date: 2017-08-04 15:16:10
 ---
-Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille. Vähintään kerran kuukaudessa on tarkistettava, että tekniikassa ei ole haavoittuvuuksia.
+Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille. Päivitykset hoidetaan joka maanantai ja torstai ja WPSCAN-tarkistukset ajetaan päivittäin WordPress-lisäosien haavoittuvuuksien varalta. Varmuuskopiot tietokannasta tunnin välein, koko sivuston snapshot päivittäin.
 
 <h3>Käyttöjärjestelmä ja web-palvelin</h3>
 
