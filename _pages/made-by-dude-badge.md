@@ -26,9 +26,15 @@ $color-logo-light: #fff;
 }
 
 .dude-badge {
-  position: absolute;
-  right: 2rem;
-  margin-top: 38px;
+  text-align: center;
+
+  @media (min-width: 480px) {
+    position: absolute;
+    right: 2rem;
+
+    // Adjust based on the site
+    margin-top: 0;
+  }
 
   a:hover .heart {
     fill: $color-logo-light;
@@ -107,7 +113,8 @@ $color-logo-light: #fff;
 [data-tooltip]:hover:before,
 [data-tooltip][data-tooltip-visible]:before {
   transform: translate(-50%, -5px);
-}</code></pre>
+}
+</code></pre>
 
 <strong>global.scss:</strong>
 
