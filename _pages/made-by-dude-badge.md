@@ -5,29 +5,41 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/made-by-dude-badge
+  http://handbook.dude.fi/wordpress-kehitys/dude-badge-badge
 published: true
 post_date: 2019-04-03 14:30:30
 ---
 Sivujen tekijästä ilmoittaa <b>Made by Dude</b> -badge, joka lisätään asiakkaan suostumuksesta sivuston Footer-osioon. Tämä sivu sisältää badgen käyttöönottoon vaadittavat universaalit snippetit, joita ei ole sisällytetty <a href="https://github.com/digitoimistodude/air-light" class="github">starter-teemaamme</a> mukaan.
 
-<strong>footer.php:</strong>
+<strong>Lisää ennen footer.php-tiedoston containerin lopetustagia:</strong>
 
-<pre class="language-html"><code>&lt;p class="made-by-dude"&gt;&lt;a href="https://www.dude.fi" data-tooltip="Sivut toteuttanut" aria-label="Sivut toteuttanut"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" fill="#fff" viewBox="0 0 10000 2602"&gt;&lt;path d="M0 1283.5V2567h379.3c361.6 0 417.8-.4 471.2-3 297.1-14.7 539.8-79.9 736.3-197.7 137.3-82.3 249.7-188.7 335.8-317.9 27.5-41.2 44.5-70.8 68.3-118.4 75.2-151.1 119.6-326.1 133.6-527.5 3.1-45.2 3.7-61.5 4.2-123 .7-76.5-.6-115.2-5.7-177-26.5-317.7-137.8-572.7-333.3-763.2C1612.5 166.7 1379.5 59.9 1091 19.1c-57.4-8.2-103.1-12.4-186.5-17.3C890 1 763.8.6 442.3.3L0-.1v1283.6zm905.5-835.6c46.1 3.5 75.3 7 108.5 12.7 121.1 20.8 225.1 65.8 305.5 132.3 94.5 78.2 161.8 187.5 201.4 327.4 19.4 68.3 32.3 144.5 38.6 227.2 5.6 73.8 5.9 162.8.9 236-14.5 212.8-72.3 379.7-172.7 499.5-113.3 135.1-280.3 211.6-501.7 229.9-44.8 3.7-63.6 4.1-204.2 4.1H544V445.9l173.3.4c119 .3 177.9.8 188.2 1.6zm1738.8 411.8c.2 661.6.6 863.3 1.5 874.8 5.3 65.2 9.5 98.9 17.8 143.5 26.2 139.6 80.9 265.1 160.8 368.5 23.3 30.3 39.9 48.9 70 79.1 34.1 34 55.7 52.8 91.1 79.2 176.1 131.3 410 197.2 700.5 197.2 191.2 0 359.2-28.7 505.5-86.5 176.1-69.4 314.3-177.5 408.6-319.5 80.4-120.9 128.4-259.5 144.4-416 5.3-52.7 4.9 18.4 5.2-918.3L4750 0h-542v795.2c0 771.6-.2 820.4-3 860.8-11.6 165.1-54.9 285.6-131 364.3-71.6 74.1-177.2 114.9-320.5 123.7-21.8 1.3-85.9 1.4-108 0-167.6-10.1-282.2-60.2-353.7-154.6-58.6-77.4-92.7-186.9-102.8-330.4-2.8-39.9-3-92.7-3-863.8V0h-542l.3 859.7zM5271 1283.5V2567h379.3c360.8 0 418.1-.4 470.7-3 235.2-11.7 434.6-54.5 606.4-130.2 23.5-10.3 75.6-36.1 96.6-47.9 169-94.1 300.8-220.6 396.8-380.5 102.2-170.3 160.5-375.7 175.6-618.9 3-47.8 3.9-86.9 3.3-147.5-.6-58.1-1.1-71.3-4.2-116.5-24.1-341.6-147.3-615.5-364.7-811.2C6822.4 123.8 6546.2 22 6194 3c-50.1-2.7-97.9-3-501.2-3H5271v1283.5zM6155 447c29.4 1.3 55.4 3.4 81.9 6.6 284.5 33.8 467.9 183.1 549.2 447.2 32.5 105.5 48.9 230.8 48.9 372.2-.1 147.3-18.3 276.4-54.5 385.5-29.4 88.3-70.4 163.5-124.3 227.5-14 16.6-52.5 54.9-68.7 68.4-119.2 99.1-274.1 151.7-476 161.6-12.1.6-78.8 1-158.7 1H5815V446h158.8c90.8 0 168.3.5 181.2 1zm1756-172.5V544h2089V5H7911v269.5zm0 1010V1554h2089v-539H7911v269.5zm0 1013V2567h2089v-539H7911v269.5z"/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</code></pre>
+<pre class="language-html"><code>&lt;p class="dude-badge"&gt;&lt;a href="https://www.dude.fi" data-tooltip="Sivut toteuttanut" aria-label="Sivut toteuttanut"&gt;&lt;svg width="85" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 17"&gt;&lt;g fill="transparent" class="heart" fill-rule="evenodd"&gt;&lt;path d="M7.5 13.963L2.192 8.412a3.152 3.152 0 01-.59-3.634h0a3.166 3.166 0 012.312-1.7 3.133 3.133 0 012.72.882l.866.803.867-.803a3.133 3.133 0 012.718-.882 3.167 3.167 0 012.312 1.7h0a3.153 3.153 0 01-.589 3.634L7.5 13.962z" class="stroke" stroke="#03061b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/&gt;&lt;path class="fill" fill="#03061b" d="M50.696 8.166c0 .943-.338 2.782-2.601 2.782-2.278 0-2.618-1.84-2.618-2.782V3h-4.34v5.455c0 3.472 2.6 5.545 6.958 5.545 4.346 0 6.942-2.073 6.942-5.545V3h-4.34v5.166zM85 6.052V3H71.717v11H85v-3.052h-9.073v-1.22h7.543V7.271h-7.543V6.052zM33.14 10.948h-2.894V6.057h2.895c1.498 0 2.543 1.146 2.543 2.443 0 1.314-1.045 2.448-2.543 2.448zM34.179 3H26v11h8.178c2.832 0 5.723-2.196 5.723-5.5 0-3.324-2.891-5.5-5.723-5.5zM63.722 10.948h-2.895V6.057h2.895c1.499 0 2.543 1.146 2.543 2.443 0 1.314-1.044 2.448-2.543 2.448zM64.76 3h-8.178v11h8.178c2.832 0 5.723-2.196 5.723-5.5 0-3.324-2.891-5.5-5.723-5.5z"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</code></pre>
 
-<strong>sass/extra/_made-by-dude.scss:</strong>
+<strong>Uusi tiedosto: sass/extra/_dude-badge.scss:</strong>
 
-<pre class="language-scss"><code>.made-by-dude {
+<pre class="language-scss"><code>// Color variables
+$color-logo-dark: #03061b;
+$color-logo-light: #fff;
+
+.site-footer .container {
+  position: relative;
+}
+
+.dude-badge {
   position: absolute;
   right: 2rem;
+  margin-top: 38px;
 
-  svg {
-    opacity: .5;
-    transition: opacity .55s;
+  a:hover .heart {
+    fill: $color-logo-light;
   }
 
-  &:hover svg {
-    opacity: 1;
+  .fill {
+    fill: $color-logo-light;
+  }
+
+  .stroke {
+    stroke: $color-logo-light;
   }
 }
 
@@ -89,10 +101,14 @@ Sivujen tekijästä ilmoittaa <b>Made by Dude</b> -badge, joka lisätään asiak
 
 [data-tooltip]:hover:after,
 [data-tooltip][data-tooltip-visible]:after {
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -5px);
 }
 
 [data-tooltip]:hover:before,
 [data-tooltip][data-tooltip-visible]:before {
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -5px);
 }</code></pre>
+
+<strong>global.scss:</strong>
+
+<pre class="language-scss"><code>@import '../extra/dude-badge';</code></pre>
