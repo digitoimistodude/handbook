@@ -92,7 +92,9 @@ Huom. Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut 
 
 8. Luo itsellesi branch, <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source#branchin-luominen">katso ohjeet tästä</a>.
 
-9. Luo itsellesi WordPress-tunnus, aja wp-cli projektikansiossa (täydennä tähän komentoon tietosi): <code>./vendor/wp-cli/wp-cli/bin/wp user create etunimi nimesi@dude.fi --role=administrator --user_pass=TÄHÄN_ONEPASSWORDILLA_GENEROITU_VAIKEA_SALASANA --first_name=Etunimi --last_name=Sukunimi --display_name=Etunimi</code> 
+9. Luo itsellesi WordPress-tunnus, aja wp-cli projektikansiossa (täydennä tähän komentoon tietosi):
+
+<pre class="language-bash"><code>./vendor/wp-cli/wp-cli/bin/wp user create etunimi nimesi@dude.fi --role=administrator --user_pass=TÄHÄN_ONEPASSWORDILLA_GENEROITU_VAIKEA_SALASANA --first_name=Etunimi --last_name=Sukunimi --display_name=Etunimi</code></pre>
 
 Näin projektin kollaboraatio saa alkaa!
 
