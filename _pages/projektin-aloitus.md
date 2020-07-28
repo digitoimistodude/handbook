@@ -39,7 +39,7 @@ Vaiheet:
 
 2. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> (esim. <code>subl ~/Projects/.env</code> tai <code>nano ~/Projects/.env</code>) ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 
-<pre class="language-bash"><code>DB_NAME=tässä_on_oikea_tietokannan_nimi
+<pre class="language-properties"><code>DB_NAME=tässä_on_oikea_tietokannan_nimi
 DB_USER=tässä_on_oikea_käyttäjätunnus
 DB_PASSWORD=tässä_on_oikea_salasana
 DB_HOST=tässä_on_oikea_ip
