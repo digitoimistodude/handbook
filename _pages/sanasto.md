@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/sanasto
+  https://handbook.dude.fi/wordpress-kehitys/sanasto
 published: true
 post_date: 2018-10-03 13:41:45
 ---

@@ -5,7 +5,7 @@ author: Timi Wahalahti
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/palvelimet/fail2ban
+  https://handbook.dude.fi/palvelimet/fail2ban
 published: true
 post_date: 2019-01-25 15:15:11
 ---

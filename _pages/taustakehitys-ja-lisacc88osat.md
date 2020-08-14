@@ -4,7 +4,7 @@ post_title: Taustakehitys ja lisäosat
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: 'http://handbook.dude.fi/wordpress-kehitys/taustakehitys-ja-lisa%cc%88osat'
+permalink: 'https://handbook.dude.fi/wordpress-kehitys/taustakehitys-ja-lisa%cc%88osat'
 published: true
 post_date: 2017-08-04 15:08:01
 ---

@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/mihin-voin-ottaa-yhteytta
+  https://handbook.dude.fi/tietosuojaseloste/mihin-voin-ottaa-yhteytta
 published: true
 post_date: 2018-04-25 11:17:39
 ---

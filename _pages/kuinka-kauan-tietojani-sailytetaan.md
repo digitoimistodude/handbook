@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/kuinka-kauan-tietojani-sailytetaan
+  https://handbook.dude.fi/tietosuojaseloste/kuinka-kauan-tietojani-sailytetaan
 published: true
 post_date: 2018-04-25 11:01:58
 ---

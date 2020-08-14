@@ -23,6 +23,6 @@ Duden devaustyökalut ovat yhdessä hyväksi todettuja, yhdessä päätett
 <b>Task manager:</b> <a href="https://gulpjs.com/">gulp</a> (<a href="https://github.com/digitoimistodude/devpackages" class="github">digitoimistodude/devpackages</a>)
 <b>Työkalut, builderit:</b> <a href="https://rubygems.org/">gem</a>, <a href="https://brew.sh/index_fi.html">homebrew</a>
 <b>Kehitysympäristöt:</b> <a href="https://www.vagrantup.com/">vagrant</a> (Back end: <a href="https://github.com/digitoimistodude/marlin-vagrant" class="github">digitoimistodude/marlin-vagrant</a>), <a href="https://github.com/digitoimistodude/osx-lemp-setup">natiivi LEMP</a> (Front end: <a href="https://github.com/digitoimistodude/osx-lemp-setup" class="github">digitoimistodude/osx-lemp-setup</a>)
-<b>Deployt:</b> <a href="http://capistranorb.com/">Capistrano</a>, suora SFTP
+<b>Deployt:</b> <a href="https://capistranorb.com/">Capistrano</a>, suora SFTP
 
 Kehitystyökaluista voidaan poiketa hyvin perustein. Muut käytössä olevat ohjelmat sekä uudet käyttöön otettavat työvälineet lisäätän tähän tekniseen ohjeistukseen. Lisää kohdassa 5.

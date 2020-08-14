@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/projektin-aloitus
+  https://handbook.dude.fi/wordpress-kehitys/projektin-aloitus
 published: true
 post_date: 2017-08-04 14:58:17
 ---
@@ -35,7 +35,7 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 Vaiheet:
 
-1. Muut mukaan tulevat devaajat menevät <a href="http://github.com/digitoimistodude/">Duden Githubiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla <code>~/Projects</code> -hakemistoon (Terminalissa: <code>cd ~/Projects</code> ja sen jälkeen git clone <i>url</i>).
+1. Muut mukaan tulevat devaajat menevät <a href="https://github.com/digitoimistodude/">Duden Githubiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla <code>~/Projects</code> -hakemistoon (Terminalissa: <code>cd ~/Projects</code> ja sen jälkeen git clone <i>url</i>).
 
 2. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> (esim. <code>subl ~/Projects/.env</code> tai <code>nano ~/Projects/.env</code>) ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 
@@ -45,8 +45,8 @@ DB_PASSWORD=tässä_on_oikea_salasana
 DB_HOST=tässä_on_oikea_ip
 
 WP_ENV=development
-WP_HOME=http://projektinnimi.test
-WP_SITEURL=http://projektinnimi.test/wp
+WP_HOME=https://projektinnimi.test
+WP_SITEURL=https://projektinnimi.test/wp
 AUTH_KEY='ts[h@+i#]w`Zj%$!*+N:b*K$re9;w*mQ:;Y76G@~wx?::9%j@~}i3dmz|Jcl{|'
 SECURE_AUTH_KEY='gJ6.c|6+v~`s}0,^945V#uY]TXuW9gV&Po!SnCKJsB2fV-WlLd]629mm~8_;qXL'
 LOGGED_IN_KEY='Eu`SWA<^2P_P:1?i|c=541(&QMYM3h[,B$L]az02%He@;c).e#08zEL&*;oGd/AF'

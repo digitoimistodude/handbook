@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/saavutettavuus
+  https://handbook.dude.fi/wordpress-kehitys/saavutettavuus
 published: true
 post_date: 2019-08-07 15:48:57
 ---
@@ -23,7 +23,7 @@ Saavutettavuustestaukseen käytetään seuraavia työkaluja:
 
 Seuraava komento edellyttää että pa11y on <b>package.json</b>-tiedostossa, npm-paketti ja Yoast SEO tai SEO Framework asennettuna.
 
-<pre class="language-css"><code>pa11y-ci --sitemap http://sivustonnimi.test/sitemap.xml</code></pre>
+<pre class="language-css"><code>pa11y-ci --sitemap https://sivustonnimi.test/sitemap.xml</code></pre>
 
 <h3>Aiheesta muualla</h3>
 

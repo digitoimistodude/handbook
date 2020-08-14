@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/mihin-henkilotietojani-kaytetaan
+  https://handbook.dude.fi/tietosuojaseloste/mihin-henkilotietojani-kaytetaan
 published: true
 post_date: 2018-04-25 10:34:27
 ---

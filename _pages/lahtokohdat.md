@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/yleiset-kaytanteet/lahtokohdat
+  https://handbook.dude.fi/yleiset-kaytanteet/lahtokohdat
 published: true
 post_date: 2017-08-03 19:33:29
 ---

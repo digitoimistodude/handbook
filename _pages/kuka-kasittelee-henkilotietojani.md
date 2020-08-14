@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/kuka-kasittelee-henkilotietojani
+  https://handbook.dude.fi/tietosuojaseloste/kuka-kasittelee-henkilotietojani
 published: true
 post_date: 2018-04-25 11:01:04
 ---

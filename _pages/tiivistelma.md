@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/tiivistelma
+  https://handbook.dude.fi/tietosuojaseloste/tiivistelma
 published: true
 post_date: 2018-04-25 10:26:55
 ---

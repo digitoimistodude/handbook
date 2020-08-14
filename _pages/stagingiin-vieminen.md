@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/stagingiin-vieminen
+  https://handbook.dude.fi/wordpress-kehitys/stagingiin-vieminen
 published: true
 post_date: 2019-08-07 15:02:50
 ---
@@ -59,7 +59,7 @@ Huom: Jatkoa ajatellen paina ylöspäin niin saat aiemmat komennot ja voit kopat
 <li>Mene komentorivillä projektiin, cd ~/Projects/projektinnimi ja varmista että kaikki muutokset ovat masterissa, siirry master branchiin git checkout master ja mergeä tarvittaessa.</li>
 <li>Kirjoita <code>cap install</code></li>
 <li>Avaa config/deploy/staging.rb, sublilla tai nanolla. Korvaa tiedoston sisältö uusimmalla staging.rb deploy-configilla.</li>
-<li>Korvaa <b>{{{USERNAME}}}</b> omalla käyttäjätunnuksella ja <b>{{{PASSWORD}}}</b> omalla salasanalla, tarkista 1Passwordista kohdasta gunship.dude.fi. Korvaa <b>{{{PROJECTNAME}}}</b> projektin nimellä, (alt + cmd + F). Tarkista että wp-cli komentojen urlit ovat oikein, pitäisi olla <i>http://projektinnimi.test</i> ja <i>https://projektinnimi.vaiheessa.fi</i>. Tallenna tiedosto.</li>
+<li>Korvaa <b>{{{USERNAME}}}</b> omalla käyttäjätunnuksella ja <b>{{{PASSWORD}}}</b> omalla salasanalla, tarkista 1Passwordista kohdasta gunship.dude.fi. Korvaa <b>{{{PROJECTNAME}}}</b> projektin nimellä, (alt + cmd + F). Tarkista että wp-cli komentojen urlit ovat oikein, pitäisi olla <i>https://projektinnimi.test</i> ja <i>https://projektinnimi.vaiheessa.fi</i>. Tallenna tiedosto.</li>
 <li>Tarkista että <i>config/deploy.rb</i> näyttää oikealta.</li>
 <li>Mene komentoriville projektikansioon ja aja <code>cap staging deploy</code></li>
 <li>Saat viestin: <b>ERROR linked file /var/www/projektinnimi/shared/.env does not exist</b>, kuuluu asiaan. Kirjaudu palvelimelle tunnuksillasi ssh tunnus@gunship.dude.fi, kopioi polku virheilmoituksesta ja aja komento seuraavasti: <code>nano /var/www/projektinnimi/shared/.env</code> (kopioi polku virheilmoituksesta)</li>

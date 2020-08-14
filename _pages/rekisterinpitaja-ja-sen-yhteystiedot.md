@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/rekisterinpitaja-ja-sen-yhteystiedot
+  https://handbook.dude.fi/tietosuojaseloste/rekisterinpitaja-ja-sen-yhteystiedot
 published: true
 post_date: 2018-04-25 10:31:00
 ---

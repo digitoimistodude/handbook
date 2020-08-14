@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/palaverit
+  https://handbook.dude.fi/tyoskenteleminen-dudella/palaverit
 published: true
 post_date: 2017-08-04 14:49:13
 ---

@@ -7,7 +7,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/kaytetaanko-sivuillla-evasteita-ja-mita-ne-ovat
+  https://handbook.dude.fi/tietosuojaseloste/kaytetaanko-sivuillla-evasteita-ja-mita-ne-ovat
 published: true
 post_date: 2018-04-25 11:05:46
 ---

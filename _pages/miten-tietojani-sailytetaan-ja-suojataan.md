@@ -7,7 +7,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/miten-tietojani-sailytetaan-ja-suojataan
+  https://handbook.dude.fi/tietosuojaseloste/miten-tietojani-sailytetaan-ja-suojataan
 published: true
 post_date: 2018-04-25 10:54:51
 ---
@@ -22,4 +22,4 @@ Projektin etenemiseen ja sisäiseen kommunikointiin (CRM) käytetään Trello-pa
 <h3>Palvelimet ja sivustot</h3>
 Duden ylläpitoasiakkaiden sivustot ovat Ficolon laitesalissa, joka sijaitsee Suomessa, Ulvilassa. Palvelimet sijaitsevat Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa ja käyvät 100% ekologisella tuulivoimalla.
 
-Konesalit sivustojen järjestelmien tekninen sekä prosessien tietoturva ovat erittäin korkealla tasolla. Palvelimet on suojattu tietomurtoja ja palvelunestohyökkäyksiä vastaan. Lisää tietoa kohdassa <a href="http://handbook.dude.fi/palvelimet">Palvelimet</a>.
+Konesalit sivustojen järjestelmien tekninen sekä prosessien tietoturva ovat erittäin korkealla tasolla. Palvelimet on suojattu tietomurtoja ja palvelunestohyökkäyksiä vastaan. Lisää tietoa kohdassa <a href="https://handbook.dude.fi/palvelimet">Palvelimet</a>.

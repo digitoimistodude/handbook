@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/millaisia-oikeuksia-minulla-on
+  https://handbook.dude.fi/tietosuojaseloste/millaisia-oikeuksia-minulla-on
 published: true
 post_date: 2018-04-25 11:02:37
 ---

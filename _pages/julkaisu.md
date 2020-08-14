@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/julkaisu
+  https://handbook.dude.fi/wordpress-kehitys/julkaisu
 published: true
 post_date: 2017-08-04 15:11:34
 ---
@@ -14,7 +14,7 @@ Dudella ei tehdä julkaisuja lähtökohtaisesti iltapäivisin ja perjantaisin. J
 Huomaathan, että tätä opasta käytetään ainoastaan silloin kun asiakkaan sivut julkaistaan <a href="https://handbook.dude.fi/palvelimet">Duden palvelimella</a>. Muussa tapauksessa toimitaan tilannekohtaisesti.
 
 <h3>Miten deploy toimii</h3>
-Deployn automatisointi tapahtuu <a href="http://capistranorb.com/">Capistranon</a> avulla, joka on osa <a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimisto/dudestack</a>-kokonaisuutta. Ensimmäinen deploy suoritetaan aina Capistranon työkalulla, mutta esim. pienet teemapäivitykset hoidetaan suoralla sftp- tai rsync-yhteydellä.
+Deployn automatisointi tapahtuu <a href="https://capistranorb.com/">Capistranon</a> avulla, joka on osa <a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimisto/dudestack</a>-kokonaisuutta. Ensimmäinen deploy suoritetaan aina Capistranon työkalulla, mutta esim. pienet teemapäivitykset hoidetaan suoralla sftp- tai rsync-yhteydellä.
 
 <h3>Julkaisut vanhaan projektiin</h3>
 
@@ -24,7 +24,7 @@ Muutosten myötä tulee muistaa ngx-pagespeed-välimuistin tyhjennys:
 <pre class="language-bash"><code>sudo rm -rf /tmp/pgsp/v3/domain.fi</code></pre>
 
 <h3>Uuden julkaisun vaiheet</h3>
-Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (<a href="http://capistranorb.com/">Capistrano</a>) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki on varmistettu ja menee oikein. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
+Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiirtoa ja kansiorakennetta lukuunottamatta (<a href="https://capistranorb.com/">Capistrano</a>) enimmäkseen manuaalinen. Käsipelillä asioiden tekemisellä pyrimme varmistamaan että kaikki on varmistettu ja menee oikein. Kokonaisuudessaan vaiheisiin kuluu testausta lukuunottamatta aikaa noin varttitunti.
 
 26.4.2018 eteenpäin vaiheet 1, 2 on automatisoitu scripteihin (huomaathan käyttää <b>bashia</b> <i>sh</i> sijaan, sillä ubuntun sh ei tue read-komentoa).
 
@@ -49,7 +49,7 @@ Saat viestin: <b>ERROR linked file /var/www/asiakas.fi/deploy/shared/.env does n
 <h4>3. Tuotantoympäristön asettaminen tietokantaa varten</h4>
 
 1. Avaa paikallisen projektin <b>.env</b>-tiedosto ja muokkaa siitä <b>WP_ENV</b>=production <b>DB_HOST</b>=ghostin tai craftin <u>paikallinen</u> IP-osoite tähän (craftin tietokantapalvelin on beardfish ja paikallinen IP on 192.168.0.4, ghostin tietokantapalvelin on faith ja paikallinen IP on 192.168.0.6).
-2. Lisää <b>DB_USER</b> ja <b>DB_NAME</b>-kohtiin esimerkiksi projektin nimi. Jätä salasana toistaiseksi tyhjäksi. Vaihda <b>WP_HOME</b> ja <b>WP_SITEURL</b> -kohtiin projektin oikea tuotanto-osoite, <b>huom!</b> http:// tässä vaiheessa, ei https://. SSL-sertifikaatti nimittäin asennetaan myöhemmässä vaiheessa, sitten kun sivut näkyy ulkomaailmalle.
+2. Lisää <b>DB_USER</b> ja <b>DB_NAME</b>-kohtiin esimerkiksi projektin nimi. Jätä salasana toistaiseksi tyhjäksi. Vaihda <b>WP_HOME</b> ja <b>WP_SITEURL</b> -kohtiin projektin oikea tuotanto-osoite, <b>huom!</b> https:// tässä vaiheessa, ei https://. SSL-sertifikaatti nimittäin asennetaan myöhemmässä vaiheessa, sitten kun sivut näkyy ulkomaailmalle.
 
 Tässä vaiheessa .env-tiedoston pitäisi näyttää jotakuinkin tältä:
 <pre class="language-bash"><code>DB_NAME=projektinnimi
@@ -58,8 +58,8 @@ DB_PASSWORD=
 DB_HOST=192.168.0.6
 
 WP_ENV=production
-WP_HOME=http://www.asiakas.fi
-WP_SITEURL=http://www.asiakas.fi/wp
+WP_HOME=https://www.asiakas.fi
+WP_SITEURL=https://www.asiakas.fi/wp
 AUTH_KEY=...</code></pre>
 
 <u>Älä tallenna</u> tiedostoa paikallisen tiedostosi päälle, ota se vaan talteen! jätä auki tässä vaiheessa, luodaan seuraavaksi kannan salasana .env-tiedostoa varten.
@@ -158,7 +158,7 @@ Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikk
 
 Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista huolellisesti läpi. Listaa päivitetään Google Sheetiin, josta se ladataan Todoist Template-yhteensopivassa .csv-muodossa ja tuodaan projektiin mukaan. Tässä vaiheessa on hyvä avata lista, ohje:
 
-[video width="1768" height="1080" mp4="http://handbook.dude.fi/media/todoist.mp4"][/video]
+[video width="1768" height="1080" mp4="https://handbook.dude.fi/media/todoist.mp4"][/video]
 
 <a href="https://docs.google.com/spreadsheets/d/1Dpa-aDcf6NNZMi7DT7Q-ppOgEJ_fgPxB_-pxELKurTs/edit?usp=sharing">Lataa lista Google Sheetistä</a>. <a href="https://docs.google.com/spreadsheets/d/13r_jp7EQOb_E-TNUWJGgnpT1lzbksTgt4V5K7Z4ROTI/edit?usp=sharing">Julkinen versio</a> selkomuodossa ja kommentointioikeuksilla.
 

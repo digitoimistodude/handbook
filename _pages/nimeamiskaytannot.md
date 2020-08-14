@@ -5,11 +5,11 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/nimeamiskaytannot
+  https://handbook.dude.fi/wordpress-kehitys/nimeamiskaytannot
 published: true
 post_date: 2019-08-12 15:33:33
 ---
-Dude käyttää tyylipuolella (SCSS) <a href="http://smacss.com/">SMACSS (Scalable and Modular Architecture for CSS)</a> ja <a href="https://css-tricks.com/styling-the-gutenberg-columns-block/">WordPressin Gutenbergiin</a> pohjautuvaa nimeämiskäytäntöä. Moduuleja, eli ulkoasussa olevia rajattuja 100% leveitä alueita (<code>&lt;section&gt;</code>) kutsutaan nimellä <code>block</code>. Näiden sisällä ensimmäistä diviä kutsutaan nimellä <code>container</code>.
+Dude käyttää tyylipuolella (SCSS) <a href="https://smacss.com/">SMACSS (Scalable and Modular Architecture for CSS)</a> ja <a href="https://css-tricks.com/styling-the-gutenberg-columns-block/">WordPressin Gutenbergiin</a> pohjautuvaa nimeämiskäytäntöä. Moduuleja, eli ulkoasussa olevia rajattuja 100% leveitä alueita (<code>&lt;section&gt;</code>) kutsutaan nimellä <code>block</code>. Näiden sisällä ensimmäistä diviä kutsutaan nimellä <code>container</code>.
 
 <h3>Tyypillinen HTML-rakenne</h3>
 

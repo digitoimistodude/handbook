@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/etatyoskentely
+  https://handbook.dude.fi/tyoskenteleminen-dudella/etatyoskentely
 published: true
 post_date: 2020-01-09 15:13:42
 ---

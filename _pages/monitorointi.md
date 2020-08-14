@@ -5,11 +5,11 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/palvelimet/monitorointi
+  https://handbook.dude.fi/palvelimet/monitorointi
 published: true
 post_date: 2017-08-04 15:17:44
 ---
-Monitorointiin käytetään <a href="https://mmonit.com/monit/">Monitia</a>, <a href="http://munin-monitoring.org/">Muninia</a> ja <a href="https://www.adminlabs.com/">AdminLabsia</a>. Sähköpostin välittäjänä toimii <a href="https://www.mailgun.com/">Mailgun</a> ja <a href="https://sendgrid.com/">SendGrid</a>.
+Monitorointiin käytetään <a href="https://mmonit.com/monit/">Monitia</a>, <a href="https://munin-monitoring.org/">Muninia</a> ja <a href="https://www.adminlabs.com/">AdminLabsia</a>. Sähköpostin välittäjänä toimii <a href="https://www.mailgun.com/">Mailgun</a> ja <a href="https://sendgrid.com/">SendGrid</a>.
 
 <h3>Monitorointiin liittyviä bloggauksia</h3>
 

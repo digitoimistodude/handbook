@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
+  https://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
 published: true
 post_date: 2020-08-06 14:18:11
 ---

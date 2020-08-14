@@ -4,7 +4,7 @@ post_title: Handbookin tarkoitus
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/
+permalink: https://handbook.dude.fi/
 published: true
 post_date: 2017-08-03 19:16:47
 ---

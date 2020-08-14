@@ -4,7 +4,7 @@ post_title: Redis
 author: Timi Wahalahti
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/palvelimet/redis
+permalink: https://handbook.dude.fi/palvelimet/redis
 published: true
 post_date: 2019-01-25 14:48:46
 ---

@@ -7,7 +7,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/miten-voin-vaikuttaa-tietojeni-kayttoon
+  https://handbook.dude.fi/tietosuojaseloste/miten-voin-vaikuttaa-tietojeni-kayttoon
 published: true
 post_date: 2018-04-25 11:03:57
 ---

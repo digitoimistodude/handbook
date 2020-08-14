@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/dokumentointi
+  https://handbook.dude.fi/wordpress-kehitys/dokumentointi
 published: true
 post_date: 2017-08-04 15:11:03
 ---

@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/mita-tietoja-minusta-voidaan-kerata
+  https://handbook.dude.fi/tietosuojaseloste/mita-tietoja-minusta-voidaan-kerata
 published: true
 post_date: 2018-04-25 10:32:46
 ---

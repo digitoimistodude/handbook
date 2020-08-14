@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/wordpress-kehitys/graafikolta-koodarille
+  https://handbook.dude.fi/wordpress-kehitys/graafikolta-koodarille
 published: true
 post_date: 2017-10-10 14:43:35
 ---

@@ -7,7 +7,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tietosuojaseloste/voidaanko-tata-tietosuojaselostetta-muuttaa
+  https://handbook.dude.fi/tietosuojaseloste/voidaanko-tata-tietosuojaselostetta-muuttaa
 published: true
 post_date: 2018-04-25 11:16:52
 ---
