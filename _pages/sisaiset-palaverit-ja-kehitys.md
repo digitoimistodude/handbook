@@ -23,6 +23,7 @@ Käydään läpi järjestyksessä:
 <li>Projektien tilanne (<a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Trello</a>)</li>
 <li>Projektien eteneminen ja aikataulu (<a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Toggl Plan</a>)</li>
 <li>Projekteihin käytetyt tunnit ja budjetissa pysyminen (<a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Harvest</a>)</li>
+<li>Handbookin läpikäynti</li>
 <li>Muut tarvittaessa läpikäytävät asiat</li>
 </ol>
 
