@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/aloittaminen
+  https://handbook.dude.fi/tyoskenteleminen-dudella/aloittaminen
 published: true
 post_date: 2018-10-25 12:58:51
 ---
@@ -32,7 +32,7 @@ Kun olet saanut työkoneesi purettua paketista, tarvitset seuraavat tunnukset:
 <h2>Koodarille</h2>
 <h3>Tunnukset</h3>
 <ul>
- 	<li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan</li>
+ 	<li><a href="https://wakatime.com">WakaTime</a> koodaustyöajanseurantaan (tarvittaessa Harvestin tueksi)</li>
 </ul>
 <h3>Ohjelmat</h3>
 Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut &amp; Workflow</a>. Asenna kuitenkin seuraavat (MacOS päivitysten jälkeen):
