@@ -5,30 +5,13 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/aloittaminen
+  https://handbook.dude.fi/tyoskenteleminen-dudella/aloittaminen
 published: true
 post_date: 2018-10-25 12:58:51
 ---
 Tälle sivulle on koottu alusta asti asiat, joita pitää tehdä työnteon alkaessa ensimmäistä kertaa.
 <h2>Joka dudelle</h2>
-Kun olet saanut työkoneesi purettua paketista, tarvitset seuraavat tunnukset:
-<ul>
- 	<li><a href="https://gsuite.google.fi/intl/fi/">G Suite</a>-sähköpostiosoite</li>
- 	<li>Yhteneväinen sähköpostiallekirjoitus (Google drive &amp; kysy Ronilta)</li>
- 	<li><a href="https://trello.com">Trello</a>-tunnus projektinhallintaan</li>
- 	<li><a href="https://todoist.com/">Todoist</a> tehtävänhallintaan</li>
- 	<li><a href="https://teamweek.com">Toggl Plan</a> aikataulutukseen</li>
- 	<li><a href="https://slack.com/">Slack</a>-tunnus yrityksen sisäistä viestintää varten</li>
- 	<li><a href="https://www.adobe.com/fi">Adobe-tunnus</a> visuaalisen puolen työkaluja varten</li>
- 	<li><a href="https://1password.com/">1Password-tunnus</a> salasanojen hallintaan</li>
- 	<li><a href="https://www.getharvest.com/">Harvest</a> tuntien seurantaan</li>
-</ul>
-<h3>Ohjelmat</h3>
-<ul>
- 	<li><a href="https://slack.com/">Slack</a></li>
- 	<li><a href="https://www.google.com/drive/download/">Google Drive</a></li>
- 	<li><a href="https://1password.com/">1Password</a></li>
-</ul>
+Kun olet saanut työkoneesi purettua paketista, tarvitset <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut &amp; Workflow</a> -kohdassa olevat tunnukset.
 <h2>Koodarille</h2>
 <h3>Tunnukset</h3>
 <ul>
