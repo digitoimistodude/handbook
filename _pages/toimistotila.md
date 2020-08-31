@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/tyoskenteleminen-dudella/toimistotila
+  http://handbook.dude.fi/tyoskenteleminen-dudella/toimistotila
 published: true
 post_date: 2017-08-04 12:23:02
 ---
