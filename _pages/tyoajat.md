@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/tyoskenteleminen-dudella/tyoajat
+  http://handbook.dude.fi/tyoskenteleminen-dudella/tyoajat
 published: true
 post_date: 2017-08-10 10:47:51
 ---
