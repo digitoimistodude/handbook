@@ -17,7 +17,7 @@ Käydään läpi järjestyksessä:
  	<li>Yleinen jaksaminen ja viikonlopun kuulumiset.</li>
  	<li>Liidien ja myynnin tilanne (<a href="https://digitoimistodudeoy-07a88c.pipedrive.com/">Pipedrive</a>)</li>
  	<li>Projektien tilanne (<a href="https://trello.com/b/OkWcwoTl/projektit">Trello</a>)</li>
- 	<li>Projektien eteneminen ja aikataulu (<a href="https://plan.toggl.com/#timeline/35836/teams/48949?zoom=month">Toggl Plan</a>)</li>
+ 	<li>Projektien eteneminen ja aikataulu (<a href="https://favro.com/organization/3b45e73eaf083f68fefef368/a086367edce88ae320e2ae40">Favro</a>)</li>
  	<li>Projekteihin käytetyt tunnit ja budjetissa pysyminen (<a href="https://dudet.harvestapp.com/projects?filter=with-budget">Harvest</a>)</li>
  	<li>Handbookin läpikäynti</li>
  	<li>Muut tarvittaessa läpikäytävät asiat</li>
