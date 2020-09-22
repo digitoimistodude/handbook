@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/saavutettavuus/saavutettavuusseloste
+  https://handbook.dude.fi/saavutettavuus/saavutettavuusseloste
 published: true
 post_date: 2020-09-22 11:09:02
 ---
@@ -64,3 +64,15 @@ post_date: 2020-09-22 11:09:02
 <!-- wp:paragraph -->
 <p>Dude.fi alla olevien sivustojen saavutettavuudesta vastaa <a href="https://www.dude.fi/dudet/roni">teknologiajohtaja Roni Laukkarinen</a>. Muun tiimin ajantasaiset yhteystiedot löytyvät <a href="https://www.dude.fi/yhteystiedot">yhteystietosivulta</a>.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Täytäntöönpanomenettely</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Jos huomaat sivustolla saavutettavuusongelmia, anna ensin palautetta sivuston ylläpitäjälle. Vastauksessa voi kulua useampi vuorokausi. Jos et ole tyytyväinen saamaasi vastaukseen tai et saa vastausta lainkaan kahden viikon aikana, voit antaa palautteen Keski-Suomen aluehallintovirastoon. Keski-Suomen aluehallintoviraston <a href="https://www.saavutettavuusvaatimukset.fi/">saavutettavuusvaatimukset.fi</a>-sivustolla kerrotaan, miten valituksen voi tehdä ja miten asia käsitellään.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li><a href="https://www.saavutettavuusvaatimukset.fi/">saavutettavuusvaatimukset.fi-verkkosivut</a></li><li>Sähköposti: <a href="mailto:saavutettavuus@avi.fi">saavutettavuus@avi.fi</a></li><li>Vaihde: <a href="tel:0295016000">0295 016 000</a></li></ul>
+<!-- /wp:list -->
