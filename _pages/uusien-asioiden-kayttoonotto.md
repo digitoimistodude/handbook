@@ -1,6 +1,6 @@
 ---
 ID: 106
-post_title: Uusien asioiden käyttöönotto
+post_title: Uudet asiat
 author: Roni
 post_excerpt: ""
 layout: page
