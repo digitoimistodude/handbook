@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  https://handbook.dude.fi/saavutettavuus/saavutettavuusseloste
+  http://handbook.dude.fi/saavutettavuus/saavutettavuusseloste
 published: true
 post_date: 2020-09-22 11:09:02
 ---
