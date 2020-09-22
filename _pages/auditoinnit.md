@@ -4,7 +4,8 @@ post_title: Auditoinnit
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/auditoinnit
+permalink: >
+  http://handbook.dude.fi/saavutettavuus/auditoinnit
 published: true
 post_date: 2020-09-22 10:50:20
 ---
