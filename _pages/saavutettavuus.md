@@ -1,33 +1,21 @@
 ---
-ID: 438
+ID: 562
 post_title: Saavutettavuus
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: >
-  https://handbook.dude.fi/wordpress-kehitys/saavutettavuus
+permalink: https://handbook.dude.fi/saavutettavuus
 published: true
-post_date: 2019-08-07 15:48:57
+post_date: 2020-09-22 10:50:06
 ---
-Saavutettavuus (esteettömyys Internetissä) on Dudelle erittäin tärkeää. Sivujen täytyy toimia näppäimistöllä ja sokeain lukulaitteilla. Asiakasprojekteissa pyritään vähintään WCAG 2.0 A-tason saavutettavuuteen. Jos projekti sen sallii, keskitytään myös tarkemmin laajemman saavutettavuuden ja inklusiivisuuden parantamiseen, esimerkiksi kontrastiasioihin WCAG 2.0 AA:n ja AAA:n puitteissa.
+<!-- wp:paragraph -->
+<p>Dudelle saavutettavuus on perustamisvuodesta 2013 lähtien ollut tärkeä osa workflowta. Toteutamme kaikki projektimme saavutettavuus mielessä pitäen. Saavutettavuuskäytäntömme ovat kehittyneet vuosien varrella kokemuksen myötä ja vuonna 2020 voimme sanoa tekevämme WCAG 2.0 AA-tason yhteensopivaa koodia teknisestä näkökulmasta. Saavutettavuuteen vaikuttaa kuitenkin moni muukin asia kuin koodi, kuten sisällössä olevien kuvien tekstikuvaukset, videoiden tekstitykset ja kuvailutulkkaus, visuaalisissa elementeissä käytetyt kontrastit, punaviher- ja värisokeusystävällisyys, liikkeen ja animaatioiden vähentämisen mahdollisuus, ja niin edelleen. Pyrimme omalta osaltamme kehittämään myös asiakkaan verkkosivujen saavutettavuutta.</p>
+<!-- /wp:paragraph -->
 
-Saavutettavuustestaukseen käytetään seuraavia työkaluja:
+<!-- wp:paragraph -->
+<p>Vuoden 2019-2020 aikana Dude on kehittänyt työkalujaan merkittävästi saavutettavampaan suuntaan. Olemme tehneet kattavia saavutettavuuteen liittyviä kehitystöitä mm. Suomen valtiolle ja näiden myötä päässeet uudistamaan teknistä pohjaamme useampaan kertaan saavutettavuuden näkökulmasta.</p>
+<!-- /wp:paragraph -->
 
-<ul>
-<li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">axe for Google Chrome</a></li>
-<li><a href="https://github.com/pa11y/pa11y">pa11y</a></li>
-<li>Maalaisjärki</li>
-</ul>
-
-<h3>Komennot</h3>
-
-Seuraava komento edellyttää että pa11y on <b>package.json</b>-tiedostossa, npm-paketti ja Yoast SEO tai SEO Framework asennettuna.
-
-<pre class="language-css"><code>pa11y-ci --sitemap https://sivustonnimi.test/sitemap.xml</code></pre>
-
-<h3>Aiheesta muualla</h3>
-
-<ul>
-<li><a href="https://www.dude.fi/avainsana/saavutettavuus">Blogikirjoitukset avainsanalla saavutettavuus</a></li>
-<li<a href="">Ronin WordCamp Jyväskylä 9.2.2018 esitys aiheesta "Esteettömyys osaksi WordPress-teemakehitystä"</a></li>
-</ul>
+<!-- wp:paragraph -->
+<p>Duden omat sivut täyttävät WCAG 2.0 standardin saavutettavuuskriteerit. Tästä lisää saavutettavuusselostessa.</p>
+<!-- /wp:paragraph -->
