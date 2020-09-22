@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/uusien-asioiden-kayttoonotto
+  http://handbook.dude.fi/yleiset-kaytanteet/uusien-asioiden-kayttoonotto
 published: true
 post_date: 2017-08-04 15:15:25
 ---
