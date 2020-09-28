@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
+  https://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
 published: true
 post_date: 2020-08-06 14:18:11
 ---
@@ -14,13 +14,15 @@ post_date: 2020-08-06 14:18:11
 <h3>Maanantaipalaverien agenda</h3>
 Käydään läpi järjestyksessä:
 <ol>
- 	<li>Yleinen jaksaminen ja viikonlopun kuulumiset.</li>
+ 	<li>Yleinen jaksaminen ja viikonlopun kuulumiset</li>
  	<li>Liidien ja myynnin tilanne (<a href="https://digitoimistodudeoy-07a88c.pipedrive.com/">Pipedrive</a>)</li>
  	<li>Projektien tilanne (<a href="https://trello.com/b/OkWcwoTl/projektit">Trello</a>)</li>
  	<li>Projektien eteneminen ja aikataulu (<a href="https://favro.com/organization/3b45e73eaf083f68fefef368/a086367edce88ae320e2ae40">Favro</a>)</li>
  	<li>Projekteihin käytetyt tunnit ja budjetissa pysyminen (<a href="https://dudet.harvestapp.com/projects?filter=with-budget">Harvest</a>)</li>
+ 	<li>(tauko ☕️)</li>
  	<li>Handbookin läpikäynti</li>
- 	<li>Muut tarvittaessa läpikäytävät asiat</li>
+ 	<li>Muut tarvittaessa läpikäytävät asiat (tyhy, jne.)</li>
+ 	<li>Viikkotavoitteiden luonti henkilökohtaisella tasolla</li>
 </ol>
 Maanantaipalaverin jälkeen pidetään brändiryhmän kokous (tarvittaessa) ja <b>devitsekki</b>, eli kehitystiimin palaveri (tarvittaessa).
 <h3>Omistajien kehityspalaverit</h3>
