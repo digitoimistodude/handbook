@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
+  https://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
 published: true
 post_date: 2020-08-06 14:18:11
 ---
@@ -28,4 +28,4 @@ Maanantaipalaverin jälkeen pidetään brändiryhmän kokous (tarvittaessa) ja <
 <h3>Omistajien kehityspalaverit</h3>
 Lakisääteiset hallitusten kokoukset ja muut palaverit pidetään omistajien kesken aina tarvittaessa. Duden omistajat pyrkivät pitämään tapaamisen ylipäätään vähintään kerran kahdessa kuukaudessa.
 <h3>Kehityskeskustelut</h3>
-Toimitusjohtaja pitää pari kertaa vuodessa kehityskeskustelun jokaisen kanssa.
+Toimitusjohtaja pitää pari kertaa vuodessa kehityskeskustelun jokaisen kanssa luottamuksellisesti.
