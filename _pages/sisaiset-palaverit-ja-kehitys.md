@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
+  https://handbook.dude.fi/tyoskenteleminen-dudella/sisaiset-palaverit-ja-kehitys
 published: true
 post_date: 2020-08-06 14:18:11
 ---
@@ -24,6 +24,6 @@ Käydään läpi järjestyksessä:
  	<li>Muut tarvittaessa läpikäytävät asiat (tyhy, jne.)</li>
  	<li>Viikkotavoitteiden luonti henkilökohtaisella tasolla</li>
 </ol>
-Maanantaipalaverin jälkeen pidetään brändiryhmän kokous (tarvittaessa) ja <b>devitsekki</b>, eli kehitystiimin palaveri (tarvittaessa).
+Maanantaipalaverin jälkeen pidetään brändiryhmän kokous (tarvittaessa) ja <em>devitsekki</em>, eli kehitystiimin palaveri (tarvittaessa).
 <h3>Omistajien kehityspalaverit</h3>
 Lakisääteiset hallitusten kokoukset ja muut palaverit pidetään omistajien kesken aina tarvittaessa. Duden omistajat pyrkivät pitämään tapaamisen ylipäätään vähintään kerran kahdessa kuukaudessa.
