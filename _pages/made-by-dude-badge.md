@@ -82,7 +82,8 @@ $color-badge: $color-badge-dark;
 }
 
 [data-tooltip]:before {
-  background: no-repeat url('data:image/svg+xml;charset=utf-8, %3Csvg%20xmlns%3D%22https://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(17, 17, 17, .9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658, .000%20C-13.615, .000%2050.938, .000%2034.662, .000%20C28.662, .000%2023.035, 12.002%2018.660, 12.002%20C14.285, 12.002%208.594, .000%202.658, .000%20Z%22/%3E%3C/svg%3E');
+  // Remember to add "string-quotes": "false" to .stylelintrc if not already
+  background: no-repeat url('data:image/svg+xml;charset=utf-8, &lt;svg xmlns="http://www.w3.org/2000/svg" width="36px" height="12px"&gt;&lt;path fill="rgba(17, 17, 17, .9)" transform="rotate(0)" d="M2.658, .000 C-13.615, .000 50.938, .000 34.662, .000 C28.662, .000 23.035, 12.002 18.660, 12.002 C14.285, 12.002 8.594, .000 2.658, .000 Z"/&gt;&lt;/svg&gt;');
   background-size: 100% auto;
   width: 18px;
   height: 6px;
