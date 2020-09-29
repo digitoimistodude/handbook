@@ -19,10 +19,9 @@ Sivujen tekijästä ilmoittaa <b>Made by Dude</b> -badge, joka lisätään asiak
 <strong>Uusi tiedosto: sass/layout/_dude-badge.scss:</strong>
 
 <pre class="language-scss"><code>// Color variables
-$dark: #03061b;
-$light: #fff;
-$main: $color-main;
-$logo-in-use: $dark;
+$color-badge-dark: #03061b;
+$color-badge-light: #fff;
+$color-badge: $color-badge-dark;
 
 .site-footer .container {
   position: relative;
@@ -40,15 +39,15 @@ $logo-in-use: $dark;
   }
 
   a:hover .heart {
-    fill: $logo-in-use;
+    fill: $color-badge;
   }
 
   .fill {
-    fill: $logo-in-use;
+    fill: $color-badge;
   }
 
   .stroke {
-    stroke: $logo-in-use;
+    stroke: $color-badge;
   }
 }
 
