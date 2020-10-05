@@ -20,7 +20,8 @@ Sivujen tekijästä ilmoittaa <b>Made by Dude</b> -badge, joka lisätään asiak
 
 <strong>Uusi tiedosto: sass/layout/_dude-badge.scss:</strong>
 
-<pre class="language-scss"><code>// Color variables
+<pre class="language-scss"><code>// Badge variables
+$badge-transition-speed: .1s;
 $color-badge-logo-dark: #03061b;
 $color-badge-logo-light: $color-white;
 $color-badge-tooltip-text-dark: $color-white;
@@ -29,9 +30,9 @@ $color-badge-tooltip-background-light: rgba(255, 255, 255, .8);
 $color-badge-tooltip-background-dark: rgba(17, 17, 17, .9);
 
 // Light or dark?
-$color-badge-logo: $color-badge-logo-dark;
-$color-badge-tooltip-text: $color-badge-tooltip-text-dark;
-$color-badge-tooltip-background: $color-badge-tooltip-background-dark;
+$color-badge-logo: $color-badge-logo-light;
+$color-badge-tooltip-text: $color-badge-tooltip-text-light;
+$color-badge-tooltip-background: $color-badge-tooltip-background-light;
 
 .site-footer .container {
   position: relative;
@@ -66,14 +67,14 @@ $color-badge-tooltip-background: $color-badge-tooltip-background-dark;
   position: relative;
   cursor: pointer;
   transform: translate(-50%, 15px);
-  transition: all .07s ease-out .07s;
+  transition: all $badge-transition-speed ease-out $badge-transition-speed;
   transform-origin: top;
 }
 
 [data-tooltip]::after {
   opacity: 0;
   pointer-events: none;
-  transition: all .07s ease-out .07s;
+  transition: all $badge-transition-speed ease-out $badge-transition-speed;
   font-family: sans-serif !important;
   font-weight: normal !important;
   font-style: normal !important;
@@ -89,7 +90,7 @@ $color-badge-tooltip-background: $color-badge-tooltip-background-dark;
   bottom: 100%;
   left: 50%;
   margin-bottom: 11px;
-  transform: translate(-50%, 15px);
+  transform: translate(-50%, 10px);
   transform-origin: top;
   width: 100px;
   text-align: center;
@@ -100,14 +101,14 @@ $color-badge-tooltip-background: $color-badge-tooltip-background-dark;
   height: 6px;
   opacity: 0;
   pointer-events: none;
-  transition: all .07s ease-out .07s;
+  transition: all $badge-transition-speed ease-out $badge-transition-speed;
   content: '';
   position: absolute;
   z-index: 10;
   bottom: 100%;
   left: 50%;
   margin-bottom: 10px;
-  transform: translate(-50%, 10px);
+  transform: translate(-50%, 15px);
   transform-origin: top;
 
   .tip-color {
@@ -125,12 +126,12 @@ $color-badge-tooltip-background: $color-badge-tooltip-background-dark;
 
 [data-tooltip]:hover::after,
 [data-tooltip][data-tooltip-visible]::after {
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -5px);
 }
 
 [data-tooltip]:hover .tip,
 [data-tooltip][data-tooltip-visible] .tip {
-  transform: translate(-50%, 5px);
+  transform: translate(-50%, 0);
 }</code></pre>
 <strong>global.scss:</strong>
 <pre class="language-scss"><code>@import '../layout/dude-badge';</code></pre>
