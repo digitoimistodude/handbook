@@ -30,9 +30,9 @@ $color-badge-tooltip-background-light: rgba(255, 255, 255, .8);
 $color-badge-tooltip-background-dark: rgba(17, 17, 17, .9);
 
 // Light or dark?
-$color-badge-logo: $color-badge-logo-light;
-$color-badge-tooltip-text: $color-badge-tooltip-text-light;
-$color-badge-tooltip-background: $color-badge-tooltip-background-light;
+$color-badge-logo: $color-badge-logo-dark;
+$color-badge-tooltip-text: $color-badge-tooltip-text-dark;
+$color-badge-tooltip-background: $color-badge-tooltip-background-dark;
 
 .site-footer .container {
   position: relative;
