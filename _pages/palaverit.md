@@ -32,3 +32,5 @@ Tutustutaan kilpailijoihin ja muihin visuaalisesti tai rakenteellisesti miellytt
 Löydetään ratkaisut ongelmakohtiin ja mietitään yhdessä uusi sivukartta, joka tukee tavoitteita ja palvelee kohderyhmiä parhaimmalla mahdollisella tavalla.
 <h3>6. Toiminnallisuuksien määrittäminen</h3>
 Päätetään mitä teknisiä toiminnallisuuksia uusi sivusto pitää sisällään. Mitä on pakko olla julkaisussa mukana?
+<h3>7. Yhteenveto</h3>
+Workshopin jälkeen saat puhtaaksi kirjoitetun memon, sivukartan, aikatauluehdotuksen ja tehtävälistan projektin jatkoa ajatellen.
