@@ -11,7 +11,7 @@ post_date: 2017-08-04 14:49:13
 ---
 Duden tapa pitää asiakaspalavereita on epäformaalin rento, mutta puhtaan ammattimainen. Asiakaspalavereissa muistetaan antaa suunvuoro toiselle ja pyritään kuuntelemaan niin asiakasta kuin kanssatyöskentelijääkin.
 
-Asiakkaalle ollaan rehellisiä kaikissa asioissa, eikä luvata sellaista mitä ei pystytä tekemään sovitusti. Mieluummin ollaan liian rehellisiä ("ei pysty") kuin liikaa lupaavia. Lähtökohtana tehdään mitä sanotaan ja sanotaan mitä tehdään.
+Asiakkaalle ollaan rehellisiä kaikissa asioissa. Lähtökohtana tehdään mitä sanotaan ja sanotaan mitä tehdään. Pyritään puolin ja toisin olemaan joustavia ja reagoimaan tilanteisiin siten, että lopputulos olisi mahdollisimman laadukas ja palvelisi asiakkaan tavoitteita.
 
 Palaverit pyritään pitämään <b>maanantaisin</b> ja <b>perjantaisin</b>.
 
