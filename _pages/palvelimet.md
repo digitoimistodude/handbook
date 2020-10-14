@@ -15,6 +15,9 @@ Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat fyysisesti <a 
 Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
 
 <h3>Verkkokartta</h3>
+
+Duden verkon takaa neljä isointa Internet-palveluntarjoajaa. Jos yksi verkko kaatuu, ei koko infrastruktuuri jää tavoittamattomiin vaan voidaan hyödyntää toisen palveluntarjoajan verkkoa. Private vlan on Duden hopealuoti niin tietoturvan kuin korkean tason saatavuudenkin osalta.
+
 <figure class="wp-block-image size-large"><img src="http://handbook.dude.fi/media/Digitoimisto-Dude-Oy-Infrakartta-1024x890.png" alt="" class="wp-image-600"/></figure>
 
 <h3>Vastuullisuus</h3>
@@ -38,6 +41,8 @@ Välimuistituksessa on käytössä uusin <a href="https://developers.google.com/
 <h3>Päivitykset</h3>
 
 WordPress-päivitykset hoidetaan joka <b>maanantai</b> ja <b>torstai</b> ja <a href="https://wpscan.org/">WPSCAN</a>-tarkistukset ajetaan päivittäin WordPress-lisäosien haavoittuvuuksien varalta.
+
+Palvelinten huoltoikkuna on joka kuukauden toinen tiistai. Lisää tietoa huolloista ja palvelinten tilasta löytyy osoitteesta <a href="https://status.dude.fi">status.dude.fi</a>.
 
 <h3>Varmuuskopiot</h3>
 
