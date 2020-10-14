@@ -25,7 +25,7 @@ Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hos
 
 Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat Multim Oy:n datacenterissä Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa. Palvelimet käyvät 100% ekologisella tuulivoimalla.
 
-Palvelimet on räätälöity perusteita myöten Multimin kanssa vuonna 2016 Duden tarpeisiin (WordPress) mahdollisimman sopivaksi suorituskyky edellä. Kehitys on jatkuvaa.
+Palvelimet on räätälöity perusteita myöten Multimin kanssa vuonna 2016 Duden tarpeisiin mahdollisimman sopivaksi, WordPress-optimoidusti ja suorituskyky edellä. Kehitys on jatkuvaa.
 
 Rautapalvelimen sisällä on neljän coren ja 8 säikeen Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz prosessoria, 32 gigatavua RAM-muistia.
 
