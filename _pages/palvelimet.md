@@ -30,7 +30,7 @@ Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat Multim Oy:n da
 
 Palvelimet on räätälöity perusteita myöten Multimin kanssa vuonna 2016 Duden tarpeisiin mahdollisimman sopivaksi, WordPress-optimoidusti ja suorituskyky edellä. Kehitys on jatkuvaa.
 
-Rautapalvelimen sisällä on neljän coren ja 8 säikeen Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz prosessoria, 32 gigatavua RAM-muistia.
+Rautapalvelimen sisällä on neljän coren ja kahdeksan säikeen Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz suoritinta ja 32 gigatavua RAM-muistia. Virtuaalipalvelimissamme on SSD-levyjärjestelmä, joka on tavallseen HDD:seen verrattuna huomattavasti nopeampi suorituskyvyltään.
 
 <h3>Palvelintekniikka</h3>
 
