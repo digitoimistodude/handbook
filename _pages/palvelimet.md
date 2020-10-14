@@ -12,7 +12,7 @@ post_date: 2017-08-04 15:16:10
 
 Duden <b>WordPress-optimoidut</b> dedikoidut rautapalvelimet sijaitsevat fyysisesti <a href="https://www.multim.fi/">Multim Oy:n</a> datacenterissä Ulvilassa, Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa.
 
-Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
+Duden palvelimet ovat fyysisesti Multimin hoidossa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
 
 <h3>Verkkokartta</h3>
 
@@ -25,8 +25,6 @@ Duden verkon takaa neljä isointa Internet-palveluntarjoajaa. Jos yksi verkko ka
 Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hosting">vihreää hostingia</a> palvelimet käyvät 100% ekologisella tuulivoimalla. Tästä osoituksena Dudella on päästövapaan <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.dude.fi">Green Web Foundationin</a> sertifiointi.
 
 <h3>Rauta</h3>
-
-Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat Multim Oy:n datacenterissä Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa. Palvelimet käyvät 100% ekologisella tuulivoimalla.
 
 Palvelimet on räätälöity perusteita myöten Multimin kanssa vuonna 2016 Duden tarpeisiin mahdollisimman sopivaksi, WordPress-optimoidusti ja suorituskyky edellä. Kehitys on jatkuvaa.
 
