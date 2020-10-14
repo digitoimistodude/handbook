@@ -4,7 +4,7 @@ post_title: Palvelimet
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/palvelimet
+permalink: https://handbook.dude.fi/palvelimet
 published: true
 post_date: 2017-08-04 15:16:10
 ---
