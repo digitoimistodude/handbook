@@ -14,7 +14,10 @@ Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat fyysisesti <a 
 
 Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
 
-<h3>Ekologisuus</h3>
+<h3>Verkkokartta</h3>
+<figure class="wp-block-image size-large"><img src="http://handbook.dude.fi/media/Digitoimisto-Dude-Oy-Infrakartta-1024x890.png" alt="" class="wp-image-600"/></figure>
+
+<h3>Vastuullisuus</h3>
 
 Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hosting">vihreää hostingia</a> palvelimet käyvät 100% ekologisella tuulivoimalla. Tästä osoituksena Dudella on päästövapaan <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.dude.fi">Green Web Foundationin</a> sertifiointi.
 
@@ -48,10 +51,7 @@ Nimipalvimet Dudelle tarjoaa <a href="https://www.cloudflare.com/">Cloudflareen<
 
 <h3>Sähköpostivälitys</h3>
 
-Sähköpostiliikenteessä välittäjänä käytämme <a href="https://sendgrid.com/">SendGridiä</a> ja <a href="https://www.mailgun.com/">Mailgunia</a>. 
-
-<h3>Verkkokartta</h3>
-<figure class="wp-block-image size-large"><img src="http://handbook.dude.fi/media/Digitoimisto-Dude-Oy-Infrakartta-1024x890.png" alt="" class="wp-image-600"/></figure>
+Sähköpostiliikenteessä välittäjänä käytämme <a href="https://sendgrid.com/">SendGridiä</a> ja <a href="https://www.mailgun.com/">Mailgunia</a>.
 
 <h3>Aiheeseen liittyviä bloggauksia</h3>
 <ul>
