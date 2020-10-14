@@ -1,6 +1,6 @@
 ---
 ID: 108
-post_title: WordPress-optimoidut palvelimet
+post_title: Palvelimet
 author: Roni
 post_excerpt: ""
 layout: page
@@ -10,7 +10,7 @@ post_date: 2017-08-04 15:16:10
 ---
 <h3>Sijainti</h3>
 
-Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat fyysisesti <a href="https://www.multim.fi/">Multim Oy:n</a> datacenterissä Ulvilassa, Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa.
+Duden <b>WordPress-optimoidut</b> dedikoidut rautapalvelimet sijaitsevat fyysisesti <a href="https://www.multim.fi/">Multim Oy:n</a> datacenterissä Ulvilassa, Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa.
 
 Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
 
