@@ -4,7 +4,7 @@ post_title: Palvelimet
 author: Roni
 post_excerpt: ""
 layout: page
-permalink: http://handbook.dude.fi/palvelimet
+permalink: https://handbook.dude.fi/palvelimet
 published: true
 post_date: 2017-08-04 15:16:10
 ---
@@ -14,7 +14,7 @@ Duden <b>WordPress-optimoidut</b> dedikoidut rautapalvelimet sijaitsevat fyysise
 Duden palvelimet ovat fyysisesti Multimin hoidossa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
 <h3>Verkkokartta</h3>
 Duden verkon takaa neljä isointa Internet-palveluntarjoajaa. Jos yksi verkko kaatuu, ei koko infrastruktuuri jää tavoittamattomiin vaan voidaan hyödyntää toisen palveluntarjoajan verkkoa. Private vlan on Duden hopealuoti niin tietoturvan kuin korkean tason saatavuudenkin osalta.
-<figure class="wp-block-image size-large"><img class="alignnone wp-image-621 size-large" src="http://handbook.dude.fi/media/digitoimisto-dude-infra-1024x864.png" alt="" width="1024" height="864" /></figure>
+<figure class="wp-block-image size-large"><img class="alignnone wp-image-623 size-full" src="http://handbook.dude.fi/media/Digitoimisto-Dude-Oy-Infrakartta-1.png" alt="" width="1600" height="1350" /></figure>
 <h3>Vastuullisuus</h3>
 Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hosting">vihreää hostingia</a> palvelimet käyvät 100% ekologisella tuulivoimalla. Tästä osoituksena Dudella on päästövapaan <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.dude.fi">Green Web Foundationin</a> virallinen sertifiointi.
 <h3>Rauta</h3>
