@@ -22,7 +22,7 @@ Duden verkon takaa neljä isointa Internet-palveluntarjoajaa. Jos yksi verkko ka
 
 <h3>Vastuullisuus</h3>
 
-Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hosting">vihreää hostingia</a> palvelimet käyvät 100% ekologisella tuulivoimalla. Tästä osoituksena Dudella on päästövapaan <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.dude.fi">Green Web Foundationin</a> sertifiointi.
+Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hosting">vihreää hostingia</a> palvelimet käyvät 100% ekologisella tuulivoimalla. Tästä osoituksena Dudella on päästövapaan <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.dude.fi">Green Web Foundationin</a> virallinen sertifiointi.
 
 <h3>Rauta</h3>
 
