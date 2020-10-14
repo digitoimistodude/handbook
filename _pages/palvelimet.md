@@ -8,10 +8,47 @@ permalink: http://handbook.dude.fi/palvelimet
 published: true
 post_date: 2017-08-04 15:16:10
 ---
-Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille. Päivitykset hoidetaan joka maanantai ja torstai ja WPSCAN-tarkistukset ajetaan päivittäin WordPress-lisäosien haavoittuvuuksien varalta. Varmuuskopiot tietokannasta tunnin välein, koko sivuston snapshot päivittäin.
+<h3>Sijainti</h3>
 
-<h3>Käyttöjärjestelmä ja web-palvelin</h3>
-Käyttöjärjestelmänä käytetään Ubuntu 16.04 Xenial Xerus LTS:ää, ellein toisin päätetä. Palvelintekniikkana toimii LEMP (Apache, Nginx, Php-fpm), lähtökohtaisesti uusimmat versiot Nginxistä, MariaDB:stä sekä PHP7:sta.
+Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat fyysisesti <a href="https://www.multim.fi/">Multim Oy:n</a> datacenterissä Ulvilassa, Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa.
+
+Duden Ulvilassa sijaitsevat dedikoidut palvelimet ovat fyysisesti Multim Oy:n hoidettavissa, mutta palvelintekniikan ylläpito kuuluu Duden tekniselle tiimille.
+
+<h3>Ekologisuus</h3>
+
+Dude käyttää <a href="https://www.dude.fi/vihreaa-hostingia-100-green-web-hosting">vihreää hostingia</a> palvelimet käyvät 100% ekologisella tuulivoimalla. Tästä osoituksena Dudella on päästövapaan <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.dude.fi">Green Web Foundationin</a> sertifiointi.
+
+<h3>Rauta</h3>
+
+Duden WordPress-optimoidut dedikoidut rautapalvelimet sijaitsevat Multim Oy:n datacenterissä Ficolo Oy:n Suomen armeijan vanhaan peruskallioluolastoon rakennetussa korkean turvaluokituksen konesalissa. Palvelimet käyvät 100% ekologisella tuulivoimalla.
+
+Palvelimet on räätälöity perusteita myöten Multimin kanssa vuonna 2016 Duden tarpeisiin (WordPress) mahdollisimman sopivaksi suorituskyky edellä. Kehitys on jatkuvaa.
+
+Rautapalvelimen sisällä on neljän coren ja 8 säikeen Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz prosessoria, 32 gigatavua RAM-muistia.
+
+<h3>Palvelintekniikka</h3>
+
+Käyttöjärjestelmänä käytetään Ubuntu 16.04 Xenial Xerus LTS:ää, ellein toisin päätetä. Web-palvelintekniikkana toimii LEMP (Linux, Nginx, MariaDB, php-fpm), lähtökohtaisesti uusimmat versiot Nginxistä, MariaDB:stä sekä PHP7:sta.
+
+Välimuistituksessa on käytössä uusin <a href="https://developers.google.com/speed/pagespeed/module">ngx-pagespeed</a>, joka tekee lukuisia toimenpiteitä suoraan RAM-muistiin, kuten lazylaodaa, pakkaa ja muuntaa sivustojen kuvat uuden sukupolven webp-muotoon fallbackeineen, minifoi HTML:n, CSS:n, JS:n, kuvakkeet ja näin ollen nopeuttaa kaikkia sivustoja. Kannan välimuistituksessa WP:n sisäänrakennettujen transientien ja cache-pluginien lisäksi käytössä on palvelintasolla <a href="https://redis.io/">Redis</a>.
+
+<h3>Päivitykset</h3>
+
+WordPress-päivitykset hoidetaan joka <b>maanantai</b> ja <b>torstai</b> ja <a href="https://wpscan.org/">WPSCAN</a>-tarkistukset ajetaan päivittäin WordPress-lisäosien haavoittuvuuksien varalta.
+
+<h3>Varmuuskopiot</h3>
+
+Varmuuskopiot otetaan aina ennen muutoksia dev-staging-production ympäristöjen välillä, yleisesti tuotannon tietokannoista (.sql) tunnin välein, koko sivuston snapshot eli tiedostot ja mediakirjastot (.zip) kerran päivässä. Varmuuskopiontisijainteja ovat ulkoinen verkkolevy, sisäinen verkkolevy sekä ulkoinen pilvipalvelu (<a href="https://managewp.com/">ManageWP</a>).
+
+<h3>Nimipalvelut ja domainit</h3>
+
+Dude on virallinen Traficomin verkkotunnusvälittäjä. Domaineissa Dude luottaa <a href="https://registry.domain.fi/">Suomen viestintävirastoon</a> (.fi-domainit), <a href="https://www.namecheap.com/">Namecheapiin</a> (.com, .net, .info ja muut ulkomaiset päätteet) sekä <a href="https://iwantmyname.com/">iwantmynameen</a> (ulkomaiset ja erikoisemmat päätteet, esim. .business tai .coffee).
+
+Nimipalvimet Dudelle tarjoaa <a href="https://www.cloudflare.com/">Cloudflareen</a>.
+
+<h3>Sähköpostivälitys</h3>
+
+Sähköpostiliikenteessä välittäjänä käytämme <a href="https://sendgrid.com/">SendGridiä</a> ja <a href="https://www.mailgun.com/">Mailgunia</a>. 
 
 <h3>Verkkokartta</h3>
 <figure class="wp-block-image size-large"><img src="http://handbook.dude.fi/media/Digitoimisto-Dude-Oy-Infrakartta-1024x890.png" alt="" class="wp-image-600"/></figure>
