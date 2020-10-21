@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/sisainen-tekninen-kehitys
+  https://handbook.dude.fi/sisainen-tekninen-kehitys
 published: true
 post_date: 2020-10-21 11:03:45
 ---
@@ -18,7 +18,7 @@ post_date: 2020-10-21 11:03:45
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li><a class="github" href="https://github.com/digitoimistodude/dudestack">dudestack</a></li><li><a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">macos-lemp-setup</a></li><li><a href="https://github.com/digitoimistodude/devpackages">devpackages</a></li><li><a class="github" href="https://github.com/digitoimistodude/air-light">air-light</a></li><li><a class="github" href="https://github.com/digitoimistodude/air-helper">air-helper</a></li><li><a class="github" href="https://github.com/digitoimistodude/dude">dude</a></li><li><a class="github" href="https://github.com/ronilaukkarinen/vscode-settings">vscode-settings</a></li></ul>
+<ul><li><a class="github" href="https://github.com/digitoimistodude/dudestack">dudestack</a></li><li><a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">macos-lemp-setup</a></li><li><a class="github" href="https://github.com/digitoimistodude/devpackages">devpackages</a></li><li><a class="github" href="https://github.com/digitoimistodude/air-light">air-light</a></li><li><a class="github" href="https://github.com/digitoimistodude/air-helper">air-helper</a></li><li><a class="github" href="https://github.com/digitoimistodude/dude">dude</a></li><li><a class="github" href="https://github.com/ronilaukkarinen/vscode-settings">vscode-settings</a></li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
