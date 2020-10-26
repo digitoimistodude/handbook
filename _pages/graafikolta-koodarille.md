@@ -13,11 +13,13 @@ Kun suunnittelija on saanut visuaalisen suunnittelun päätökseen, tulee hänen
 
 <h3>Ulkoasut</h3>
 
-Visuaalisen suunnittelijan on varmistettava, että uusin hyväksytty versio löytyy aina XD:stä (työkalusta lisää kohdassa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>). XD prototyyppi on jaettava Specs -tilassa, jotta koodari voi tarkastella yksityiskohtaisesti ulkoasussa olevia elementtejä.
+Visuaalisen suunnittelijan on varmistettava, että uusin hyväksytty versio löytyy aina Zeplinistä tai XD:stä (työkalusta lisää kohdassa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut & Workflow</a>).
+
+Jos Adobe XD käytössä, XD prototyyppi on jaettava Specs -tilassa, jotta koodari voi tarkastella yksityiskohtaisesti ulkoasussa olevia elementtejä.
 
 <h3>Valokuvat</h3>
 
-Kuvat toimitetaan Adobe XD:n Specs -näkymän tai Zeplinin kautta ladattavina assetteina. Suunnittelijan on huolehdittava, että kaikki kuvat ovat ladattavissa. Kuvat ovat valmiiksi leikattuja ja syvättyjä. CSS-koodeja yms. ei tarvitse, assetit riittää.
+Kuvat toimitetaan Adobe XD:n Specs -näkymän tai Zeplinin kautta ladattavina assetteina. Suunnittelijan on huolehdittava, että kaikki kuvat ovat ladattavissa. Kuvat ovat valmiiksi leikattuja ja syvättyjä. CSS-koodeja yms. ei tarvitse, assetit riittää. Tarvittaessa suunnittelija voi toimittaa devaajalle valokuvat zip-paketissa.
 
 <h3>Fontit</h3>
 
