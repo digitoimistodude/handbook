@@ -23,9 +23,12 @@ Käydään läpi järjestyksessä:
  	<li>Projekteihin käytetyt tunnit ja budjetissa pysyminen (<a href="https://dudet.harvestapp.com/projects?filter=with-budget">Harvest</a>)</li>
  	<li><i>Tauko tarvittaessa</i> ☕️</li>
  	<li>Handbookin läpikäynti</li>
+    <li>Yhdessä läpikäytävät aiheet Twistissä</li>
  	<li>Muut tarvittaessa läpikäytävät asiat (tyhy, jne.)</li>
- 	<li>Viikkotavoitteiden luonti henkilökohtaisella tasolla</li>
 </ol>
+
+Viikkopalaverin jälkeen jokainen luo omat viikkotavoitteensa henkilökohtaisella tasolla ja lisää ne Slackin <i>#viikkotavoitteet</i> -kanavalle tärkeysjärjestykset numeroemojein merkattuna.</li>
+
 Maanantaipalaverin jälkeen pidetään brändiryhmän kokous (tarvittaessa) ja <em>devitsekki</em>, eli kehitystiimin palaveri (tarvittaessa).
 <h3>Omistajien kehityspalaverit</h3>
 Lakisääteiset hallitusten kokoukset ja muut palaverit pidetään omistajien kesken aina tarvittaessa. Duden omistajat pyrkivät pitämään tapaamisen ylipäätään vähintään kerran kahdessa kuukaudessa.
