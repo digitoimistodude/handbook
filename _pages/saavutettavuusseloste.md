@@ -34,7 +34,7 @@ post_date: 2020-09-22 11:09:02
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Footerin alaosan tekstin kontrasti 3.84:1</li><li>Hyppylinkin kohdistukset sisältöön eivät kaikkialla toimi</li><li>Kolmannen osapuolen palvelut (Crisp live chat) sisältävät joitakin ongelmia, joihin emme voi vaikuttaa</li><li>Takaisin ylös -linkki käyttäytyy epäjohdonmukaisesti eri alueiden päällä eri resoluutioilla ja on kyseenalainen saavutettavuuden näkökulmasta</li><li>Vanhat blogitekstit sisältävät informatiivisia kuvia, joissa ei ole alt-kuvausta</li><li>Blogauksissa on videosisältöjä, joille ei ole tekstivastineita</li><li>Aria-landmarkeissa sekä nappien toiminnoissa on puutteellisuutta</li><li>Lomakelisäosassa (Gravity Forms) on saavutettavuusongelmia, joihin emme voi vaikuttaa - harkinnassa lisäosan vaihtaminen toiseen</li><li>Sivuston uusimpia muutoksia ei ole testattu saavutettavuuden osalta riittävästi</li></ul>
+<ul><li>Footerin alaosan tekstin kontrasti 3.84:1</li><li>Hyppylinkin kohdistukset sisältöön eivät kaikkialla toimi</li><li>Kolmannen osapuolen palvelut (Crisp live chat) sisältävät joitakin ongelmia, joihin emme voi vaikuttaa</li><li>Takaisin ylös -linkki käyttäytyy epäjohdonmukaisesti eri alueiden päällä eri resoluutioilla ja on kyseenalainen saavutettavuuden näkökulmasta</li><li>Vanhat blogitekstit sisältävät informatiivisia kuvia, joissa ei ole alt-kuvausta</li><li>Blogauksissa on videosisältöjä, joille ei ole tekstivastineita</li><li>Aria-landmarkeissa sekä nappien toiminnoissa on puutteellisuutta</li><li>Lomakelisäosassa (Gravity Forms) on joitakin pieniä saavutettavuusongelmia, joihin emme voi vaikuttaa (joskin <a href="https://wordpress.org/plugins/gravity-forms-wcag-20-form-fields/">WCAG 2.0 form fields for Gravity Forms</a> korjaa 99% ja Gravity Formsiin on tulossa päivitys, joka korjaa loput)</li><li>Sivuston uusimpia muutoksia ei ole testattu saavutettavuuden osalta riittävästi</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -42,7 +42,7 @@ post_date: 2020-09-22 11:09:02
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Seloste on tehty 22.10.2020. Sitä on päivitetty 22.10.2020.</p>
+<p>Seloste on tehty 22.10.2020. Sitä on päivitetty 10.11.2020.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
