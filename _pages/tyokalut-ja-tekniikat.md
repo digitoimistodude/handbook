@@ -21,7 +21,7 @@ Duden devaustyökalut ovat yhdessä hyväksi todettuja, yhdessä päätett
 
 <b>PHP/back-end-dependenssit:</b> <a href="https://getcomposer.org/">composer</a>, <a href="https://packagist.org/">packagist</a>
 
-<b>JS/SCSS/front-end-dependenssit:</b> <a href="npmjs.com">npm</a> (<a href="https://github.com/digitoimistodude/devpackages" class="github">digitoimistodude/devpackages</a>, <a href="https://github.com/digitoimistodude/air" class="github">digitoimistodude/air</a>)
+<b>JS/SCSS/front-end-dependenssit:</b> <a href="https://github.com/npm/cli" class="github">npm</a> (<a href="https://github.com/digitoimistodude/devpackages" class="github">digitoimistodude/devpackages</a>, <a href="https://github.com/digitoimistodude/air" class="github">digitoimistodude/air</a>)
 
 <b>Task manager:</b> <a href="https://gulpjs.com/">gulp</a> (<a href="https://github.com/digitoimistodude/devpackages" class="github">digitoimistodude/devpackages</a>)
 
