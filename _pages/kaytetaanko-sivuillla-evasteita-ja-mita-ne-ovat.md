@@ -15,4 +15,4 @@ Dude käyttää evästeitä ("cookies") ja muita vastaavia tekniikoita, kuten se
 
 Analyysiin käytetty tieto on anonymisoitua aina kun se on mahdollista. Muutoin käsittelemme tietoja henkilökohtaisina niiltä osin kuin tunniste sisältää asiakkaan kohdentavia tietoja, kuten IP-osoitteen. Myös tunnisteet, jotka on yhdistetty asiakkaaseen jollakin tapaa, käsitellään henkilökohtaisena tietona.
 
-Lisää evästeistä osoitteessa <a href="https://www.dude.fi/evasteet">dude.fi/evasteet</a>.
+Lisää evästeistä osoitteessa <a href="https://www.dude.fi/tietosuojaseloste">dude.fi/tietosuojaseloste</a>.
