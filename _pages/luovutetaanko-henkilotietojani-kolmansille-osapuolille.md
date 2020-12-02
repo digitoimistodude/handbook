@@ -11,7 +11,7 @@ permalink: >
 published: true
 post_date: 2018-04-25 11:04:27
 ---
-Luovutamme joitakin välttämättömiä tietoja kolmansille osapuolille (Google Analytics, Trello, Dropbox, Invision App) toimituksen takaamiseksi, asiakkuuden hoitamista varten sekä markkinointia varten.
+Luovutamme joitakin välttämättömiä tietoja kolmansille osapuolille (Google Analytics, Trello, Invision App) toimituksen takaamiseksi, asiakkuuden hoitamista varten sekä markkinointia varten.
 
 Käytämme asiakastietoja kolmansien osapuolten kanssa analyysi- ja personointitarkoituksissa. Analyysi- ja personointitarkoituksiin käytetty tieto on anonymisoitua tai pseudonymisoitua aina mahdollisuuksien mukaan.
 
