@@ -34,7 +34,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 <ul>
  	<li><a href="https://crisp.chat">Crisp</a>, verkkosivujen chat</li>
  	<li><a href="https://www.helpscout.com/">Help Scout</a>, asiakastukea varten</li>
- 	<li><a href="https://dude.fi/blogi">Dude.fi -blogi</a></li>
+ 	<li><a href="https://www.dude.fi/blogi">Dude.fi -blogi</a></li>
  	<li><a href="https://instagram.com/digitoimistodude/">Instagram</a></li>
  	<li><a href="https://www.facebook.com/digitoimistodude/">Facebook</a></li>
  	<li><a href="https://www.twitter.com/dudetoimisto/">Twitter</a></li>

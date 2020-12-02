@@ -206,7 +206,7 @@ Ohjaus tehdään simppelillä php-tiedostolla, jonka saat kopioitua esimerkiksi 
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  *
- * @Author:                         sippis, Digitoimisto Dude Oy (https://dude.fi)
+ * @Author:                         sippis, Digitoimisto Dude Oy (https://www.dude.fi)
  * @Date:                           2019-05-15 11:48:23
  * @Last Modified by:   sippis
  * @Last Modified time: 2019-05-15 11:50:20
