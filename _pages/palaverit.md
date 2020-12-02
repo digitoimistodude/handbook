@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/tyoskenteleminen-dudella/palaverit
+  https://handbook.dude.fi/tyoskenteleminen-dudella/palaverit
 published: true
 post_date: 2017-08-04 14:49:13
 ---
@@ -22,13 +22,10 @@ Workshopin toivotaan pidettävän Duden toimistolla ja siihen on hyvä varata ai
 Workshop on oiva startti molemmille osapuolille, sillä sen aikana sovitaan myös uudistuksen tarkempi sisältö, aikataulut ja tehtäväjako. Näin osapuolille saadaan yhteinen käsitys mitä tehdään, miten tehdään ja milloin tehdään.
 
 Tavoitteiden asettaminen on erittäin tärkeä vaihe koko workshopin sujuvuuden kannalta, sillä kaikkien päätösten pitää tukea tavoitteita.
-
 <h3>2. Kohderyhmiin tutustuminen</h3>
 Asiakas esittelee yrityksen kohderyhmät.
-
 <h3>3. Nykytilanne ja sen ongelmakohdat</h3>
 Tutustutaan nykyiseen sivustoon, visuaalisiin seikkoihin sekä näiden ongelmakohtiin. Missä mättää ja miksi?
-
 <h3>4. Benchmark - kilpailijat &amp; muut hyvät sivustot</h3>
 Tutustutaan kilpailijoihin ja muihin visuaalisesti tai rakenteellisesti miellyttäviin sivustoihin. Mitä voidaan tehdä paremmin kuin he?
 <h3>5. Ratkaisuiden löytäminen ja uusi sivukartta</h3>
