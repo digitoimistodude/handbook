@@ -5,7 +5,7 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/sisainen-tekninen-kehitys
+  https://handbook.dude.fi/sisainen-tekninen-kehitys
 published: true
 post_date: 2020-10-21 11:03:45
 ---
