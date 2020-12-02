@@ -13,6 +13,6 @@ Etätyöskentely on Dudella hyväksyttävää, välillä jopa suotavaakin toimin
 
 Slack-kanavalla on oltava sen verran aktiivinen, että pysyy menossa mukana. Jos tulee vastaan tilanteita, jolloin ei ole saatavilla, täytyy käyttää Slackin tila-ominaisuutta, jolla tuo kaikkien tietoon että on esimerkiksi palaverissa, salilla tai eväällä.
 
-Maailmanlaajuisen pandemian osuessa kohdalle, jääthän kotiin, jos suinkin mahdollista.
+Maailmanlaajuisen pandemian kuten COVID-19 osuessa kohdalle, jääthän kotiin, jos suinkin mahdollista. Toimistolla voi olla väkeä 1-2 kerrallaan, jos kotona työskentelemisessä on esteitä.
 
 Muistathan huolehtia työergonomiasta ja työn tauottamisesta myös kotona työskennellessä.
