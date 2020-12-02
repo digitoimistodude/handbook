@@ -24,9 +24,7 @@ Jos pitäisi valita joko paljon asiakkaita/keskinkertainen laatu tai vähän asi
 5. <strong>Kehitys</strong> – Emme ole koskaan valmiita. Koko tiimi seuraa aktiivisesti oman alansa työkalujen ja toimintaympäristön kehitystä. Joskus projekti ja tiimi hyötyy siitä että jotain uutta kehitetään omien katteiden kustannuksella jopa kesken projektin.
 
 6. <strong>Välittäminen </strong> – Katsellaan vähän mitä ympärillä tapahtuu ja joskus on hyvä kysyä kanssaeläjiltä että ”kuinka voit?”. Projekteissa meille ei riitä pelkästään huikea visuaalisuus ja moitteeton koodi, vaan haluamme myös koko palvelukokemuksen olevan korkealla tasolla aina ensimmäisestä yhteydenotosta lähtien. Jokainen ihmisen kirjoittama viesti tai puhelu ansaitsee tulla vastatuksi.
-
 <h3>Aiheeseen liittyviä bloggauksia</h3>
-
 <ul>
-<li><a href="https://www.dude.fi/digitoimisto-dude-ruumiinavaus-2016">14.4.2016: Digitoimisto Dude: ruumiinavaus 2016</a></li>
+ 	<li><a href="https://www.dude.fi/digitoimisto-dude-ruumiinavaus-2016">14.4.2016: Digitoimisto Dude: ruumiinavaus 2016</a></li>
 </ul>
