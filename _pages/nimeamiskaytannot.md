@@ -10,9 +10,7 @@ published: true
 post_date: 2019-08-12 15:33:33
 ---
 Dude käyttää tyylipuolella (SCSS) <a href="https://smacss.com/">SMACSS (Scalable and Modular Architecture for CSS)</a> ja <a href="https://css-tricks.com/styling-the-gutenberg-columns-block/">WordPressin Gutenbergiin</a> pohjautuvaa nimeämiskäytäntöä. Moduuleja, eli ulkoasussa olevia rajattuja 100% leveitä alueita (<code>&lt;section&gt;</code>) kutsutaan nimellä <code>block</code>. Näiden sisällä ensimmäistä diviä kutsutaan nimellä <code>container</code>.
-
 <h3>Tyypillinen HTML-rakenne</h3>
-
 <pre class="language-html"><code>&lt;section class="block block-example"&gt;
   &lt;div class="container"&gt;
     &lt;div class="cols"&gt;
@@ -32,9 +30,7 @@ Dude käyttää tyylipuolella (SCSS) <a href="https://smacss.com/">SMACSS (Scala
   &lt;/div&gt;
 &lt;/section&gt;
 </code></pre>
-
 <h3>Tyypillinen CSS-rakenne</h3>
-
 <pre class="language-scss"><code>.block.block-example {
   // Default background-color
   background-color: $color-mudgreen;
@@ -77,7 +73,5 @@ Dude käyttää tyylipuolella (SCSS) <a href="https://smacss.com/">SMACSS (Scala
     }
   }
 }</code></pre>
-
 <h3>Taustakehitys</h3>
-
-PHP-kehityksessä noudatetaan virallista <a href="https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/">WordPress Coding Standardsia</a>, muutamia teemakehityksen (WPCS) poikkeuksia lukuunottamatta. Poikkeukset on määritelty <a href="https://github.com/digitoimistodude/air-light/blob/master/phpcs.xml" class="github">pohjateeman phpcs.xml-tiedostossa</a> ja vielä tarkennetusti projektikohtaisesti projektin oman teeman phpcs.xml:ssä.
+PHP-kehityksessä noudatetaan virallista <a href="https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/">WordPress Coding Standardsia</a>, muutamia teemakehityksen (WPCS) poikkeuksia lukuunottamatta. Poikkeukset on määritelty <a class="github" href="https://github.com/digitoimistodude/air-light/blob/master/phpcs.xml">pohjateeman phpcs.xml-tiedostossa</a> ja vielä tarkennetusti projektikohtaisesti projektin oman teeman phpcs.xml:ssä.
