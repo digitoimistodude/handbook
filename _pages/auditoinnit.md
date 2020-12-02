@@ -5,12 +5,12 @@ author: Roni
 post_excerpt: ""
 layout: page
 permalink: >
-  http://handbook.dude.fi/saavutettavuus/auditoinnit
+  https://handbook.dude.fi/saavutettavuus/auditoinnit
 published: true
 post_date: 2020-09-22 10:50:20
 ---
 <!-- wp:paragraph -->
-<p>Jotta vanhempi sivusto saataisiin täysin saavutettavaksi, täytyy suorittaa <em>saavutettavuusauditointi</em>. Monet eri firmat tarjoavat näitä auditointeja, mutta Dudekin voimme toteuttaa sellaisen. Saavutettavuusauditointi tarkoittaa käytännössä sitä että testaamme sivut läpi erilaisilla laitteilla niin normaaleilla kuin apuvälineilläkin, kuten ruudunlukulaitteilla.</p>
+<p>Jotta vanhempi sivusto saataisiin täysin saavutettavaksi, täytyy suorittaa <em>saavutettavuusauditointi</em>. Saavutettavuusauditointi tarkoittaa käytännössä sitä että testaamme sivut läpi erilaisilla laitteilla niin normaaleilla kuin apuvälineilläkin, kuten ruudunlukulaitteilla.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
