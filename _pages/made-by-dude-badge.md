@@ -38,14 +38,24 @@ $color-badge-tooltip-background: $color-badge-tooltip-background-dark;
 
 .dude-badge {
   text-align: center;
-  margin: 0;
+  margin-top: 0;
+
+  // Adjust based on the site
+  margin-top: 45px;
 
   @media (min-width: 480px) {
+    // If you need the position defined:
     position: absolute;
     right: 2rem;
 
+    // If you want it centered, uncomment these lines (and remove two lines above):
+    // position: relative;
+    // right: 0;
+    // margin-left: auto;
+    // margin-right: auto;
+
     // Adjust based on the site
-    margin-top: 0;
+    margin-top: 45px;
   }
 
   a:hover .heart {
