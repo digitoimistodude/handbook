@@ -110,11 +110,12 @@ Deploy-komennon myötä saattaa usein jäädä esimerkiksi mediakirjaston oikeud
 <h4 id="tarkistuslista">11. Ajolista</h4>
 Käy sivut läpi niin edustan puolella kuin wp-adminissakin ja katso että kaikki toimii. Sitten siirry käymään tarkistuslistaa läpi.
 
-Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista huolellisesti läpi. Listaa päivitetään Google Sheetiin, josta se ladataan Todoist Template-yhteensopivassa .csv-muodossa ja tuodaan projektiin mukaan. Tässä vaiheessa on hyvä avata lista, ohje:
+Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista huolellisesti läpi. Listaa päivitetään Favroon, josta tulee automaattisesti mukaan uusiin projekteihin.
 
-[video width="1768" height="1080" mp4="https://handbook.dude.fi/media/todoist.mp4"][/video]
+Tarkistuslista löytyy julkisena Favrosta. <a href="https://favro.com/organization/3b45e73eaf083f68fefef368/8dc2dfaae17c4b8adbf44eab">Tässä suora linkki</a>.
 
-<a href="https://docs.google.com/spreadsheets/d/1Dpa-aDcf6NNZMi7DT7Q-ppOgEJ_fgPxB_-pxELKurTs/edit?usp=sharing">Lataa lista Google Sheetistä</a>. <a href="https://docs.google.com/spreadsheets/d/13r_jp7EQOb_E-TNUWJGgnpT1lzbksTgt4V5K7Z4ROTI/edit?usp=sharing">Julkinen versio</a> selkomuodossa ja kommentointioikeuksilla.
+<img src="http://handbook.dude.fi/media/Screen-Shot-2020-12-04-14-26-40.85.png" alt="Ajolista Favrossa" />
+
 <h4>12. Domainin ja nimipalvelinten ohjaus</h4>
 Kun ajolista on käyty läpi, on aika julkaista sivusto maailmalle. Tämä vaihe koskee vain ylläpitoasiakkaita, joiden domain on Duden hallinnassa.
 
