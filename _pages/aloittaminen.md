@@ -49,7 +49,7 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
    <li><a href="https://www.google.com/chrome/canary/">Chrome Canary</a> (tarvittaessa)</li>
  	<li><a href="https://filezilla-project.org/">FileZilla</a> tai <a href="https://binarynights.com/">Forklift</a></li>
  	<li><a href="https://todoist.com/">Todoist</a> tarvittaessa yksittäisten tehtävien hallintaan (voit käyttää myös selaimella)</li>
- 	<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> tai <a href="https://www.sublimetext.com">Sublime Text</a> ja asetukset (<a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a>, <a href="https://github.com/digitoimistodude/sublime-settings" class="sublime-settings">sublime-settings</a>)</li>
+ 	<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> tai <a href="https://www.sublimetext.com">Sublime Text</a> ja asetukset (GitHubista löytyy ohjeet: <a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a>, <a href="https://github.com/digitoimistodude/sublime-settings" class="github">sublime-settings</a>)</li>
  	<li><a href="https://www.resilio.com/individuals/">Resilio Sync</a></li>
 </ul>
 
