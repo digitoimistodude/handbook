@@ -42,13 +42,17 @@ Koodarin tunnukset ja ohjelmat poikkeavat hieman muista, joten tässä poikkeuks
 Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut &amp; Workflow</a>. Asenna kuitenkin seuraavat (MacOS päivitysten jälkeen):
 <ul>
  	<li>Uusin <a href="https://itunes.apple.com/fi/app/xcode/id497799835?mt=12">XCode</a></li>
- 	<li><a href="https://brew.sh/index_fi">Homebrew</a>, macOS:n puuttuva pakettienhallintaohjelmisto</li>
- 	<li>Selaimet <a href="https://www.firefox.com">Firefox</a> ja <a href="https://www.google.com/chrome/">Google Chrome</a> devaukseen. Tarvittaessa tai halutessasi myös <a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox Developer Edition</a> ja <a href="https://www.google.com/chrome/canary/">Chrome Canary</a>, jos haluat kokeilla uudempaa tekniikkaa.</li>
- 	<li>SFTP-ohjelma valintasi mukaan, esimerkiksi <a href="https://filezilla-project.org/">FileZilla</a> tai <a href="https://binarynights.com/">Forklift</a></li>
+ 	<li><a href="https://brew.sh/index_fi">Homebrew</a></li>
+ 	<li><a href="https://www.firefox.com">Firefox</a></li>
+    <li><a href="https://www.google.com/chrome/">Google Chrome</a></li>
+    <li><a href="https://www.mozilla.org/en-US/firefox/developer/">Firefox Developer Edition</a> (tarvittaessa)</li>
+   <li><a href="https://www.google.com/chrome/canary/">Chrome Canary</a> (tarvittaessa)</li>
+ 	<li><a href="https://filezilla-project.org/">FileZilla</a> tai <a href="https://binarynights.com/">Forklift</a></li>
  	<li><a href="https://todoist.com/">Todoist</a> tarvittaessa yksittäisten tehtävien hallintaan (voit käyttää myös selaimella)</li>
- 	<li>Valintasi mukaan <a href="https://code.visualstudio.com/">Visual Studio Code</a> tai <a href="https://www.sublimetext.com">Sublime Text</a> ja näihin asetukset (<a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a>, <a href="https://github.com/digitoimistodude/sublime-settings" class="sublime-settings">sublime-settings</a>)</li>
- 	<li><a href="https://www.resilio.com/individuals/">Resilio Sync</a>, devaukseen liittyvien tiedostojen jakamiseen</li>
+ 	<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> tai <a href="https://www.sublimetext.com">Sublime Text</a> ja asetukset (<a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a>, <a href="https://github.com/digitoimistodude/sublime-settings" class="sublime-settings">sublime-settings</a>)</li>
+ 	<li><a href="https://www.resilio.com/individuals/">Resilio Sync</a></li>
 </ul>
+
 <h2>Asiakaspalvelijalle / markkinoijalle</h2>
 
 Aspassa ja markkinoinnissa focus on chat- ja tikettityökalussa, blogissa, somessa ja sähköpostiliikenteessä.
