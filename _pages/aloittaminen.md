@@ -23,7 +23,7 @@ Ylläpitäjä kutsuu näihin palveluihin:
     <li><a href="https://favro.com/">Favro</a></li>
     <li><a href="https://dudet.harvestapp.com/">Harvest</a></li>
     <li><a href="https://github.com/digitoimistodude">GitHub</a> (vain koodarit)</li>
-    <li><a href="https://www.cacher.io">Cacher</a> (vain koodarit)</li>    
+    <li><a href="https://www.cacher.io">Cacher</a> (vain koodarit)</li>
 </ol>
 
 <h2>Luo itse tunnukset</h2>
@@ -39,7 +39,7 @@ Näihin paikkoihin voit luoda itse tunnukset
 
 Yhteisiin tunnuksiin kuten <a href="https://elements.envato.com/">Envato Elementsiin</a> löytyy tunnukset 1Passwordin yhteisestä Dude-vaultista.
 
-<h3>Ohjelmat</h3>
+<h3>Ohjelmat koodarille</h3>
 
 Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut &amp; Workflow</a>. Asenna kuitenkin seuraavat (MacOS päivitysten jälkeen):
 <ul>
@@ -47,8 +47,6 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
  	<li><a href="https://brew.sh/index_fi">Homebrew</a> (vain koodarit)</li>
  	<li><a href="https://www.firefox.com">Firefox</a></li>
     <li><a href="https://www.google.com/chrome/">Google Chrome</a></li>
- 	<li><a href="https://filezilla-project.org/">FileZilla</a> tai <a href="https://binarynights.com/">Forklift</a></li>
- 	<li><a href="https://todoist.com/">Todoist</a> tarvittaessa yksittäisten tehtävien hallintaan</li>
  	<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> ja asetukset (GitHubista löytyy ohjeet: <a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a>)</li>
  	<li><a href="https://www.resilio.com/individuals/">Resilio Sync</a> (vain koodarit)</li>
 </ul>
@@ -57,7 +55,6 @@ Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.du
 
 Aspassa ja markkinoinnissa focus on chat- ja tikettityökalussa, blogissa, somessa ja sähköpostiliikenteessä.
 
-<h3>Tunnukset</h3>
 <ul>
  	<li><a href="https://crisp.chat">Crisp</a></li>
  	<li><a href="https://www.helpscout.com/">Help Scout</a></li>
@@ -74,8 +71,8 @@ Aspassa ja markkinoinnissa focus on chat- ja tikettityökalussa, blogissa, somes
 
 Ylläpitäjä elää WordPress-hallintapaneeleissa ja palvelinten komentoriveillä.
 
-<h3>Tunnukset</h3>
 <ul>
+    <li><a href="https://filezilla-project.org/">FileZilla</a> tai <a href="https://binarynights.com/">Forklift</a></li>    
  	<li><a href="https://orion.managewp.com/dashboard/">ManageWP</a></li>
  	<li><a href="https://handbook.dude.fi/palvelimet">Palvelintunnukset</a></li>
  	<li><a href="https://dashboard.adminlabs.com">AdminLabs-tunnukset</a></li>
