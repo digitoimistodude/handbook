@@ -15,7 +15,7 @@ Tälle sivulle on koottu alusta asti asiat, joita pitää tehdä työnteon alkae
 
 Ylläpitäjä kutsuu näihin palveluihin:
 
-<ol>
+<ul>
     <li><a href="https://admin.google.com/">G Suite -sähköpostiosoite</a></li>
     <li><a href="https://www.1password.com/">1Password</a></li>
     <li><a href="https://twist.com/">Twist</a></li>
@@ -24,7 +24,7 @@ Ylläpitäjä kutsuu näihin palveluihin:
     <li><a href="https://dudet.harvestapp.com/">Harvest</a></li>
     <li><a href="https://github.com/digitoimistodude">GitHub</a> (vain koodarit)</li>
     <li><a href="https://www.cacher.io">Cacher</a> (vain koodarit)</li>
-</ol>
+</ul>
 
 <h2>Luo itse tunnukset</h2>
 
