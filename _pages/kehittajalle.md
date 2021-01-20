@@ -34,6 +34,8 @@ post_date: 2021-01-20 13:30:08
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
+<p>Terminal -komentorivitulkin selkeyttämiseksi suositellaan <a href="https://draculatheme.com/terminal/">Dracula-teemaa</a> ja <a href="https://sourcefoundry.org/hack/">Hack-fonttia</a> (12pt). Nämä saa asennettua <a href="https://draculatheme.com/terminal/">Dracula Themen ohjeiden</a> mukaisesti.
+
 <p>1. Vaihdetaan macOs Catalinan zsh term bashiksi ja poistetaan zsh:sta nalkuttava viesti:</p>
 
 <pre class="language-bash"><code class="language-bash">chsh -s /bin/bash</code></pre>
@@ -42,7 +44,7 @@ post_date: 2021-01-20 13:30:08
 
 <pre class="language-bash"><code class="language-bash">touch ~/.aliases<br />touch ~/.aliases_private</code></pre>
 
-<p>Käynnistä tässä kohtaa terminal uudestaan tappamalla se näppäinyhdistelmällä <kbd>Ctrl + Q</kbd> ja avaamalla uudestaan. Seuraavaksi luodaan .bash_profile-tiedosto seuraavasti:</p>
+<p>Käynnistä tässä kohtaa terminal uudestaan tappamalla se näppäinyhdistelmällä <kbd><kbd>⌘ cmd</kbd> <span>+</span> <kbd>Q</kbd></kbd> ja avaamalla uudestaan. Seuraavaksi luodaan .bash_profile-tiedosto seuraavasti:</p>
 
 <pre class="language-bash"><code class="language-bash">nano ~/.bash_profile</code></pre>
 
@@ -95,7 +97,7 @@ source $HOME/.aliases<br /><br />
 
 PATH="$HOME/.composer/vendor/bin:$PATH"<br /></code></pre>
 
-Tallennus <kbd>Ctrl + O</kbd>, nanosta poistuminen <kbd>Ctrl + X</kbd>.
+Tallennus <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd>, nanosta poistuminen <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>.
 
 <p>2. Xcoden komponentit (saattaa olla jo asennettuna, mutta varmistetaan ensin):</p>
 
@@ -125,7 +127,7 @@ Lisätään alimmaiseksi:
 root            ALL = (ALL) ALL<br />
 %admin          ALL = (ALL) NOPASSWD: ALL</code></pre>
 
-<p>Tallennus <kbd>Ctrl + O</kbd>, nanosta poistuminen <kbd>Ctrl + X</kbd>.</p>
+<p>Tallennus <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd>, nanosta poistuminen <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>.</p>
 
 <p>6. Composerin asennus <a href="https://getcomposer.org/download/">sivustolla listattujen</a> komentojen kautta eli seuraavasti:</p>
 

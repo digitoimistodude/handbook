@@ -73,7 +73,7 @@ Otetaan muutokset käyttöön:
 
 Avaa muokkaukseen tiedosto, josta deploy-komento aiemmin herjasi, tämän näköisellä komennolla:
 <pre class="language-bash"><code>nano /var/www/asiakas.fi/deploy/shared/.env</code></pre>
-Valitse kaikki auki olevasta .env-tiedostostasi ja liitä sisältö komentorivi-ikkunassasi auki olevaan tyhjään .env-tiedostoon. Tallenna näppäinyhdistelmällä <kbd>CTRL + O</kbd> ja poistu <kbd>CMD + X</kbd>.
+Valitse kaikki auki olevasta .env-tiedostostasi ja liitä sisältö komentorivi-ikkunassasi auki olevaan tyhjään .env-tiedostoon. Tallenna näppäinyhdistelmällä <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>.
 <h4>4. Tietokannan luominen ja tuominen</h4>
 1. Avaa <b>Sequel Pro</b>. Kirjaudu gunship -nimiselle staging palvelimelle (tunnukset ja Sequel Pro -asetukset 1Passwordista ja kollegoilta), valitse työstössä olevan projektin tietokanta, valikosta <b>File &gt; Export...</b>.
 
@@ -101,7 +101,7 @@ Ennen sivut julkaistaan maailmalle päivittämällä domainin nimipalvelintietue
 <pre class="language-bash"><code>sudo nano /etc/hosts</code></pre>
 Lisää tiedoston pohjalle IP (ghost tai craft) ja sen perään asiakkaalla käytössä olevat domainit. Craftin tapauksessa rivi näyttäisi tältä:
 <pre class="language-bash"><code>185.87.110.7 asiakas.fi www.asiakas.fi</code></pre>
-Tallenna näppäinyhdistelmillä <kbd>ctrl + o</kbd> ja poistu <kbd>ctrl + x</kbd> näppäimillä.
+Tallenna näppäinyhdistelmillä <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd> näppäimillä.
 
 Nyt sinun pitäisi päästä katsomaan sivustoa kun menet selaimella asiakkaan domainiin. Saattaa vaatia selaimen refreshausta tai jopa ihan tuoretta selainta, ei välttämättä ihan heti haista muutosta hosts-tiedostosta.
 <h4>10. Oikeudet kuntoon</h4>
