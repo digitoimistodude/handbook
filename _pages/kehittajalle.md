@@ -155,13 +155,13 @@ Testaus:
 git clone -b master https://github.com/PHPCompatibility/PHPCompatibility<br />
 git clone -b master --depth 1 https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wpcs</code></pre>
 
-<p>Korvaa omanimi omalla järjestelmän käyttäjänimellä:</p>
+<p>Korvaa <i>omanimi</i> omalla järjestelmän käyttäjänimellä:</p>
 
-<pre class="language-bash"><code class="language-bash">sudo ln -s /Users/<i>omanimi</i>/Projects/phpcs/bin/phpcs /usr/local/bin/phpcs && sudo chmod +x /usr/local/bin/phpcs</code></pre>
+<pre class="language-bash"><code class="language-bash">sudo ln -s /Users/<b>omanimi</b>/Projects/phpcs/bin/phpcs /usr/local/bin/phpcs && sudo chmod +x /usr/local/bin/phpcs</code></pre>
 
-<p>Korvaa omanimi omalla järjestelmän käyttäjänimellä:</p>
+<p>Korvaa <i>omanimi</i> omalla järjestelmän käyttäjänimellä:</p>
 
-<pre class="language-bash"><code class="language-bash">phpcs --config-set installed_paths "/Users/<i>omanimi</i>/Projects/wpcs","/Users/<i>omanimi</i>/Projects/PHPCompatibility"</code></pre>
+<pre class="language-bash"><code class="language-bash">phpcs --config-set installed_paths "/Users/<b>omanimi</b>/Projects/wpcs","/Users/<b>omanimi</b>/Projects/PHPCompatibility"</code></pre>
 
 <p>Testaa:</p>
 
