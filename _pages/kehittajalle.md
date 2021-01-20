@@ -183,4 +183,7 @@ git clone -b master --depth 1 https://github.com/WordPress-Coding-Standards/Word
 
 <p>11. <a href="https://code.visualstudio.com/">Visual Studio Coden</a> teemat, fontit ja värit saat asettaa oman makusi mukaan, mutta jos preferenssiä ei ole, voit käyttää <a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a> repon asetuksia. <a href="https://github.com/ronilaukkarinen/vscode-settings#usage">Suora linkki asentamisohjeisiin</a>.</p>
 
+<p>12. Paikallisen kehitysympäristön asentaminen onnistuu noudattamalla <a href="https://github.com/digitoimistodude/macos-lemp-setup#installation-steps" class="github">macos-lemp-setup</a> -asennusohjeita. <b>Huom!</b> nginx, php-fpm on ajettava roottina sudo-komennon kanssa, mutta mariadb on ajettava käyttäjän alla.</p>
+
+<p>13. Projektikehitysstackin asentaminen onnistuu noudattamalla <a href="https://github.com/digitoimistodude/dudestack#installation" class="github">dudestack</a> -asennusohjeita.</p>
 <!-- /wp:paragraph -->
