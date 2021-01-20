@@ -42,7 +42,7 @@ post_date: 2021-01-20 13:30:08
 
 <p>Lisätään vaaditut tiedostot:</p>
 
-<pre class="language-bash"><code class="language-bash">touch ~/.aliases<br />touch ~/.aliases_private</code></pre>
+<pre class="language-bash"><code class="language-bash">touch ~/.aliases && touch ~/.aliases_private</code></pre>
 
 <p>Käynnistä tässä kohtaa terminal uudestaan tappamalla se näppäinyhdistelmällä <kbd><kbd>⌘ cmd</kbd> <span>+</span> <kbd>Q</kbd></kbd> ja avaamalla uudestaan. Seuraavaksi luodaan .bash_profile-tiedosto seuraavasti:</p>
 
@@ -115,7 +115,7 @@ Jos ei ole vielä asennettu <a href="https://brew.sh/index_fi">brew.sh</a> sivus
 
 Ja testaus:
 
-<pre class="language-bash"><code class="language-bash">npm -v<br />node -v</code></pre>
+<pre class="language-bash"><code class="language-bash">npm -v && node -v</code></pre>
 
 <p>5. Disabloidaan automaattinen salasanakysely komentorivillä:</p>
 
