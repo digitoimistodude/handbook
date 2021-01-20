@@ -141,4 +141,46 @@ Testaus:
 
 <pre class="language-bash"><code class="language-bash">composer --version</code></pre>
 
+<p>7. Gulpin asentaminen globaaliksi paketiksi:</p>
+
+<pre class="language-bash"><code class="language-bash">npm install gulp -g</code></pre>
+
+<p>8. Capistranon asentaminen globaaliksi paketiksi:</p>
+
+<pre class="language-bash"><code class="language-bash">sudo gem install capistrano</code></pre>
+
+<p>9. PHPCodeSnifferin asennus WordPress Coding Standardeilla ja toiminnan testaus (ohjeet myös <a href="https://github.com/digitoimistodude/air-light#how-to-install-for-gulp" class="github">air-light</a> repossa):</p>
+
+<pre class="language-bash"><code class="language-bash">mkdir -p ~/Projects && cd ~/Projects && git clone -b master --depth 1 https://github.com/squizlabs/PHP_CodeSniffer.git phpcs<br />
+git clone -b master https://github.com/PHPCompatibility/PHPCompatibility<br />
+git clone -b master --depth 1 https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wpcs</code></pre>
+
+<p>Korvaa omanimi omalla järjestelmän käyttäjänimellä:</p>
+
+<pre class="language-bash"><code class="language-bash">sudo ln -s /Users/<i>omanimi</i>/Projects/phpcs/bin/phpcs /usr/local/bin/phpcs && sudo chmod +x /usr/local/bin/phpcs</code></pre>
+
+<p>Korvaa omanimi omalla järjestelmän käyttäjänimellä:</p>
+
+<pre class="language-bash"><code class="language-bash">phpcs --config-set installed_paths "/Users/<i>omanimi</i>/Projects/wpcs","/Users/<i>omanimi</i>/Projects/PHPCompatibility"</code></pre>
+
+<p>Testaa:</p>
+
+<pre class="language-bash"><code class="language-bash">phpcs -i</code></pre>
+
+<p>Pitäisi näkyä:</p>
+
+<pre class="language-bash"><code class="language-bash">The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR12, PHPCompatibility, WordPress, WordPress-Extra, WordPress-Docs and WordPress-Core</code></pre>
+
+<p>10. Stylelintin ja eslintin asennus:</p>
+
+<pre class="language-bash"><code class="language-bash">npm i stylelint eslint -g</code></pre>
+
+<p>Testaus:</p>
+
+<pre class="language-bash"><code class="language-bash">stylelint -v && eslint -v</code></pre>
+
+<p>Jos tulee versiot, asennus on mennyt oikein läpi.</p>
+
+<p>11. <a href="https://code.visualstudio.com/">Visual Studio Coden</a> teemat, fontit ja värit saat asettaa oman makusi mukaan, mutta jos preferenssiä ei ole, voit käyttää <a href="https://github.com/ronilaukkarinen/vscode-settings" class="github">vscode-settings</a> repon asetuksia. <a href="https://github.com/ronilaukkarinen/vscode-settings#usage">Suora linkki asentamisohjeisiin</a>.</p>
+
 <!-- /wp:paragraph -->
