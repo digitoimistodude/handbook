@@ -26,7 +26,7 @@ post_date: 2021-01-20 13:30:08
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Uusin <a href="https://itunes.apple.com/fi/app/xcode/id497799835?mt=12">XCode</a></li><li><a href="https://brew.sh/index_fi">Homebrew</a></li><li><a href="https://www.firefox.com">Firefox</a></li><li><a href="https://www.google.com/chrome/">Google Chrome</a></li><li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li><li><a href="https://www.resilio.com/individuals/">Resilio Sync</a></li><li><a href="https://sequelpro.com/test-builds">Sequel Pro (Nightly Test Build)</a></li><li><a href="https://simplenote.com/">Simplenote</a></li></ul>
+<ul><li><a href="https://itunes.apple.com/fi/app/xcode/id497799835?mt=12">XCode</a></li><li><a href="https://brew.sh/index_fi">Homebrew</a></li><li><a href="https://www.firefox.com">Firefox</a></li><li><a href="https://www.google.com/chrome/">Google Chrome</a></li><li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li><li><a href="https://www.resilio.com/individuals/">Resilio Sync</a></li><li><a href="https://sequelpro.com/test-builds">Sequel Pro (Nightly Test Build)</a></li><li><a href="https://simplenote.com/">Simplenote</a></li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading -->
