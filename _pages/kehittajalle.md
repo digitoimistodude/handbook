@@ -97,7 +97,7 @@ source $HOME/.aliases<br /><br />
 
 PATH="$HOME/.composer/vendor/bin:$PATH"<br /></code></pre>
 
-Tallennus <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd>, nanosta poistuminen <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>.
+<p>Tallennus <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd>, nanosta poistuminen <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>.</p>
 
 <p>2. Xcoden komponentit (saattaa olla jo asennettuna, mutta varmistetaan ensin):</p>
 
@@ -105,7 +105,7 @@ Tallennus <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd>, nanosta poistu
 
 <p>3. Homebrewn päivitykset:</p>
 
-Jos ei ole vielä asennettu <a href="https://brew.sh/index_fi">brew.sh</a> sivuston komennon kautta, ensin asennus ja sitten päivitykset komennolla:
+<p>Jos ei ole vielä asennettu <a href="https://brew.sh/index_fi">brew.sh</a> sivuston komennon kautta, ensin asennus ja sitten päivitykset komennolla:</p>
 
 <pre class="language-bash"><code class="language-bash">brew update</code></pre>
 
