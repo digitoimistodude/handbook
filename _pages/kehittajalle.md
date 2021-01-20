@@ -14,7 +14,7 @@ post_date: 2021-01-20 13:30:08
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
-<ol><li>Henkilökohtainen <a href="https://github.com">GitHub</a>-tunnus</li><li><a href="https://github.com/digitoimistodude">GitHub Teamin</a> owner-oikeudet</li><li><a href="https://www.cacher.io">Cacher</a></li></ol>
+<ol><li><a href="https://github.com">GitHub</a>-tunnus</li><li><a href="https://github.com/digitoimistodude">GitHub Teamin</a> owner-oikeudet</li><li><a href="https://www.cacher.io">Cacher</a></li></ol>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
