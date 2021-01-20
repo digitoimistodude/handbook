@@ -32,6 +32,10 @@ Yhteisiin tunnuksiin kuten <a href="https://elements.envato.com/">Envato Element
 Tärkeimmistä ohjelmista on avattu lisää osiossa <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/tyokalut-workflow">Työkalut &amp; Workflow</a>. Asenna kuitenkin seuraavat (MacOS päivitysten jälkeen):
 <ul>
  	<li><a href="https://sparkmailapp.com/">Spark-sähköpostiohjelma</a></li>
+ 	<li><a href="https://support.google.com/a/answer/7491144?hl=en">Google Drive File Stream</a></li>
+ 	<li><a href="https://apps.apple.com/us/app/favro/id975245623">Favro</a> (toimii myös selaimella)</li>
+ 	<li><a href="https://support.zeplin.io/en/articles/244698-downloading-mac-and-windows-apps">Zeplin</a> (toimii myös selaimella)</li>
+ 	<li><a href="https://trello.com/fi/platforms">Trello</a> (toimii myös selaimella)</li>
 </ul>
 <h2>Asiakaspalvelijalle / markkinoijalle</h2>
 Aspassa ja markkinoinnissa focus on chat- ja tikettityökalussa, blogissa, somessa ja sähköpostiliikenteessä.
@@ -58,3 +62,26 @@ Ylläpitäjä elää WordPress-hallintapaneeleissa ja palvelinten komentoriveill
  	<li><a href="https://iwantmyname.com/">iwantmyname</a></li>
  	<li><a href="https://www.cloudflare.com/">Cloudflare</a></li>
 </ul>
+<h2>Yleiset macOS ohjelmasuositukset</h2>
+Macin ohjelmia voi asentaa ja tarvittaessa myös ostaa oman maun mukaan. Ohjelmia löytyy esimerkiksi <a class="github" href="https://github.com/jaywcjlove/awesome-mac">awesome-macos</a> -listauksen alta. Duden käytössä on mm. seuraavia:
+<ul>
+ 	<li><a href="https://manytricks.com/moom/">Moom</a></li>
+ 	<li><a href="https://getpixelsnap.com/">PixelSnap</a></li>
+ 	<li><a href="https://rinik.net/clean/">Clean</a></li>
+ 	<li><a href="https://pock.dev/">Pock</a></li>
+ 	<li><a href="http://maddin.io/gestimer/">Gestimer</a></li>
+ 	<li><a href="https://magnet.crowdcafe.com/">Magnet</a></li>
+ 	<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a></li>
+ 	<li><a href="https://usecontrast.com/">Contrast</a></li>
+ 	<li><a href="https://justgetflux.com/">f.lux</a></li>
+ 	<li><a href="https://github.com/mileswd/mac2imgur">mac2imgur</a></li>
+ 	<li><a href="https://dropshare.app/">Dropshare</a></li>
+ 	<li><a href="https://daisydiskapp.com/">DaisyDisk</a></li>
+ 	<li><a href="https://hazeover.com/">HazeOver</a></li>
+ 	<li><a href="https://www.mowglii.com/itsycal/">itsycal</a></li>
+ 	<li><a href="https://bjango.com/mac/istatmenus/">iStat Menus</a></li>
+ 	<li><a href="https://www.keka.io/en/">Keka</a></li>
+ 	<li><a href="https://apps.apple.com/us/app/quickshade/id931571202?mt=12">QuickShade</a></li>
+</ul>
+<h2>Koodarille</h2>
+Koodarin työkalut ovat sen verran isompi kokonaisuus, että ne löytyy Handbookin erilliseltä <a href="https://handbook.dude.fi/tyoskenteleminen-dudella/kehittajalle">koodareille varatulta sivulta</a>.
