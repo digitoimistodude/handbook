@@ -37,7 +37,7 @@ Otetaan muutokset käyttöön:
 
 5. Tämän jälkeen projektin aloittaja tallentaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin 1Passwordiin Secure Noteksi. Tarvittaessa aloittajadevaaja jakaa tunnareita Slackin tai Trellon kautta muille projektissa mukana oleville devaajille.
 
-6. Avaa projekti Sublime Textiin komennolla <code>subl ~/Projects/projektinnimitähän</code> tai Sublime Textin valikosta Open Folder. Tämän jälkeen tallenna projekti nimellä painamalla <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> ja kirjoittamalla <b>Add New Project</b> ja enter. Nimeä projekti samalla nimellä kuin kansio, eli uudelleen enter. Tämän jälkeen löydät projektisi jatkossa kun painat <kbd><kbd>⌘</kbd> <span>+</span> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>O</kbd></kbd> (jos ei toimi niin varmista että <a href="https://github.com/ronilaukkarinen/vscode-settings/blob/01ad756ad23364365543bc0268cf61da08359465/keybindings.json#L8" class="github">keybindings.json</a> on käytössä, tämän saat varmistettua kun haet <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> "Preferences: Open Keyboard Shortcuts (JSON)" ja katsot löytyykö kyseinen näppäinkomento).
+6. Avaa projekti editoriisi käyttämäsi editorin komennolla, esim. <code>code ~/Projects/projektinnimitähän</code> (Visual Studio Code) tai <code>subl ~/Projects/projektinnimitähän</code> (Sublime Text). Tämän jälkeen tallenna projekti nimellä painamalla <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> ja kirjoittamalla <b>Add New Project</b> ja enter. Nimeä projekti samalla nimellä kuin kansio, eli uudelleen enter. Tämän jälkeen löydät projektisi jatkossa kun painat <kbd><kbd>⌘</kbd> <span>+</span> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>O</kbd></kbd> (jos ei toimi niin varmista että <a href="https://github.com/ronilaukkarinen/vscode-settings/blob/01ad756ad23364365543bc0268cf61da08359465/keybindings.json#L8" class="github">keybindings.json</a> on käytössä, tämän saat varmistettua kun haet <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> "Preferences: Open Keyboard Shortcuts (JSON)" ja katsot löytyykö kyseinen näppäinkomento).
 <h3 id="myohemmin-projektiin-mukana-tulevan-devaajan-tehtavat">Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 Vaiheet:
 
@@ -45,7 +45,7 @@ Vaiheet:
 
 <img src="https://handbook.dude.fi/media/Screen-Shot-2021-01-21-13-29-22.56.png" alt="Ohjeistuskuva, paina ensin Code-nappia" />
 
-2. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> (esim. <code>subl ~/Projects/.env</code> tai <code>nano ~/Projects/.env</code>) ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
+2. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> (esim. <code>code .env</code> tai <code>nano ~/Projects/projektinnimi/.env</code>) ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 <pre class="language-properties"><code>DB_NAME=tässä_on_oikea_tietokannan_nimi
 DB_USER=tässä_on_oikea_käyttäjätunnus
 DB_PASSWORD=tässä_on_oikea_salasana
