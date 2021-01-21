@@ -21,11 +21,23 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 2. Seuraavaksi ajetaan newtheme.sh (<a class="github" href="https://github.com/digitoimistodude/air">digitoimistodude/air</a>), joka tarpeelliset tiedot kysyttyään luo projektiin aloitusteeman.
 
-3. Ensimmäinen aloittaja luo seuraavaksi tietokannan kehityspalvelimelle (gunship)
+3. Ensimmäinen aloittaja luo seuraavaksi tietokannan kehityspalvelimelle (gunship) seuraavasti. Tämä siksi, että sivustolla tehdyt muutokset pysyy samaan aikaan syncassa asiakkaalla ja kaikilla devaajilla ilman että tarvitsee jatkuvasti harrastaa import-export-import-rallia.
 
-4. Tämän jälkeen projektin aloittaja jakaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin mediatiedostoihin Trellon tai Slackin kautta muille projektissa mukana oleville devaajille.
+Luodaan ensin tietokanta projektille (gunship):
 
-5. Avaa projekti Sublime Textiin komennolla <code>subl ~/Projects/projektinnimitähän</code> tai Sublime Textin valikosta Open Folder. Tämän jälkeen tallenna projekti nimellä painamalla <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> ja kirjoittamalla <b>Add New Project</b> ja enter. Nimeä projekti samalla nimellä kuin kansio, eli uudelleen enter. Tämän jälkeen löydät projektisi jatkossa kun painat <kbd><kbd>⌘</kbd> <span>+</span> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>O</kbd></kbd> (jos ei toimi niin varmista että <a href="https://github.com/ronilaukkarinen/vscode-settings/blob/01ad756ad23364365543bc0268cf61da08359465/keybindings.json#L8" class="github">keybindings.json</a> on käytössä, tämän saat varmistettua kun haet <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> "Preferences: Open Keyboard Shortcuts (JSON)" ja katsot löytyykö kyseinen näppäinkomento).
+<pre class="language-sql"><code>CREATE USER 'projektinnimi'@'localhost' IDENTIFIED BY 'TÄHÄN_1PASSWORDISSA_GENEROITU_VAIKEA_SALASANA';</code></pre>
+
+Sitten lisätään oikeudet projektikohtaiselle käyttäjälle:
+<pre class="language-sql"><code>GRANT ALL PRIVILEGES ON projektinnimi.* TO 'projektinnimi'@'localhost';</code></pre>
+
+Otetaan muutokset käyttöön:
+<pre class="language-sql"><code>FLUSH PRIVILEGES;</code></pre>
+
+4. Uploadaa createprojectin kautta luotu paikallinen tietokanta gunshipille Sequel Prolla ja vaihda tiedot .env-tiedostoon.
+
+5. Tämän jälkeen projektin aloittaja tallentaa .env- määritykset sekä <a href="https://www.resilio.com/individuals/">Resilio Sync</a> -linkin 1Passwordiin Secure Noteksi. Tarvittaessa aloittajadevaaja jakaa tunnareita Slackin tai Trellon kautta muille projektissa mukana oleville devaajille.
+
+6. Avaa projekti Sublime Textiin komennolla <code>subl ~/Projects/projektinnimitähän</code> tai Sublime Textin valikosta Open Folder. Tämän jälkeen tallenna projekti nimellä painamalla <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> ja kirjoittamalla <b>Add New Project</b> ja enter. Nimeä projekti samalla nimellä kuin kansio, eli uudelleen enter. Tämän jälkeen löydät projektisi jatkossa kun painat <kbd><kbd>⌘</kbd> <span>+</span> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>O</kbd></kbd> (jos ei toimi niin varmista että <a href="https://github.com/ronilaukkarinen/vscode-settings/blob/01ad756ad23364365543bc0268cf61da08359465/keybindings.json#L8" class="github">keybindings.json</a> on käytössä, tämän saat varmistettua kun haet <kbd><kbd>⌘</kbd> <span>+</span> <kbd>⇧</kbd> <span>+</span> <kbd>P</kbd></kbd> "Preferences: Open Keyboard Shortcuts (JSON)" ja katsot löytyykö kyseinen näppäinkomento).
 <h3 id="myohemmin-projektiin-mukana-tulevan-devaajan-tehtavat">Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 Vaiheet:
 
