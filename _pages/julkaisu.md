@@ -26,7 +26,7 @@ Duden julkaisutoimenpiteet eli deploy on monivaiheinen ja varsinaista tiedonsiir
 <h4>1. Deploy-asetustiedoston luominen paikalliseen ympäristöön</h4>
 <a class="github" href="https://github.com/digitoimistodude/dudestack">digitoimisto/dudestack</a>in aloitusscripti (lisää kohdassa <a href="https://handbook.dude.fi/wordpress-kehitys/projektin-aloitus">Projektin aloitus</a>) määrittää oletuskonffit valmiiksi, mutta tuotannon conffiin saattaa joskus tulla muutoksia, joten se tarkistetaan aina erikseen.
 
-Avaa projektikansion sisällä oleva <b>config/deploy/production.rb</b>. Jos tiedostoa, ei ole, luo oletustiedostot menemällä Terminalilla projektikansioosi, esimerkiksi <code>cd ~/Projects/project</code> ja ajamalla <code>cap install</code>. Tämän jälkeen nappaa uusin deployconfig <a href="https://github.com/digitoimistodude/deploypackages/">Github repositorystä</a>. Valitse kaikki, kopioi ja liitä projektin alla olevaan avattuun production.rb-tiedostoon.
+Avaa projektikansion sisällä oleva <b>config/deploy/production.rb</b>. Jos tiedostoa, ei ole, luo oletustiedostot menemällä Terminalilla projektikansioosi, esimerkiksi <code>cd ~/Projects/project</code> ja ajamalla <code>cap install</code>. Tämän jälkeen nappaa uusin deployconfig <a href="https://www.cacher.io/">Cacherista</a>. Valitse kaikki, kopioi ja liitä projektin alla olevaan avattuun production.rb-tiedostoon.
 
 Korvaa tiedostosta kaikki <b>DOMAIN</b> -tekstit projektin oikealla päädomainilla, esim. asiakas.fi. Täytä myös käyttäjätunnuksesi ja salasanasi.
 
