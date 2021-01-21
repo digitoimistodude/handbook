@@ -29,7 +29,9 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 <h3 id="myohemmin-projektiin-mukana-tulevan-devaajan-tehtavat">Myöhemmin projektiin mukana tulevan devaajan tehtävät</h3>
 Vaiheet:
 
-1. Muut mukaan tulevat devaajat menevät <a href="https://github.com/digitoimistodude/">Duden Githubiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Clone</b>-nappulan avulla <code>~/Projects</code> -hakemistoon (Terminalissa: <code>cd ~/Projects</code> ja sen jälkeen git clone <i>url</i>).
+1. Muut mukaan tulevat devaajat menevät <a href="https://github.com/digitoimistodude/">Duden Githubiin</a>, josta valitsevat aloitetun projektin kloonaavat projektin <b>Code</b>-nappulan avulla <code>~/Projects</code> -hakemistoon (Terminalissa: <code>cd ~/Projects</code> ja sen jälkeen git clone <i>url</i>).
+
+<img src="https://handbook.dude.fi/media/Screen-Shot-2021-01-21-13-29-22.56.png" alt="Ohjeistuskuva, paina ensin Code-nappia" />
 
 2. Luo uusi tiedosto projektikansion alle nimeltä <code>.env</code> (esim. <code>subl ~/Projects/.env</code> tai <code>nano ~/Projects/.env</code>) ja lisää sinne saamasi tiedot. Tyypillinen .env-tiedosto näyttää tältä:
 <pre class="language-properties"><code>DB_NAME=tässä_on_oikea_tietokannan_nimi
