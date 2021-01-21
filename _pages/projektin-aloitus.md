@@ -25,10 +25,10 @@ Scripti kysyy oleelliset tiedot projektista, kuten projektin nimen. Sen jälkeen
 
 Luodaan ensin tietokanta projektille (gunship):
 
-<pre class="language-sql"><code>CREATE USER 'projektinnimi'@'localhost' IDENTIFIED BY 'TÄHÄN_1PASSWORDISSA_GENEROITU_VAIKEA_SALASANA';</code></pre>
+<pre class="language-sql"><code>CREATE USER 'projektinnimi'@'%' IDENTIFIED BY 'TÄHÄN_1PASSWORDISSA_GENEROITU_VAIKEA_SALASANA';</code></pre>
 
 Sitten lisätään oikeudet projektikohtaiselle käyttäjälle:
-<pre class="language-sql"><code>GRANT ALL PRIVILEGES ON projektinnimi.* TO 'projektinnimi'@'localhost';</code></pre>
+<pre class="language-sql"><code>GRANT ALL PRIVILEGES ON projektinnimi.* TO 'projektinnimi'@'%';</code></pre>
 
 Otetaan muutokset käyttöön:
 <pre class="language-sql"><code>FLUSH PRIVILEGES;</code></pre>
