@@ -13,11 +13,11 @@ Dude käyttää versionhallintaan gitiä, vuodesta 2013 vuoteen 2018 asti Bi
 
 <b>Kaikki minkä voi, tulee julkaista open sourcena</b>, avoimena täysin julkisena <a class="github" href="https://github.com/digitoimistodude">Duden GitHub-tilin alla</a>. Näitä voivat olla omat tekniikat, WordPress-teemat tai -lisäosat, joita voisi kuvitella muidenkin käyttävän. Asiakasprojektit ja muut ei-julkiset kehityskohteet julkaistaan GitHubissa Private repositoriossa, jotka näkyvät ainoastaan Duden tiimille.
 <h2>Commit-viestit muutoksista</h2>
-Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja tulisi välttää ja pyrkiä committaamaan sen sijaan jokainen toiminto erikseen. Pienetkin muutokset pitää committaa mahdollisimman aikaisessa vaiheessa, jotta vältytään konflikteilta. Edes keskeneräisyydellä ei ole väliä, ellei muutos ole menossa suoraan tuotantoon.
+Commit-viestien tulee olla selkeitä ja kuvaavia. Massiivisia committeja (jotka sisältävät esimerkiksi koko päivän työt yhdessä commitissa) tulisi välttää ja pyrkiä committaamaan sen sijaan jokainen toiminto erikseen. Pienetkin muutokset pitää pyrkiä committaamaan ja pushaamaan mahdollisimman aikaisessa vaiheessa, jotta vältytään konflikteilta. <b>Ei hillota committeja!</b> Tämä tarkoittaa sitä että tehdään esimerkiksi 3-6 committia ja pushataan ne sitten GitHubiin. Keskeneräisyydellä ei ole väliä, ellei muutos ole menossa suoraan tuotantoon.
 <h2>Gitin käyttö asiakasprojekteissa</h2>
-Committeja ei saa jättää jemmaan, vaan ne tulee pushata aina hyvissä ajoin, etenkin silloin kun kun tietää olevansa poissa ruudulta. Omat branchit tulee myös mergetä pääbranchiin työpäivän päätteeksi, etenkin projektin aktiivisessa kehitysvaiheessa ja suurempien muutosten jälkeen. Näin projektin jatkokehittäjä eli työkaveri saa uusimmat muutokset ajoissa, eikä tule konflikteja.
+Committeja ei saa jättää jemmaan, vaan ne tulee pushata aina hyvissä ajoin, etenkin silloin kun kun tietää olevansa poissa ruudulta. Omat branchit tulee mergetä pääbranchiin aina kun tarvitsee viedä muutoksia muiden käyttöön ja jos ei niin merge tehdään viimeistään työpäivän päätteeksi. Etenkin projektin aktiivisessa kehitysvaiheessa tämä on tärkeää ja suurempien muutosten jälkeen edellytys. Näin projektin jatkokehittäjä eli työkaveri saa uusimmat muutokset ajoissa, eikä pääse syntymään merge conflicteja, jossa useampi taho on muokannut samaa kohtaa vahingossa.
 
-Muutoksia voi niputtaa samaan committiin, esimerkiksi "Improving readability", jossa voi olla useampi typografiamuutos samassa. Nyrkkisääntönä sopiva toimintovälin etappi, jossa saa käyttää maalaisjärkeä.
+Muutoksia voi niputtaa samaan committiin, esimerkiksi "Improving readability", jossa voi olla useampi typografiamuutos samassa. Nyrkkisääntönä sopiva toiminto-/ tai tyylittelyvälin etappi. Näissä on suotavaa käyttää omaa maalaisjärkeään.
 <h2>Git-pikaohje komentorivillä</h2>
 <pre class="language-bash"><code>git status</code></pre>
 Näe nykyisen edistymisesi tila, mitä on committaamatta, mitä lisättynä, missä mennään. Tälle komennolle on luotu elämää helpottamaan alias <code>s</code> (tämän sivun alalaidassa).
@@ -48,10 +48,15 @@ Sitten mergeä master omaan branchiisi:
 <pre class="language-bash"><code>git merge branchisinimi</code></pre>
 Tämän jälkeen voit siirtyä omaan branchiisi takaisin:
 <pre class="language-bash"><code>git checkout branchisinimi</code></pre>
+
+Mergeä vielä mahdollisesti muuttunut master omaan branchiisi:
+
+<pre class="language-bash"><code>git merge master</code></pre>
+
 <h2>Merge conflict</h2>
 Tuliko merge conflicti? Yleensä merge conflict on helppo selvittää. Merge conflictin tullessa tärkeintä on selvittää mitä tiedostoja on muokattu ja mikä muokkaus on uusin. Muuttuneet tiedostot saat näkyviin tuttuun tapaan <code>git status</code> (tai aliaksella <code>s</code>).
 
-Jos merge conflictissa on <i>global.min.css</i>, voit vain kääntää tyylit uudestaan komennolla <code>gulp styles</code>. Jos muita tiedostoja, katso tiedostot, etsi tiedostosta "&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; branchinnimi", joka osoittaa mihi muutos päättyy ja mihin se loppuu ja poista "&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;" -kommentit. Korjausten jälkeen lisää muutokset (<code>git add --all</code> tai <code>a</code>), committaa ne (<code>git commit 'Fix merge conflicts'</code> tai <code>c 'Fix merge conflicts'</code>) ja pushaa ne (<code>git push</code> tai <code>p</code>). Tämän jälkeen kaikki on kunnossa ja merge on tehty onnistuneesti. Voit vielä tarkistaa mergeämällä uudestaan niin voit varmistua siitä että kaikki on mergetty eikä uusia muutoksia tule.
+Jos merge conflictissa on <i>global.min.css</i>, voit vain kääntää tyylit uudestaan komennolla <code>gulp styles</code>. Jos merge conflictissa on mukana <i>all.js</i> tai <i>dist/front-end.js</i>, compilaa js komennolla <code>gulp js</code> niin se ratkaisee tämän tiedoston conflictin. Jos mukana on muita konfliktaavia tiedostoja, avaa tiedosto Visual Studio Codeen. VSCode osaa ehdottaa merge konfliktiin ratkaisuja automaattisesti. Yhdistä koodi tai hyväksy joko nykyinen tai kommitissa tuleva muutos. Tämän voi tehdä myös manuaalisesti esim. nanolla etsimällä tiedostosta "&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; branchinnimi", joka osoittaa mihi muutos päättyy ja mihin se loppuu ja poista "&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;" -kommentit. Korjausten jälkeen lisää muutokset (<code>git add --all</code> tai <code>a</code>), committaa ne (<code>git commit 'Fix merge conflicts'</code> tai <code>c 'Fix merge conflicts'</code>) ja pushaa ne (<code>git push</code> tai <code>p</code>). Tämän jälkeen kaikki on kunnossa ja merge on tehty onnistuneesti. Voit vielä tarkistaa mergeämällä uudestaan niin voit varmistua siitä että kaikki on mergetty eikä uusia muutoksia tule.
 <h2>Aliaksia</h2>
 Tuntuuko työläältä kirjoittaa aina kaikki komennot käsin? komennot on päätetty tehdä kirjoittamalla eikä esim jotain appia käyttämällä, koska silloin pysyy parhaiten kärryillä muutoksista kun ne "hyväksyy" itse. Elämää kuitenkin helpottaa huomattavasti seuraavat aliakset. Muokkaa tietokoneesi ~/.bashrc -tiedostoa esim. komennolla <code>nano ~/.bashrc</code> tai avaamalla tiedoston editoriisi (huom. tiedosto voi olla piilotettuna):
 <pre class="language-bash"><code>alias s='git status'
