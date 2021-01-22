@@ -38,7 +38,9 @@ Seuraavalla komennolla siirryt omaan branchiisi:
 <pre class="language-bash"><code>git checkout branchisinimi</code></pre>
 Muista että voit tarkistaa missä olet komennolla <code>git status</code> (tai aliaksella <code>s</code>).
 <h2>Branchien mergeäminen eli yhdistäminen</h2>
-Brancheja pitäisi kehityksen aikana mergetä mahdollisimman tiuhaan masteriin, mutta mielellään aina silloin kun ei ole isompia kesken.
+Brancheja pitäisi kehityksen aikana mergetä mahdollisimman tiuhaan masteriin, mutta mielellään aina silloin kun ei ole isompia kesken. Mergeily kannattaa myös keskeneräisissä tilanteissa erityisesti silloin kun muukin tiimi tarvitsisi mergettävää asiaa.
+
+<b>Huom!</b> Erityisesti frontin koodailun puolella muista tappaa gulp-prosessi <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>C</kbd></kbd> -näppäinyhdistelmällä ennen branchista poistumista. Jos gulp on ajossa, watch-task rullaa muuttuneita scss ja js-tiedostoja, jolloin tulee turhia muutoksia välissä.
 
 Muista kommunikaatio, varmista että työkaveri on mergennyt oman branchinsa masteriin. Sitten, hae masterista uusin versio menemällä master branchiin:
 <pre class="language-bash"><code>git checkout master</code></pre>
