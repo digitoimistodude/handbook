@@ -89,7 +89,7 @@ Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos
 <pre class="language-bash"><code>sudo nginx -t</code></pre>
 
 Tämän pitäisi antaa tulokseksi:
-<pre class="language-bash"><code>snginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+<pre class="language-bash"><code>nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
 </code></pre>
 
