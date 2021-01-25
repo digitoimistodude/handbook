@@ -70,9 +70,20 @@ IMAGIFY_API_KEY=tässä_on_oikea_API_key</code></pre>
 
 4. Seuraavaksi haetaan riippuvuudet ajamalla projektin juuressa:
 <pre class="language-bash"><code>composer install &amp;&amp; npm install</code></pre>
-5. Sitten teeman riippuvuudet menemällä teemakansioon <code>cd ~/Projects/projektinnimi/content/themes/teemannimi</code> ja ajamalla <code>npm install</code>
 
-6. Sitten asetetaan manuaalisesti <code>/etc/hosts</code> -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla <code>sudo nano /etc/hosts</code> ja antamalla oman pääkäyttäjän salasana. IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) <code>10.1.2.4</code> ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) <code>127.0.0.1</code>. Tällöin lisää hosts tiedostoon viimeiselle riville seuraavasti (IP sen mukaan mitä käytät ja projektiosoite sen mukaan mikä on käytössä):
+5. Sitten teeman riippuvuudet menemällä teemakansioon
+
+<pre class="language-bash"><code>cd ~/Projects/projektinnimi/content/themes/teemannimi</code></pre>
+
+Tämän jälkeen asenna paketit komennolla:
+
+<pre class="language-bash"><code>npm install</code></pre>
+
+6. Sitten asetetaan manuaalisesti <i>/etc/hosts</i> -tiedostoon projektin isäntärivi, jotta kehityspalvelin osaa yhdistää oikeaan projektiin, esimerkiksi suoraan komentoriviltä muokkaamalla hosteja seuraavasti:
+
+<pre class="language-bash"><code>sudo nano /etc/hosts</code></pre>
+
+IP on Duden vagrant-koneella (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) <code>10.1.2.4</code> ja Duden natiivilla macOS LEMPillä (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) <code>127.0.0.1</code>. Jos esimerkiksi käytät macos-lempiä, lisää hosts tiedostoon viimeiselle riville seuraavasti:
 <pre class="language-bash"><code>127.0.0.1 projektinnimi.test</code></pre>
 Jos käytössä on vagrant (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>), lisää vhosts-kansioon tiedosto <code>projekti.test</code> (jos projektisi nimi on "projekti"), jonne sisältö:
 <pre class="language-nginx"><code>server {
@@ -84,7 +95,11 @@ Jos käytössä on vagrant (<a class="github" href="https://github.com/digitoimi
     server_name projekti.test;
 }
 </code></pre>
-Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>), muokkaa komentoriviltä <code>sudo nano /etc/nginx/sites-enabled/projekti.test</code> ja lisää yllä oleva sinne. Tämän jälkeen testaa että konffi on oikein:
+Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>), muokkaa komentoriviltä:
+
+<pre class="language-bash"><code>sudo nano /etc/nginx/sites-enabled/projekti.test</code></code></pre>
+
+Lisää yllä oleva server-block tähän tiedostoon. Seuraavaksi testaa että konffi on oikein:
 
 <pre class="language-bash"><code>sudo nginx -t</code></pre>
 
@@ -93,9 +108,17 @@ Tämän pitäisi antaa tulokseksi:
 nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
 </code></pre>
 
-Tämän jälkeen käynnistä web-palvelin uudelleen komennolla <code>sudo brew services restart nginx</code> (tai jos sinulla on <a href="https://github.com/digitoimistodude/macos-lemp-setup#use-linux-style-aliases">alias</a>, <code>sudo service nginx restart</code>. <b>Huom!</b> komennon ajaminen sudolla on tässä tärkeää, muuten muutokset eivät tule voimaan.
+Tämän jälkeen käynnistä web-palvelin uudelleen komennolla:
 
-Ylläolevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut vagrant-boksimme asennusohjeita (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) tai asentanut LEMP-web-palvelimemme oikeaoppisesti (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) JA lisännyt myös aliakset <a href="https://github.com/digitoimistodude/macos-lemp-setup#post-install">tämän sivun pohjalta</a>.
+<pre class="language-bash"><code>sudo brew services restart nginx</code></pre>
+
+Tai jos sinulla on <a href="https://github.com/digitoimistodude/macos-lemp-setup#use-linux-style-aliases">alias</a>, käytä seuraavaa samoin kuin käyttäisit staging/production-palvelimella:
+
+<pre class="language-bash"><code>sudo service nginx restart</code></pre>
+
+<b>Huom!</b> komennon ajaminen sudolla on tässä tärkeää, muuten muutokset eivät tule voimaan.
+
+Yllä olevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut vagrant-boksimme asennusohjeita (<a class="github" href="https://github.com/digitoimistodude/marlin-vagrant">digitoimistodude/marlin-vagrant</a>) tai asentanut LEMP-web-palvelimemme oikeaoppisesti (<a class="github" href="https://github.com/digitoimistodude/macos-lemp-setup">digitoimistodude/macos-lemp-setup</a>) JA lisännyt myös aliakset <a href="https://github.com/digitoimistodude/macos-lemp-setup#post-install">tämän sivun pohjalta</a>.
 
 7. Aseta mediakansio paikalleen Resilio Syncillä (olet saanut projektin aloittajalta linkin tai zip-tiedoston) projektikansion alle <code>media/</code> -hakemistoon.
 
