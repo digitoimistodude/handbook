@@ -48,12 +48,21 @@ Tämän jälkeen hae masterista uusin versio:
 <pre class="language-bash"><code>git pull</code></pre>
 Sitten mergeä master omaan branchiisi:
 <pre class="language-bash"><code>git merge branchisinimi</code></pre>
+
+Pushaa merge (komennolla alla tai aliaksella <code>s</code>):
+
+<pre class="language-bash"><code>git push</code></pre>
+
 Tämän jälkeen voit siirtyä omaan branchiisi takaisin:
 <pre class="language-bash"><code>git checkout branchisinimi</code></pre>
 
 Mergeä vielä mahdollisesti muuttunut master omaan branchiisi:
 
 <pre class="language-bash"><code>git merge master</code></pre>
+
+Pushaa merge (komennolla alla tai aliaksella <code>s</code>):
+
+<pre class="language-bash"><code>git push</code></pre>
 
 <h2>Merge conflict</h2>
 Tuliko merge conflicti? Yleensä merge conflict on helppo selvittää. Merge conflictin tullessa tärkeintä on selvittää mitä tiedostoja on muokattu ja mikä muokkaus on uusin. Muuttuneet tiedostot saat näkyviin tuttuun tapaan <code>git status</code> (tai aliaksella <code>s</code>).
