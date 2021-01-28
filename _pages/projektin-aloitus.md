@@ -99,7 +99,7 @@ Jos taas LEMP (<a class="github" href="https://github.com/digitoimistodude/macos
 
 <pre class="language-bash"><code>sudo nano /etc/nginx/sites-enabled/projekti.test</code></code></pre>
 
-Lisää yllä oleva server-block tähän tiedostoon. Seuraavaksi testaa että konffi on oikein:
+Lisää yllä oleva server-block tähän tiedostoon. Tallenna näppäinyhdistelmällä <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>. Seuraavaksi testaa että konffi on oikein:
 
 <pre class="language-bash"><code>sudo nginx -t</code></pre>
 
@@ -124,8 +124,37 @@ Yllä olevat tukeutuvat täysin siihen, että olet esimerkiksi noudattanut vagra
 
 8. Luo itsellesi branch, <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source#branchin-luominen">katso ohjeet tästä</a>.
 
-9. Luo itsellesi WordPress-tunnus, aja wp-cli projektikansiossa (täydennä tähän komentoon tietosi):
+9. Kirjaudu tarvittaessa sisään käyttämällä 1Passowordista löytyviä tunnuksia tai jos niitä ei ole, luo itsellesi WordPress-tunnus ajamalla wp-cli projektikansiossa (täydennä tähän komentoon tietosi):
 <pre class="language-bash"><code>./vendor/wp-cli/wp-cli/bin/wp user create etunimi nimesi@dude.fi --role=administrator --user_pass=TÄHÄN_ONEPASSWORDILLA_GENEROITU_VAIKEA_SALASANA --first_name=Etunimi --last_name=Sukunimi --display_name=Etunimi</code></pre>
 Näin projektin kollaboraatio saa alkaa!
 
 <a href="https://handbook.dude.fi/wordpress-kehitys/git-open-source">Lisää git-käytänteistä.</a>
+
+<h3>Mahdolliset virhetilanteet legacy-projekteissa</h3>
+
+Siirryimme käyttämään gulpin versio 4:sta 26.8.2020 (<a href="https://github.com/digitoimistodude/air-light/commit/088bece978d530b795aaddcb7b134cd8ceb4dbd7#diff-3d7a4d229da48a5168c38ae7c9481d90654c540d6e389128f5d567d76d12ff78" class="github">Migrate to gulp 4, #088bece</a>). Tätä edeltävät projektit käyttävät gulp v3:sta. Gulp 3 tukee gulp 4:sta, mutta gulp 4 ei tue gulp 3:sta. Gulp3 ja gulp4 välillä tuli muutamia breaking changeja ja esimerkiksi autoprefixerin 7-versio vaatii vähintään gulp v4:n. Gulp v3 ei toimi node v12 tai uudemmalla, joten nämä voivat aiheuttaa ongelmatilanteita. Tässä pari tyypillisintä:
+
+<pre class="language-bash"><code>ReferenceError: primordials is not defined</code></pre>
+
+Jos käytät Gulpin versiota, joka alkaa numerolla 3 ja samanaikaisesti järjestelmässäsi on asennettuna node, jonka versio on uudempi kuin 12, ei gulp lähde käyntiin. Paras tässä kohtaa on downgradettaa node versioon 10.22.0, jolla toimii sekä uudet että vanhat projektit. Oman gulp-versiosi näet komennolla:
+
+<pre class="language-bash"><code>gulp --version</code></pre>
+
+Ja node-versiosi komennolla:
+
+<pre class="language-bash"><code>node --version</code></pre>
+
+Laske node versioon 10.22.0 seuraavasti:
+
+<pre class="language-bash"><code>sudo npm install -g n<br>
+sudo n 10.22.0</code></pre>
+
+Jos saat seuraavanlaisen virheen node-sassista tai muusta paketista, se johtuu siitä että noden riippuvuuksia on vielä olemassa uudemmalle nodelle.
+
+<pre class="language-bash"><code>Node Sass could not find a binding for your current environment: OS X 64-bit with Node.js 10.x</code></pre>
+
+Tämän voit korjata helposti rebuildaamalla paketin vanhemmalle nodelle:
+
+<pre class="language-bash"><code>npm rebuild node-sass</code></pre>
+
+Nyt kaiken pitäisi toimia oikein.
