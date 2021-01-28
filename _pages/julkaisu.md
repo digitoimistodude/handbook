@@ -169,3 +169,12 @@ add_action( 'init', function() {
 Tässä vaiheessa on hyvä rämpätä vielä sivusto kertaalleen läpi. Katso myös <a href="#tarkistuslista">ajolistan</a> <b>Julkaisun jälkeen</b> listan kohdat.
 
 Onnittelut, olet juuri julkaissut sivuston!
+
+<h3>Uuden Air-light teemaversion julkaisuprosessi</h3>
+
+Uuden pohjateeman version julkaisussa noudatetaan <a href="https://github.com/digitoimistodude/air-light#releasing-a-new-version-on-git-and-tagging-principles-staff-only" class="github">air-light</a> -repositoryn julkaisukäytänteitä. "The tag-release cycle" -kohdan vaiheessa 5 kuitenkin on järkevämpää ja nopeampaa käyttää seuraava aliasta:
+
+<pre class="language-bash"><code>alias release_new_air_version='git push && git push --tags && rsync -av -e ssh --exclude={"/node_modules/*","/bin/*","/sass/*"} /Users/rolle/Projects/airdev/content/themes/air-light/* rolle@185.87.110.7:/var/www/dudetest.xyz/public_html/air/content/themes/air-light/ && cd ~/Projects/airdev/content/themes/air-light/bin && sh air-move-out.sh'</code></pre>
+
+Aliaksen saat käyttöön lisäämällä yllä olevan .bashrc tai .aliases -tiedostoosi, riippuen siitä millaiset dotfilesit sinulla on. Huomaathan korjata oman käyttäjänimesi komentoon. Tämän jälkeen voit julkaista tägäämise njälkeen suoraan komennolla <code>release_new_air_version</code>. Tämän jälkeen seuraa ohjeita, jotka tulevat näkyviin komennon ajamisen jälkeen.
+
