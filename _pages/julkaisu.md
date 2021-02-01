@@ -73,7 +73,7 @@ Otetaan muutokset käyttöön:
 
 Avaa muokkaukseen tiedosto, josta deploy-komento aiemmin herjasi, tämän näköisellä komennolla:
 <pre class="language-bash"><code>nano /var/www/asiakas.fi/deploy/shared/.env</code></pre>
-Valitse kaikki auki olevasta .env-tiedostostasi ja liitä sisältö komentorivi-ikkunassasi auki olevaan tyhjään .env-tiedostoon. Tallenna näppäinyhdistelmällä <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd>.
+Valitse kaikki auki olevasta .env-tiedostostasi ja liitä sisältö komentorivi-ikkunassasi auki olevaan tyhjään .env-tiedostoon. Tallenna näppäinyhdistelmällä <kbd><kbd>ctrl</kbd> + <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> + <kbd>X</kbd></kbd>.
 <h4>4. Tietokannan luominen ja tuominen</h4>
 1. Avaa <b>Sequel Pro</b>. Kirjaudu gunship -nimiselle staging palvelimelle (tunnukset ja Sequel Pro -asetukset 1Passwordista ja kollegoilta), valitse työstössä olevan projektin tietokanta, valikosta <b>File &gt; Export...</b>.
 
@@ -101,7 +101,7 @@ Ennen sivut julkaistaan maailmalle päivittämällä domainin nimipalvelintietue
 <pre class="language-bash"><code>sudo nano /etc/hosts</code></pre>
 Lisää tiedoston pohjalle IP (ghost tai craft) ja sen perään asiakkaalla käytössä olevat domainit. Craftin tapauksessa rivi näyttäisi tältä:
 <pre class="language-bash"><code>185.87.110.7 asiakas.fi www.asiakas.fi</code></pre>
-Tallenna näppäinyhdistelmillä <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> <span>+</span> <kbd>X</kbd></kbd> näppäimillä.
+Tallenna näppäinyhdistelmillä <kbd><kbd>ctrl</kbd> + <kbd>O</kbd></kbd> ja poistu <kbd><kbd>ctrl</kbd> + <kbd>X</kbd></kbd> näppäimillä.
 
 Nyt sinun pitäisi päästä katsomaan sivustoa kun menet selaimella asiakkaan domainiin. Saattaa vaatia selaimen refreshausta tai jopa ihan tuoretta selainta, ei välttämättä ihan heti haista muutosta hosts-tiedostosta.
 <h4>10. Oikeudet kuntoon</h4>
@@ -114,8 +114,7 @@ Ennen julkaisua ja julkaisun jälkeen käydään <u>aina</u> tarkistuslista 
 
 Tarkistuslista löytyy julkisena Favrosta. <a href="https://favro.com/organization/3b45e73eaf083f68fefef368/8dc2dfaae17c4b8adbf44eab">Tässä suora linkki</a>.
 
-<img src="http://handbook.dude.fi/media/Screen-Shot-2020-12-04-14-26-40.85.png" alt="Ajolista Favrossa" />
-
+<img src="https://handbook.dude.fi/media/Screen-Shot-2020-12-04-14-26-40.85.png" alt="Ajolista Favrossa">
 <h4>12. Domainin ja nimipalvelinten ohjaus</h4>
 Kun ajolista on käyty läpi, on aika julkaista sivusto maailmalle. Tämä vaihe koskee vain ylläpitoasiakkaita, joiden domain on Duden hallinnassa.
 
@@ -169,12 +168,7 @@ add_action( 'init', function() {
 Tässä vaiheessa on hyvä rämpätä vielä sivusto kertaalleen läpi. Katso myös <a href="#tarkistuslista">ajolistan</a> <b>Julkaisun jälkeen</b> listan kohdat.
 
 Onnittelut, olet juuri julkaissut sivuston!
-
 <h3>Uuden Air-light teemaversion julkaisuprosessi</h3>
-
-Uuden pohjateeman version julkaisussa noudatetaan <a href="https://github.com/digitoimistodude/air-light#releasing-a-new-version-on-git-and-tagging-principles-staff-only" class="github">air-light</a> -repositoryn julkaisukäytänteitä. "The tag-release cycle" -kohdan vaiheessa 5 kuitenkin on järkevämpää ja nopeampaa käyttää seuraava aliasta:
-
-<pre class="language-bash"><code>alias release_new_air_version='git push && git push --tags && rsync -av -e ssh --exclude={"/node_modules/*","/bin/*","/sass/*"} /Users/rolle/Projects/airdev/content/themes/air-light/* rolle@185.87.110.7:/var/www/dudetest.xyz/public_html/air/content/themes/air-light/ && cd ~/Projects/airdev/content/themes/air-light/bin && sh air-move-out.sh'</code></pre>
-
+Uuden pohjateeman version julkaisussa noudatetaan <a class="github" href="https://github.com/digitoimistodude/air-light#releasing-a-new-version-on-git-and-tagging-principles-staff-only">air-light</a> -repositoryn julkaisukäytänteitä. "The tag-release cycle" -kohdan vaiheessa 5 kuitenkin on järkevämpää ja nopeampaa käyttää seuraava aliasta:
+<pre class="language-bash"><code>alias release_new_air_version='git push &amp;&amp; git push --tags &amp;&amp; rsync -av -e ssh --exclude={"/node_modules/*","/bin/*","/sass/*"} /Users/rolle/Projects/airdev/content/themes/air-light/* rolle@185.87.110.7:/var/www/dudetest.xyz/public_html/air/content/themes/air-light/ &amp;&amp; cd ~/Projects/airdev/content/themes/air-light/bin &amp;&amp; sh air-move-out.sh'</code></pre>
 Aliaksen saat käyttöön lisäämällä yllä olevan .bashrc tai .aliases -tiedostoosi, riippuen siitä millaiset dotfilesit sinulla on. Huomaathan korjata oman käyttäjänimesi komentoon. Tämän jälkeen voit julkaista tägäämise njälkeen suoraan komennolla <code>release_new_air_version</code>. Tämän jälkeen seuraa ohjeita, jotka tulevat näkyviin komennon ajamisen jälkeen.
-
