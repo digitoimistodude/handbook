@@ -104,7 +104,7 @@ Lisää yllä oleva server-block tähän tiedostoon.
 Jos haluat käyttää HTTPS:ää lokaalissa, aja seuraava komento (<a href="https://github.com/FiloSottile/mkcert" class="github">mkcert</a> pitää olla asennettuna):
 
 <pre class="language-bash"><code>mkdir -p /var/www/certs && cd /var/www/certs && mkcert "project.test"</code></code></pre>
-
+ 
 Tämän jälkeen lisää tiedostoon:
 
 <pre class="language-nginx"><code>server {
